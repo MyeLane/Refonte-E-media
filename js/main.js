@@ -1,9 +1,7 @@
-let list = document.querySelectorAll(".mylist");
-let boutton = header.querySelectorAll(".button");
-for (let i = 0; i < btns.length; i++) {
-  boutton[i].addEventListener("click", function() {
-  let current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
+let currentURL = window.location.href;
+
+document.querySelectorAll(".menu a").forEach(p => {
+  if(currentURL.indexOf(p.getAttribute("href")) !== -1){
+    p.classList.add("active");
+  }
+})
