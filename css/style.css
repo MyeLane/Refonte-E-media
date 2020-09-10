@@ -43,8 +43,8 @@ a {
     transform: scaleX(1);
 }
 
-.active .bottom-solid {
-    transform: scaleX(1);
+li.active .button {
+    background-color: #fff !important;
 }
 
 .button:hover {
