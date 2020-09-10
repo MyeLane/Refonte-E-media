@@ -1,0 +1,69 @@
+.can {
+    background-image: url("../img/univ vide-01.jpg");
+    min-height: 110vh; 
+    background-attachment: scroll;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.can-titre{
+    background-color: #204497;
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 22%;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+.ab-can{
+    color: #666767;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+.mpj {
+    background-image: url("../img/univ vide-02.jpg");
+    min-height: 110vh; 
+    background-attachment: scroll;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mpj-titre{
+    background-color: #199acb;
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 30%;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+.ab-mpj{
+    color: #666767;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+.tic {
+    background-image: url("../img/univ vide-03.jpg");
+    min-height: 110vh; 
+    background-attachment: scroll;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tic-titre{
+    background-color: #075798;
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 22%;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+.ab-tic{
+    color: #666767;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
