@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "bold";
+    src: url("../css/font_family/Montserrat-Black.otf");
+} 
+
+@font-face {
+    font-family: "boldItalic";
+    src: url("../css/font_family/MontserratAlternates-BoldItalic.otf");
+} 
+
+/*section*/
+/*====image====*/
+.image {
+    background-image: url("../img/cfp/1\ \(1\).png");
+    background-size: cover;
+    height: 120vh;
+}
+
+.image .content {
+    margin-top: 15rem;
+}
+
+.image h1 {
+    font-size: 4rem;
+    font-family: "bold";
+    font-weight: bold;
+    color: #204497;
+}
+/*===image====*/
+
+.son {
+    background-image: url("../img/cfp/1\ \(2\).png");
+    background-size: cover;
+    height: 120vh;
+}
+
+.web {
+    background-image: url("../img/cfp/1\ \(3\).png");
+    background-size: cover;
+    height: 120vh;
+}
