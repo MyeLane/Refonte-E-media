@@ -1,0 +1,75 @@
+.can {
+    background-image: url("../img/univ vide-01.jpg");
+    min-height: 110vh; 
+    background-size: cover;
+}
+.can-titre{
+    background-color: #204497;
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 33%;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+.ab-can{
+    color: #666767;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+.mpj {
+    background-image: url("../img/univ vide-02.jpg");
+    min-height: 110vh; 
+    background-size: cover;
+}
+.mpj-titre{
+    background-color: #199acb;
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 33%;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+.ab-mpj{
+    color: #666767;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+.tic {
+    background-image: url("../img/univ vide-03.jpg");
+    min-height: 110vh; 
+    background-size: cover;
+}
+.tic-titre{
+    background-color: #075798;
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 33%;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+.ab-tic{
+    color: #666767;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+@media (min-width: 100px) and (max-width: 991px) {
+
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+
+}
+@media (min-width: 486px) and (max-width: 575.9px){
+
+}
+@media (min-width: 200px) and (max-width: 485.9px){
+
+}
