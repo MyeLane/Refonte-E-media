@@ -1,0 +1,80 @@
+
+.tic {
+    background-color: #fecd08;
+    min-height: 100vh;
+    margin-top: 4rem; 
+    
+}
+.img-tic{
+    margin-left: -1rem;
+    z-index: 99;
+}
+.text{
+    margin-top: -95vh;
+}
+.tic-titre{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.text-tic{
+    font-weight: 1rem;
+}
+
+.a1{
+    clip-path: polygon(31% 59%, 0% 100%, 61% 100%);;
+    background-color: #fdd93f;
+    width: 10%;
+    height: 8rem;
+    margin-top: 5rem;
+    margin-left: 40rem;
+    position: fixed;
+    -webkit-animation: spin 5s linear infinite;
+}
+.a2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #fdd93f;
+    width: 20%;
+    height: 15rem;
+    margin-left: 55rem;
+    margin-top: 20rem;
+    position: fixed;
+    -webkit-animation: spin 10S linear infinite;
+}
+.a3{
+    clip-path: polygon(31% 59%, 0% 100%, 61% 100%);;
+    background-color: #fdd93f;
+    width: 15%;
+    height: 20rem;
+    margin-top: 22rem;
+    margin-left: 75rem;
+    position: fixed;
+    -webkit-animation: spin 10S linear infinite;
+}
+.a4{
+    clip-path: polygon(31% 59%, 0% 100%, 61% 100%);;
+    background-color: #fdd93f;
+    width: 15%;
+    height: 20rem;
+    margin-left: 70rem;
+    position: fixed;
+    -webkit-animation: spin 10S linear infinite;
+}
+.a5{
+    clip-path: polygon(31% 59%, 0% 100%, 61% 100%);;
+    background-color: #fdd93f;
+    width: 15%;
+    height: 20rem;
+    margin-left: 50rem;
+    position: fixed;
+    -webkit-animation: spin 10s linear infinite;
+}
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}

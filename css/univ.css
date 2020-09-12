@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "titre";
+    src: url("../css/font_family/AaronBold.ttf");
+}
+/* nav */
+.nav a{
+    color: #666767;
+    text-decoration: none;
+}
+  /* can */
 .can {
     background-image: url("../img/univ vide-01.jpg");
     min-height: 110vh; 
@@ -8,8 +18,10 @@
     width: fit-content;
     margin-left: 10%;
     margin-top: 33%;
-    font-size: 7rem;
-    font-weight: bold;
+    text-align: center;
+    font-family: "titre";
+    letter-spacing: 0.5rem;
+    font-size: 6rem;
     color: #ffffff;
     border-radius: 1rem;
 }
@@ -18,6 +30,7 @@
     margin-left: 10%;
     font-size: 1.5rem;
 }
+/* mpj */
 .mpj {
     background-image: url("../img/univ vide-02.jpg");
     min-height: 110vh; 
@@ -28,8 +41,10 @@
     width: fit-content;
     margin-left: 10%;
     margin-top: 33%;
-    font-size: 7rem;
-    font-weight: bold;
+    font-family: "titre";
+    text-align: center;
+    letter-spacing: 0.5rem;
+    font-size: 6rem;
     color: #ffffff;
     border-radius: 1rem;
 }
@@ -38,6 +53,7 @@
     margin-left: 10%;
     font-size: 1.5rem;
 }
+/* tic */
 .tic {
     background-image: url("../img/univ vide-03.jpg");
     min-height: 110vh; 
@@ -48,8 +64,10 @@
     width: fit-content;
     margin-left: 10%;
     margin-top: 33%;
-    font-size: 7rem;
-    font-weight: bold;
+    font-family: "titre";
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
     color: #ffffff;
     border-radius: 1rem;
 }
