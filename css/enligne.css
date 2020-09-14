@@ -1,16 +1,59 @@
-
-.tic {
+.nav a{
+    color: #666767;
+    text-decoration: none;
+}
+.tic-licence{
+    background-color: #7dbfea;
+    min-height: 100vh;
+}
+.can-licence{
+    background-color: #1a96b7;
+    min-height: 100vh;
+}
+.mpj-licence{
+    background-color: #7f8fa6;
+    min-height: 100vh;
+}
+.mba-licence{
+    background-color: #32c0c3;
+    min-height: 100vh;
+}
+.drt-licence{
+    background-color: #c3d9e7;
+    min-height: 100vh;
+}
+.tic-master {
     background-color: #fecd08;
     min-height: 100vh;
-    margin-top: 4rem; 
     
+}
+.can-master{
+    background-color: #d0d227;
+    min-height: 100vh;
+}
+.mpj-master{
+    background-color: #f8981c;
+    min-height: 100vh;
+}
+.mba-master{
+    background-color: #f79868;
+    min-height: 100vh;
+}
+.drt-master{
+    background-color: #cdcc66;
+    min-height: 105vh;
 }
 .img-tic{
     margin-left: -1rem;
-    z-index: 99;
+}
+.img-mpj-master{
+    margin-left: -1rem;
+}
+.img-can-master{
+margin-right: -5rem;
 }
 .text{
-    margin-top: -95vh;
+    margin-top: -98vh;
 }
 .tic-titre{
     color: #ffffff;
@@ -23,7 +66,7 @@
 
 .a1{
     clip-path: polygon(31% 59%, 0% 100%, 61% 100%);;
-    background-color: #fdd93f;
+    background-color: #89c8ee;
     width: 10%;
     height: 8rem;
     margin-top: 5rem;
@@ -33,7 +76,7 @@
 }
 .a2{
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    background-color: #fdd93f;
+    background-color: #89c8ee;
     width: 20%;
     height: 15rem;
     margin-left: 55rem;
@@ -43,7 +86,7 @@
 }
 .a3{
     clip-path: polygon(31% 59%, 0% 100%, 61% 100%);;
-    background-color: #fdd93f;
+    background-color: #89c8ee;
     width: 15%;
     height: 20rem;
     margin-top: 22rem;
@@ -53,7 +96,7 @@
 }
 .a4{
     clip-path: polygon(31% 59%, 0% 100%, 61% 100%);;
-    background-color: #fdd93f;
+    background-color: #89c8ee;
     width: 15%;
     height: 20rem;
     margin-left: 70rem;
@@ -62,7 +105,7 @@
 }
 .a5{
     clip-path: polygon(31% 59%, 0% 100%, 61% 100%);;
-    background-color: #fdd93f;
+    background-color: #89c8ee;
     width: 15%;
     height: 20rem;
     margin-left: 50rem;
