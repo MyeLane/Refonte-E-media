@@ -6,6 +6,7 @@ a {
 .navbar {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     background-color: #ffffff !important;
+    height: 3.2rem;
 }
 
 .navbar-toggler-icon{
