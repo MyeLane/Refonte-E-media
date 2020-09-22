@@ -18,12 +18,25 @@
     width: fit-content;
     margin-left: 10%;
     margin-top: 33%;
-    text-align: center;
     font-family: "titre";
-    letter-spacing: 0.5rem;
+    text-align: center;
     font-size: 6rem;
+    letter-spacing: 0.5rem;
     color: #ffffff;
     border-radius: 1rem;
+}
+.color-can{
+    color: #204497;
+}
+.btn-primary-can{
+    background-color: #204497;
+    color: white;
+}
+.parcours{
+    margin-left: 15%;
+}
+.bt{
+    margin-left: 12%;
 }
 .ab-can{
     color: #666767;
@@ -48,6 +61,13 @@
     color: #ffffff;
     border-radius: 1rem;
 }
+.color-mpj{
+    color: #199acb;
+}
+.btn-primary-mpj{
+    background-color: #199acb;
+    color: white;
+}
 .ab-mpj{
     color: #666767;
     margin-left: 10%;
@@ -71,23 +91,179 @@
     color: #ffffff;
     border-radius: 1rem;
 }
+.color-tic{
+    color: #075798;
+}
+.btn-primary-tic{
+    background-color: #075798;
+    color: white;
+}
 .ab-tic{
     color: #666767;
     margin-left: 10%;
     font-size: 1.5rem;
 }
-@media (min-width: 100px) and (max-width: 991px) {
-
+@media (min-width: 1030px) and (max-width: 1094px){
+    .can-titre{
+        font-size: 4.7rem;
+        margin-left: 20%;
+        margin-top: 38%;
+        padding-left: -6%;
+    }
+    .ab-can{
+        margin-left: 18%;
+        font-size: 1rem;
+    }
+    .parcours{
+        margin-left: 18%;
+        margin-top: 0% !important;
+    }
+    .bt{
+        margin-left: 18%;
+    }
+    .btn-primary-can{
+        margin-left: 18% !important;
+    }
+    .tic-titre{
+        font-size: 4.7rem;
+        margin-left: 18%;
+        margin-top: 38%;
+        padding-left: -6%;
+    }
+    .ab-tic{
+        margin-left: 18%;
+        font-size: 1rem;
+    }
+    .btn-primary-tic{
+        margin-left: 18% !important;
+    }
+    .mpj-titre{
+        font-size: 4.7rem;
+        margin-left: 18%;
+        margin-top: 38%;
+        padding-left: -6%;
+    }
+    .ab-mpj{
+        margin-left: 18%;
+        font-size: 1rem;
+    }
+    .btn-primary-mpj{
+        margin-left: 18% !important;
+    }
 }
-@media (min-width: 768px) and (max-width: 991.9px){
-
+@media (min-width: 943px) and (max-width: 1030px){
+    .can-titre{
+        font-size: 5rem;
+        margin-left: 30%;
+        margin-top: 38%;
+    }
+    .bt{
+        margin-left: 30%;
+    }
+    .ab-can{
+        margin-left: 30%;
+        font-size: 0.9rem;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
+    .mpj-titre{
+        font-size: 5rem;
+        margin-left: 30%;
+        margin-top: 38%;
+    }
+    .ab-mpj{
+        margin-left: 30%;
+        font-size: 0.9rem;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
+    .tic-titre{
+        font-size: 5rem;
+        margin-left: 30%;
+        margin-top: 38%;
+    }
+    .ab-tic{
+        margin-left: 30%;
+        font-size: 0.9rem;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
 }
-@media (min-width: 576px) and (max-width: 767.9px) {
-
+@media (min-width: 768px) and (max-width: 943px) {
+    .can-titre{
+        font-size: 3.8rem;
+        margin-left: -47%;
+        margin-top: 40%;
+    }
+    .can-bt{
+        margin-left: -47%;
+        color: white;
+        font-size: 1.3rem;
+    }
+    .can-parcour{
+        margin-left: -47% !important;
+        color: white;
+        font-size: 2rem;
+    }
+    .btn-primary-can{
+        margin-left: -47% !important;
+    }
+    .ab-can{
+        margin-left: -75% !important;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .parcours{
+        margin-left: -37%;
+        margin-top: 0% !important;
+    }
+    .mpj-titre{
+        font-size: 3.8rem;
+        margin-left: 30%;
+        margin-top: 38%;
+    }
+    .ab-mpj{
+        margin-left: 30%;
+        font-size: 1.3rem;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
+    .tic-titre{
+        font-size: 3.8rem;
+        margin-left: -47%;
+        margin-top: 40%;
+    }
+    .ab-tic{
+        margin-left: -65% !important;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .btn-primary-tic{
+        margin-left: -47% !important;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
 }
-@media (min-width: 486px) and (max-width: 575.9px){
-
+@media (min-width: 450px) and (max-width: 767px){
+   .can-titre{
+       margin-left: 27%;
+       margin-top: 15%;
+       font-size: 5rem;
+       padding: 0%;
+       text-align: center;
+   }
+   .can-row{
+       background-color: #204497b9 !important;
+   }
 }
-@media (min-width: 200px) and (max-width: 485.9px){
 
-}

@@ -38,8 +38,6 @@
             <div class="col-12 col-sm-12 col-md-5 col-lg-5">
                 <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">TIC</h1>
                 <h3 class="sous-titre pb-2">Informatique et Télécommunication</h3>
-                <h5 class="ml-2 mt-2">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La mention Informatique et télécommunication a pour objectif de former des spécialistes dans le domaine du génie informatique et des télécommunications. Les diplômés sont capables de mettre à profit leurs connaissances dans les applications des interconnexions de réseaux, des systèmes de télécommunications et de la sécurisation des échanges. Ils possèdent les compétences pour concevoir, intégrer, exploiter et administrer les systèmes informatiques nécessaires au fonctionnement d'une entreprise mais aussi de mieux adapter les fonctionnalités des réseaux locaux émergeants.</p>
                 <h5 class="ml-2 mt-4">Parcours</h5>
                 <ul class="ml-2 text">
                     <li>Réseau et Système</li>
@@ -63,8 +61,6 @@
             <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
                 <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">CAN</h1>
                 <h3 class="sous-titre pb-2">Communication Audiovisuelle et Numérique</h3>
-                <h5 class="ml-2 mt-2">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La mention Communication audiovisuelle et infographie, accessible à tous les bacheliers, permet à ses étudiants d'acquérir de solides connaissances théoriques dans le domaine de l'audiovisuel. Elle forme les futurs professionnels des métiers artistiques et techniques de l'audiovisuel. Destiné aux passionnés de l’audiovisuel, elle permet aux étudiants d’avoir les capacités nécessaires pour initier et accompagner la création d'œuvres audiovisuelles, tout en maitrisant parfaitement les concepts de la communication.</p>
                 <h5 class="ml-2 mt-4">Parcours</h5>
                 <ul class="ml-2 text">
                     <li>Image</li>
@@ -89,8 +85,6 @@
             <div class="col-12 col-sm-12 col-md-5 col-lg-5">
                 <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">MPJ</h1>
                 <h3 class="sous-titre pb-2">Marketing Publicité et Journalisme</h3>
-                <h5 class="ml-2 mt-2">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation s’adresse aux passionnées de la communication. Elle permet de devenir un professionnel qui maîtrise les méthodes et les outils de communication, de marketing et surtout les réalisations publicitaires, susceptible de réaliser en amont des études sur les différents marchés, mais aussi élaborer les supports et moyens publicitaires pertinents, Elle est combinée avec un cursus de journalisme qui permet à l’étudiant de maîtriser tous les aspects de ce domaine.</p>
                 <h5 class="ml-2 mt-2">Parcours</h5>
                 <ul class="ml-2 text">
                     <li>Marketing Publicité</li>
@@ -112,8 +106,6 @@
         <div class="text-licence-mba row container-fluid">
             <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
                 <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">MANAGEMENT</h1>
-                <h5 class="ml-2 mt-2">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La mention management a pour vocation de former des managers et des entrepreneurs exerçant dans le domaine de l’économie et de la gestion d’entreprise ou d’organisation. Elle vise à donner aux étudiants les capacités nécessaires pour maitriser tous les aspects essentiels d’une entreprise tels que la finance d’entreprise, la gestion des ressources humaine, la production, etc. Ainsi, la formation est interdisciplinaire (économie, gestion, finance, anglais, mathématiques, statistiques, informatique, etc.).</p>
                 <h5 class="ml-2 mt-2">Parcours</h5>
                 <ul class="ml-2 text">
                     <li>Finance et Comptabilité</li>
@@ -138,8 +130,6 @@
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5">
                 <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-4">DROIT</h1>
-                <h5 class="ml-2 mt-4">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en droit a pour vocation de former les étudiants dans le but de connaître et de maitriser les raisonnements, les notions et les savoirs fondamentaux dans le domaine juridique. Il permet aux étudiants d’acquérir les savoirs théoriques en droit, ainsi que de maitriser tous les aspects des techniques juridiques (dissertation, commentaire de texte, commentaire d’arrêt, analyse de documents juridiques etc.).</p>
                 <h5 class="ml-2 mt-2">Parcours</h5>
                 <ul class="ml-2 text">
                     <li>Droit public</li>
@@ -167,10 +157,8 @@
         <div class="text-master-tic row container-fluid">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">TIC</h1>
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">TIC - Master</h1>
                 <h3 class="sous-titre pb-2">Informatique et Télécommunication</h3>
-                <h5 class="ml-2 mt-2">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La mention Informatique et télécommunication a pour objectif de former des spécialistes dans le domaine du génie informatique et des télécommunications. Les diplômés sont capables de mettre à profit leurs connaissances dans les applications des interconnexions de réseaux, des systèmes de télécommunications et de la sécurisation des échanges. Ils possèdent les compétences pour concevoir, intégrer, exploiter et administrer les systèmes informatiques nécessaires au fonctionnement d'une entreprise mais aussi de mieux adapter les fonctionnalités des réseaux locaux émergeants.</p>
                 <h5 class="ml-2 mt-2">Parcours</h5>
                 <ul class="ml-2 text">
                     <li>Management des Systèmes d'Informations</li>
@@ -192,12 +180,14 @@
         </div>
         <div class="text-master-can row container-fluid">
             <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">CAN</h1>
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">AC - Master</h1>
                 <h3 class="sous-titre pb-4">Communication Audiovisuelle et Numérique</h3>
-                <h5 class="ml-2 mt-4">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en nouvelle technologie de l’Informatique et de la Communication compte parmi les matières qu’elle dispense les matières suivantes : Algorithme, Base de la télécommunication analogique, Algèbre, Cryptographie, Circuit séquentiel, Transformation intégrale, Système embarqué, Management, Probabilité Statistique</p>
-                <h5 class="ml-2 mt-4">Contenu de la formation</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en nouvelle technologie de l’Informatique et de la Communication compte parmi les matières qu’elle dispense les matières suivantes : Algorithme, Base de la télécommunication analogique, Algèbre, Cryptographie, Circuit séquentiel, Transformation intégrale, Système embarqué, Management, Probabilité Statistique</p>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Management des Systèmes d'Informations</li>
+                    <li>Electronique Embarqué</li>
+                    <li>Cybersécurité et Système</li>
+                </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
         </div>
@@ -215,12 +205,13 @@
         <div class="text-master-mpj row container-fluid">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">MPJ</h1>
-                <h3 class="sous-titre pb-4">Marketing Publicité et Journalisme</h3>
-                <h5 class="ml-2 mt-4">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en nouvelle technologie de l’Informatique et de la Communication compte parmi les matières qu’elle dispense les matières suivantes : Algorithme, Base de la télécommunication analogique, Algèbre, Cryptographie, Circuit séquentiel, Transformation intégrale, Système embarqué, Management, Probabilité Statistique</p>
-                <h5 class="ml-2 mt-4">Contenu de la formation</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en nouvelle technologie de l’Informatique et de la Communication compte parmi les matières qu’elle dispense les matières suivantes : Algorithme, Base de la télécommunication analogique, Algèbre, Cryptographie, Circuit séquentiel, Transformation intégrale, Système embarqué, Management, Probabilité Statistique</p>
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">MPJ - Master</h1>
+                <h3 class="sous-titre pb-2">Marketing Publicité et Journalisme</h3>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Marketing Publicité</li>
+                    <li>Journalisme</li>
+                </ul>
             </div>
         </div>
 
@@ -236,11 +227,13 @@
         </div>
         <div class="text-master-mba row container-fluid">
             <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-4">MANAGEMENT</h1>
-                <h5 class="ml-2 mt-4">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en nouvelle technologie de l’Informatique et de la Communication compte parmi les matières qu’elle dispense les matières suivantes : Algorithme, Base de la télécommunication analogique, Algèbre, Cryptographie, Circuit séquentiel, Transformation intégrale, Système embarqué, Management, Probabilité Statistique</p>
-                <h5 class="ml-2 mt-4">Contenu de la formation</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en nouvelle technologie de l’Informatique et de la Communication compte parmi les matières qu’elle dispense les matières suivantes : Algorithme, Base de la télécommunication analogique, Algèbre, Cryptographie, Circuit séquentiel, Transformation intégrale, Système embarqué, Management, Probabilité Statistique</p>
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">MBA - Master</h1>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Finance et Comptabilité</li>
+                    <li>Administration des affaires</li>
+                    <li>Commerce international</li>
+                </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
         </div>
@@ -258,11 +251,13 @@
         <div class="text-master-drt row container-fluid">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-4">DROIT</h1>
-                <h5 class="ml-2 mt-4">objectifs</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en nouvelle technologie de l’Informatique et de la Communication compte parmi les matières qu’elle dispense les matières suivantes : Algorithme, Base de la télécommunication analogique, Algèbre, Cryptographie, Circuit séquentiel, Transformation intégrale, Système embarqué, Management, Probabilité Statistique</p>
-                <h5 class="ml-2 mt-4">Contenu de la formation</h5>
-                <p class="ml-2 text mt-2 text-justify">La formation en nouvelle technologie de l’Informatique et de la Communication compte parmi les matières qu’elle dispense les matières suivantes : Algorithme, Base de la télécommunication analogique, Algèbre, Cryptographie, Circuit séquentiel, Transformation intégrale, Système embarqué, Management, Probabilité Statistique</p>
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">DROIT - Master </h1>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Droit public</li>
+                    <li>Droit Privé et des affaires</li>
+                    <li>Droit international et Diplomatie </li>
+                </ul>
             </div>
         </div>
 

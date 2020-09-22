@@ -109,7 +109,7 @@ body{
 .text-licence-tic{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -85vh;
+    margin-top: -65vh;
 }
 .titre{
     color: white;
@@ -191,7 +191,7 @@ body{
 .text-licence-can{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -90vh;
+    margin-top: -65vh;
 }
 /* MPJ licence */
 .mpj-licence{
@@ -268,7 +268,7 @@ body{
 .text-licence-mpj{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -85vh;
+    margin-top: -65vh;
 }
 /* MBA licence */
 .mba-licence{
@@ -320,6 +320,7 @@ body{
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
+
 #trianglesD4{
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     height: 110px;
@@ -345,7 +346,7 @@ body{
 .text-licence-mba{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -88vh;
+    margin-top: -65vh;
 }
 /* DRT licence */
 .drt-licence{
@@ -422,7 +423,7 @@ body{
 .text-licence-drt{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -85vh;
+    margin-top: -65vh;
 }
 
 
@@ -501,7 +502,7 @@ body{
 .text-master-tic{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -85vh;
+    margin-top: -65vh;
 }
 /* CAN master */
 .can-master{
@@ -578,7 +579,7 @@ body{
 .text-master-can{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -90vh;
+    margin-top: -65vh;
 }
 /* MPJ master */
 .mpj-master{
@@ -655,7 +656,7 @@ body{
 .text-master-mpj{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -85vh;
+    margin-top: -65vh;
 }
 /* MBA master */
 .mba-master{
@@ -732,7 +733,7 @@ body{
 .text-master-mba{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -110vh;
+    margin-top: -65vh;
 }
 /* DRT master */
 .drt-master{
@@ -810,5 +811,5 @@ body{
 .text-master-drt{
     overflow-x: hidden;
     min-height: 100vh;
-    margin-top: -90vh;
+    margin-top: -65vh;
 }
