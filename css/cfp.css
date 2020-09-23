@@ -22,7 +22,7 @@
 }
 
 .dts .content {
-    margin-top: 11rem;
+    margin-top: 10rem;
 }
 
 .dts .content h1 {
@@ -43,7 +43,7 @@
     font-size: 2.4rem;
     content: '>';
     position: absolute;
-    left: 6%;
+    left: 10%;
     top: 3.5rem;
     transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(1);
     transition: 150ms;
@@ -51,15 +51,15 @@
 }
 
 .btnDTS {
-    margin-left: 7rem !important;
-    color: #fff;
+    margin-left: 5rem !important;
+    color: #fff !important;
     border: 1px solid #fff;
     transition: .5s;
 }
 
 .btnDTS:hover {
     background: #fff;
-    color: #000;
+    color: #000 !important;
 }
 /*====DTS====*/
 
@@ -91,23 +91,23 @@
     font-size: 2.4rem;
     content: '>';
     position: absolute;
-    left: 12%;
-    top: 0.55rem;
+    left: 24%;
+    top: 0.4rem;
     transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(1);
     transition: 150ms;
     transform-origin: bottom center;
 }
 
 .btnIMAGE {
-    margin-left: 12rem;
-    color: #c95453;
+    margin-left: 8rem;
+    color: #c95453 !important;
     border: 1px solid #c95453;
     transition: .5s;
 }
 
 .btnIMAGE:hover {
     background: #c95453;
-    color: #000;
+    color: #fff !important;
 }
 /*===image====*/
 
@@ -131,7 +131,7 @@
 }
 
 .web p {
-    margin-left: -6rem;
+    margin-left: 0rem;
     font-size: 1.5rem;
     font-family: "mince";
     color: #fff;
@@ -141,7 +141,7 @@
     font-size: 2.4rem;
     content: '>';
     position: absolute;
-    left: 68%;
+    left: 100%;
     top: 2rem;
     transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(1);
     transition: 150ms;
@@ -149,15 +149,15 @@
 }
 
 .btnWEB {
-    margin-left: 10rem;
-    color: #c95453;
+    margin-left: 4rem;
+    color: #c95453 !important;
     border: 1px solid #c95453;
     transition: .5s;
 }
 
 .btnWEB:hover {
     background: #c95453;
-    color: #000;
+    color: #fff !important;
 }
 /*====web====*/
 
@@ -189,7 +189,7 @@
     font-size: 2.4rem;
     content: '>';
     position: absolute;
-    left: 52%;
+    left: 80%;
     top: 2rem;
     transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(1);
     transition: 150ms;
@@ -198,35 +198,262 @@
 
 .btnSON {
     margin-left: 10rem;
-    color: #c95453;
+    color: #c95453 !important;
     border: 1px solid #c95453;
     transition: .5s;
 }
 
 .btnSON:hover {
     background: #c95453;
-    color: #000;
+    color: #ffffff;
 }
 /*====son====*/
 
 /*unis*/
 .exit {
+    padding: 0 2rem 0 2rem;
+    margin-top: -.2rem;
     color: #fff;
+    border: 1px solid red;
     background: red;
     float: right;
+    transition: .5s;
 }
 
 .description {
     background: #fff;
-    height: 100vh;
-    transform: scaleY(1);
+    height: 110vh;
+    transform: scaleY(0);
     transition: .5s;
 }
 
+.description h4 {
+    color: #189cd0;
+}
+
 .description p {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 1);
     font-size: 15px;
+}
+
+.description ul {
+    list-style-type: none;
+    font-size: 15px !important;
+    color: #189cd0;
 }
 /*unis*/
 
 /*responsive*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*dts*/
+    .dts {
+        background-position-x: -112px !important;
+    }
+
+    .dts .content {
+        margin-top: 7rem;
+    }
+
+    .dts .content h1::after {
+        left: 14%;
+        top: 3rem;
+    }
+
+    .dts .content h1 {
+        font-size: 5rem;
+    }
+
+    .btnDTS {
+        margin-left: 2rem !important;
+    }
+
+    /*image*/
+    .image {
+        background-position-x: -112px !important;
+    }
+
+    #descriptionIMAGE {
+        margin-left: 8rem !important;
+    }
+
+    .image .content {
+        margin-top: 7rem;
+    }
+
+    .image .content h1::after {
+        left: 32%;
+        top: .3rem
+    }
+
+    .image .content h1 {
+        font-size: 5rem;
+    }
+
+    .image p {
+        font-size: 1.2rem !important;
+    }
+
+    .btnIMAGE {
+        margin-left: 3rem;
+    }
+
+    /*web*/
+    .web .content {
+        margin-top: 7rem;
+    }
+
+    .web .content h1::after {
+        left: 83%;
+        top: 1.5rem
+    }
+
+    .web .content h1 {
+        font-size: 5rem;
+        margin-left: 2rem;
+    }
+
+    .web p {
+        margin-left: -5rem;
+        font-size: 1.2rem !important;
+    }
+
+    .btnWEB {
+        margin-left: 0rem;
+        color: #c95453 !important;
+    }
+
+    /*son*/
+    .son .content {
+        margin-top: 6rem;
+    }
+
+    .son .content h1::after {
+        left: 85%;
+        top: 1.5rem
+    }
+
+    .son .content h1 {
+        font-size: 5rem;
+    }
+
+    .son p {
+        font-size: 1.2rem !important;
+    }
+
+    .btnSON {
+        margin-left: 2rem;
+        color: #c95453 !important;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767.9px) {
+    /*DTS*/
+    .dts {
+        background-position-x: -200px;
+    }
+
+    .dts .content h1 {
+        font-size: 5rem !important;
+    }
+
+    .dts .content h1::after {
+        left: 5%;
+        top: 3rem;
+    }
+
+    .dts .description {
+        top: -27rem !important;
+    }
+
+    .dts .description p {
+        font-size: 1rem;
+    }
+
+    /*image*/
+    .image {
+        background-position-x: -220px;
+    }
+
+    .image .content h1 {
+        font-size: 5rem !important;
+    }
+
+    .image .description {
+        top: -29rem;
+    }
+
+    .image .description p {
+        font-size: 1rem;
+    }
+
+    .image h1::after {
+        left: 10%;
+        top: 0.2rem;
+    }
+
+    .image p {
+        font-size: 1.3rem;
+    }
+
+    /*web*/
+    .web {
+        background-position-x: -200px !important;
+    }
+
+    .web .content {
+        margin-top: -33rem;
+    }
+
+    .web .content h1 {
+        font-size: 5rem;
+        margin-left: 29rem !important;
+    }
+
+    .web h1::after {
+        left: 94%;
+        top: 1.6rem;
+    }
+
+    .web .content p {
+        font-size: 1.3rem;
+        margin-left: 22rem !important;
+    }
+
+    .btnWEB {
+        margin-left: 29rem !important;
+    }
+
+    .web .description {
+        z-index: 1;
+    }
+
+    /*son*/
+    .son {
+       background-position-x: -200px; 
+    }
+
+    .son .content {
+        margin-top: 5rem;
+    }
+
+    .son .content h1::after {
+        left: 112%;
+        top: 2rem;
+    }
+
+    .btnSON {
+        margin-left: 1rem;
+    }
+
+    .son .content h1 {
+        font-size: 5rem;
+    }
+
+    .son .content p {
+        font-size: 1.3rem;
+    }
+
+    .son .description {
+        top: -31rem;
+    }
+}
