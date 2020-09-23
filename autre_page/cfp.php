@@ -17,42 +17,42 @@
         <section>
             <div class="container-fluid mt-3">
                 <div class="row">
-                    <div class=" col-12 dts">
+                    <div class="col-12 dts" id="DTS">
                         <div class="row">
-                            <div class="col-4 pt-4 ml-5 content">
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pt-4 ml-md-5 ml-lg-5 content">
                                 <h1 class="pl-5">DTS</h1>
                                 <div class="col-12 pl-4">
                                     <p class="pl-4">EN MULTIMEDIA <br> BAC +2
                                     </p>
-                                    <button class="btn mt-3 btnDTS" id="openDTS">En savoir plus</button>
+                                    <a hre="#descriptionDTS" class="btn mt-3 btnDTS" id="openDTS">En savoir plus</a>
                                 </div>
                             </div>
                             
-                            <div class="col-7 ml-5 mt-5 description overflow-auto" id="descriptionDTS">
-                                <button class="btn exit pl-3" id="exitDTS"><i class="fas fa-times"></i></button>
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-md-5 ml-lg-5 mt-5 description overflow-auto" id="descriptionDTS">
+                                <button class="btn exit" id="exitDTS"><i class="fas fa-times"></i></button>
                                 <h3>Description</h3>
                                 <p></p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 image">
+                    <div class="col-12 image" id="IMAGE">
                         <div class="row">
-                            <div class="col-4 pt-4 ml-5 content">
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pt-4 ml-lg-5 content">
                                 <h1 class="pl-5">IMAGE</h1>
                                 <div class="col-12 pl-4">
                                     <p class="pl-4">Conception cinématographique <br/> prise de vue - post production
                                         <br/>PAO - DAO - CAO -dessin...
                                     </p>
-                                    <button class="btn mt-3 btnIMAGE" id="openIMAGE">En savoir plus</button>
+                                    <a hre="#descriptionIMAGE" class="btn mt-3 btnIMAGE" id="openIMAGE">En savoir plus</a>
                                 </div>
                             </div>
 
-                            <div class="col-7 ml-5 mt-5 description overflow-auto" id="descriptionIMAGE">
-                                <button class="btn exit pl-3" id="exitIMAGE"><i class="fas fa-times"></i></button>
-                                <div class="mt-5 ml-3">
-                                    <h4 class="">Présentation</h4>
-                                    <p>La filière Image a pour but de former des techniciens 
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-md-5 ml-lg-5 mt-5 description overflow-auto" id="descriptionIMAGE">
+                                <button class="btn exit" id="exitIMAGE"><i class="fas fa-times"></i></button>
+                                <div class="mt-5 ml-5 ml-3">
+                                    <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
+                                        <p>La filière Image a pour but de former des techniciens 
                                         du métier de l’image. Elle offre une formation essentiellement 
                                         technique, basé sur les connaissances des bases théoriques et 
                                         pratiques des techniques et des outils relatifs aux traitements 
@@ -64,21 +64,92 @@
                                         aptes à réaliser à traiter les images fixes tels que les affiches, 
                                         flyers, brochures…en passant par les images mobiles comme les clips, 
                                         les publicités, les films, documentaires ….ainsi que la production 3D.</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Programme  </h4>
+                                        <p>D’une durée de 08 Mois, la formation est composée des modules suivantes :</p>
+                                        <ul>
+                                            <li>- Conception cinématographique</li>
+
+                                            <li>- Photographie</li>
+
+                                            <li>- Prise de vue</li>
+
+                                            <li>- Dessin</li>
+
+                                            <li>- PAO</li>
+
+                                            <li>- Post production</li>
+
+                                            <li>- 3D</li>
+                                        </ul>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Admissibilité </h4>
+                                        <p>La formation est ouverte à toutes personnes, sans limite d’âge, ayant 
+                                            ou non le baccalauréat mais jouissant d’un niveau terminal minimum.</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Prérequis </h4>
+                                        <p>Connaissances de base en informatique (structure de l’ordinateur…)</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Sanction </h4>
+                                        <p>Un examen officiel composé de partie théorique et pratique, préparé et 
+                                            dirigé par le Ministère de l’Enseignement Technique et de la Formation 
+                                            Professionnelle (METFP) permet d’obtenir un Certificat de Fin de Formation, 
+                                            Spécialité : IMAGE (Equivalent BACCALAUREAT / CATEGORIE III FOP)</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Débouchés </h4>
+                                        <p>Technicien en audiovisuel : Monteur , Cadreur, Infographiste, Cameraman 
+                                            etc.… au sein des structures tels que les agences de communication, 
+                                            télévision, cinéma, imprimerie, et toutes autres entreprises</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 web">
+                    <div class="col-12 web" id="WEB">
                         <div class="row">
-                            <div class="col-7 ml-5 mt-5 description overflow-auto" id="descriptionWEB">
-                                <button class="btn exit pl-3" id="exitWEB"><i class="fas fa-times"></i></button>
-                                <h3>Description</h3>
-                                <p></p>
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-md-5 ml-lg-5 mt-5 description overflow-auto" id="descriptionWEB">
+                                <button class="btn exit" id="exitWEB"><i class="fas fa-times"></i></button>
+                                <div class="mt-5 ml-3">
+                                    <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
+                                        <p class="ml-md-1 ml-lg-1">La filière WEB a pour objectif de former des techniciens 
+                                            en web. Elle est destinée à tous ceux qui souhaitent avoir les compétences 
+                                            nécessaires pour la conception et le développement d’un site web. 
+                                            La formation basée sur les connaissances aussi bien théoriques que 
+                                            pratiques permet aux étudiants qui la suivent d’avoir toutes les 
+                                            compétences nécessaires pour intégrer le monde professionnel. Les 
+                                            étudiants seront en mesure de créer un site web, et de maitriser toutes 
+                                            les fonctionnalités pour son développement. </p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Programme  </h4>
+                                        <p class="ml-md-1 ml-lg-1">D’une durée de 07 Mois, la formation est composée des modules suivantes :</p>
+                                        <ul>
+                                            <li>- HTML</li>
+
+                                            <li>- Javascript</li>
+
+                                            <li>- Methode Merise</li>
+
+                                            <li>- PHP</li>
+
+                                            <li>- PAO</li>
+                                        </ul>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Déroulé de la formation </h4>
+                                        <p class="ml-md-1 ml-lg-1">Les cours de la filière WEB est répartie sur une durée de 
+                                            07 mois, à raison d’une séance journalière de 2 heures. Elle s’ouvre 
+                                            également pour les professionnels avec des cours spécialement chaque 
+                                            samedi matin de 08h à 12h, et ce pendant 09 Mois.</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Admissibilité </h4>
+                                        <p class="ml-md-1 ml-lg-1">La formation est ouverte à toutes personnes, sans limite 
+                                            d’âge, ayant ou non le baccalauréat mais jouissant d’un niveau terminal minimum. </p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Prérequis </h4>
+                                        <p class="ml-md-1 ml-lg-1">Connaissances de base en informatique (structure de l’ordinateur…)</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Sanction </h4>
+                                        <p class="ml-md-1 ml-lg-1">Un examen officiel composé de partie théorique et pratique, préparé et 
+                                            dirigé par le Ministère de l’Enseignement Technique et de la Formation 
+                                            Professionnelle (METFP) permet d’obtenir un Certificat de Fin de Formation, 
+                                            Spécialité : IMAGE (Equivalent BACCALAUREAT / CATEGORIE III FOP)</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Débouchés </h4>
+                                        <p class="ml-md-1 ml-lg-1">Technicien en web : webmaster, webdesigner, .… au sein des structures 
+                                            telles que les agences de communication, projet web et toutes autres entreprises.</p>
+                                </div>
                             </div>
 
-                            <div class="col-4 pt-3 float-left content">
-                                <h1 class="pl-5">WEB</h1>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pt-3 float-left content">
+                                <h1 class="ml-mg-5 pl-lg-5">WEB</h1>
                                 <div class=" pl-5 pr-5 col-12">
                                     <p class="pl-5 text-center">
                                         html5 - css3 - 
@@ -87,31 +158,69 @@
                                         bootstrap <br/>
                                         initiation cms et framework - design
                                     </p>
-                                    <button class="btn mt-3 btnWEB" id="openWEB">En savoir plus</button>
+                                    <a hre="#descriptionWEB" class="btn mt-3 btnWEB" id="openWEB">En savoir plus</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 pl-5 son">
+                    <div class="col-12 pl-5 son" id="SON">
                         <div class="row">
-                            <div class="col-4 pl-5 pt-3 float-left content">
-                                <h1 class="pl-5">SON</h1>
-                                <div class="col-12 pr-5">
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pl-5 pt-3 float-left content">
+                                <h1 class="pl-md-3 pl-lg-5">SON</h1>
+                                <div class="col-12 pr-md-5 pr-lg-5">
                                     <p class="text-center">
                                         environnement studio <br/>
                                         prise de son
                                         mixage<br/> - traitement de son <br/>
                                         mastering
                                     </p>
-                                    <button class="btn mt-3 btnSON" id="openSON">En savoir plus</button>
+                                    <a hre="#descriptionSON" class="btn mt-3 btnSON" id="openSON">En savoir plus</a>
                                 </div>
                             </div>
 
-                            <div class="col-7 ml-5 mt-5 description overflow-auto" id="descriptionSON">
-                                <button class="btn exit pl-3" id="exitSON"><i class="fas fa-times"></i></button>
-                                <h3>Description</h3>
-                                <p></p>
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-5 mt-5 description overflow-auto" id="descriptionSON">
+                                <button class="btn exit" id="exitSON"><i class="fas fa-times"></i></button>
+                                <div class="mt-5 ml-3">
+                                    <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
+                                        <p class="ml-1">La filière SON a pour objectif de former des techniciens du 
+                                            métier du son. Elle s’adresse aux passionnés du son, qui veulent en faire 
+                                            leur métier et acquérir les bases nécessaires pour évoluer dans ce domaine. 
+                                            Elle permet aux étudiants de maîtriser les matériels ainsi que d’acquérir 
+                                            les techniques nécessaires dans la prise et le traitement de son. Des bases 
+                                            théoriques solides complétés par des pratiques régulières permettent aux 
+                                            étudiants d’être directement opérationnel sur le plan professionnel à 
+                                            l’issu de la formation. Les étudiants seront alors aptes à effectuer 
+                                            une séance d’enregistrement, de faire des compositions, d’arrangement 
+                                            et mixage sur une station audio.  </p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Programme  </h4>
+                                        <p class="ml-1">D’une durée de 06 Mois le programme de formation de la filière son se compose :</p>
+                                        <ul>
+                                            <li>- Environnement studio</li>
+
+                                            <li>- Prise de son</li>
+
+                                            <li>- Mixage</li>
+
+                                            <li> Traitement de son</li>
+
+                                            <li>- Mastering</li>
+                                        </ul>
+                                        <p class="ml-1">Un studio son muni de tous les matériels nécessaires est mise à disposition pour parfaire la formation.</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Admissibilité </h4>
+                                        <p class="ml-1">La formation est ouverte à toutes personnes, sans limite 
+                                            d’âge, ayant ou non le baccalauréat mais jouissant d’un niveau terminal minimum. </p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Prérequis </h4>
+                                        <p class="ml-1">Connaissances de base en informatique (structure de l’ordinateur…)</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Sanction </h4>
+                                        <p class="ml-1">Un examen officiel composé de partie théorique et pratique, préparé et 
+                                            dirigé par le Ministère de l’Enseignement Technique et de la Formation 
+                                            Professionnelle (METFP) permet d’obtenir un Certificat de Fin de Formation, 
+                                            Spécialité : IMAGE (Equivalent BACCALAUREAT / CATEGORIE III FOP)</p>
+                                    <h4> <i class="fas fa-angle-double-right"></i> Débouchés </h4>
+                                        <p class="ml-1">Technicien son : Opérateur son, Sonorisateur, Sound designer, Production musicale.… 
+                                            au sein des structures tels que les studios de sonorisation, radio.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -130,7 +239,7 @@
             let description = document.getElementById('descriptionDTS');
 
             openDTS.addEventListener("click", function() {
-                descriptionDTS.style.transform = "scaleY(1)";
+                descriptionDTS.style.transform = "scale(1)";
             });
 
             exitDTS.addEventListener("click", function() {
