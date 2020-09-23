@@ -14,20 +14,12 @@
         include_once '../index/nav.php';
     ?>
     <!-- Contenut site -->
-    <nav class="navbar navbar-default navbar-expand-lg mt-5">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav mx-auto mt-3">
-                <li class="nav-item"><a class="nav-link" href="#">LICENCE Bacc +3</a></li>
-                <li class="nav-item ml-5"><a class="nav-link" href="#">MASTER Bacc +5</a></li>
-            </ul>
-        </div>
-    </nav>
 <section>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12  can">
                 <div class="row col-12">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6"></div>
                     <div class="col-12 can-row col-sm-12 col-md-6 col-lg-6">
                         <h1 class="can-titre col-12 col-sm-6 col-md-6 col-lg-6 aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">CAN</h1>
                         <p class="ab-can aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">Communication Audiovisuelle et Numérique</P>
@@ -80,7 +72,7 @@
             <div class="col-12 mpj">
                 <div class="row col-12">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-                        <h1 class="mpj-titre col-12 col-sm-12 col-md-6 col-lg-6 aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">MPJ</h1>
+                        <h1 class="mpj-titre col-12 col-sm-6 col-md-6 col-lg-6 aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">MPJ</h1>
                         <p class="ab-mpj aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">Marketing Publicité et Journalisme</P>
                         <h3 class="mt-2 parcours">Parcours</h3>
                         <ul class="bt parcours">
@@ -133,7 +125,7 @@
                 <div class="row col-12">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                        <h1 class="tic-titre col-12 col-sm-12 col-md-6 col-lg-6 aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">TIC</h1>
+                        <h1 class="tic-titre col-12 col-sm-6 col-md-6 col-lg-6 aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">TIC</h1>
                         <p class="ab-tic aos-init aos-animate code code--small code--down" data-aos="fade-in" data-aos-duration="2000">Informatique et Télécommunication</P>
                         <h3 class="mt-2 can-parcour parcours">Parcours</h3>
                         <ul class="bt can-bt">

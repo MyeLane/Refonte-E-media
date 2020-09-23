@@ -104,6 +104,9 @@
     font-size: 1.5rem;
 }
 @media (min-width: 1030px) and (max-width: 1094px){
+    .can{
+        background-position-x: -5rem;
+    }
     .can-titre{
         font-size: 4.7rem;
         margin-left: 20%;
@@ -124,6 +127,9 @@
     .btn-primary-can{
         margin-left: 18% !important;
     }
+    .tic{
+        background-position-x: -5rem;
+    }
     .tic-titre{
         font-size: 4.7rem;
         margin-left: 18%;
@@ -143,6 +149,9 @@
         margin-top: 38%;
         padding-left: -6%;
     }
+    .mpj{
+        background-position-x: 5rem;
+    }
     .ab-mpj{
         margin-left: 18%;
         font-size: 1rem;
@@ -151,11 +160,30 @@
         margin-left: 18% !important;
     }
 }
+@media (min-width: 1030px) and (max-width: 2030px){
+    .can{
+        background-position-x: -10rem;
+    }
+    .tic{
+        background-position-x: -10rem;
+    }
+}
 @media (min-width: 943px) and (max-width: 1030px){
     .can-titre{
         font-size: 5rem;
         margin-left: 30%;
         margin-top: 38%;
+    }
+    .can{
+        background-position-x: -9rem;
+        min-height: 80vh;
+    }
+    .tic{
+        background-position-x: -9rem;
+        min-height: 80vh;
+    }
+    .mpj{
+        min-height: 80vh;
     }
     .bt{
         margin-left: 30%;
@@ -197,25 +225,25 @@
 }
 @media (min-width: 768px) and (max-width: 943px) {
     .can-titre{
-        font-size: 3.8rem;
-        margin-left: -47%;
-        margin-top: 40%;
+        font-size: 4rem;
+        margin-left: -17%;
+        margin-top: 50%;
     }
     .can-bt{
-        margin-left: -47%;
+        margin-left: -17%;
         color: white;
         font-size: 1.3rem;
     }
     .can-parcour{
-        margin-left: -47% !important;
+        margin-left: -17% !important;
         color: white;
         font-size: 2rem;
     }
     .btn-primary-can{
-        margin-left: -47% !important;
+        margin-left: -17% !important;
     }
     .ab-can{
-        margin-left: -75% !important;
+        margin-left: -45% !important;
         font-size: 1.3rem;
         color: white;
     }
@@ -237,17 +265,17 @@
         margin-top: 0% !important;
     }
     .tic-titre{
-        font-size: 3.8rem;
-        margin-left: -47%;
-        margin-top: 40%;
+        font-size: 4rem;
+        margin-left: -17%;
+        margin-top: 50%;
     }
     .ab-tic{
-        margin-left: -65% !important;
+        margin-left: -45% !important;
         font-size: 1.3rem;
         color: white;
     }
     .btn-primary-tic{
-        margin-left: -47% !important;
+        margin-left: -17% !important;
     }
     .parcours{
         margin-left: 30%;
@@ -255,15 +283,47 @@
     }
 }
 @media (min-width: 450px) and (max-width: 767px){
-   .can-titre{
-       margin-left: 27%;
-       margin-top: 15%;
-       font-size: 5rem;
-       padding: 0%;
-       text-align: center;
-   }
-   .can-row{
-       background-color: #204497b9 !important;
-   }
+    .can{
+        background-position-x: -30rem;
+        min-height: 60vh;
+    }
+    .can-titre{
+        margin-top: 5% !important;
+    }
+    .tic-titre{
+        margin-top: 5% !important;
+    }
+    .mpj-titre{
+        margin-top: 5% !important;
+    }
+    .mpj{
+        min-height: 60vh;
+    }
+    .tic{
+        background-position-x: -30rem;
+        min-height: 60vh;
+    }
 }
 
+@media (min-width: 150px) and (max-width: 450px){
+    .can{
+        background-position-x: -38rem;
+        min-height: 60vh;
+    }
+    .can-titre{
+        font-size: 3.8rem;
+    }
+    .tic{
+        background-position-x: -38rem;
+        min-height: 60vh;
+    }
+    .mpj{
+        min-height: 60vh;
+    }
+    .tic-titre{
+        font-size: 3.8rem;
+    }
+    .mpj-titre{
+        font-size: 3.8rem;
+    }
+}
