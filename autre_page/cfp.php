@@ -150,7 +150,7 @@
 
                             <div class="col-12 col-sm-12 col-md-3 col-lg-3 pt-3 float-left content">
                                 <h1 class="ml-mg-5 pl-lg-5">WEB</h1>
-                                <div class=" pl-5 pr-5 col-12">
+                                <div class=" pl-5 pr-5 col-12 parcour_web">
                                     <p class="pl-5 text-center">
                                         html5 - css3 - 
                                         javascript - <br/>
@@ -166,9 +166,9 @@
 
                     <div class="col-12 pl-5 son" id="SON">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pl-5 pt-3 float-left content">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 pl-5 pt-3 float-left content">
                                 <h1 class="pl-md-3 pl-lg-5">SON</h1>
-                                <div class="col-12 pr-md-5 pr-lg-5">
+                                <div class="col-12 ml-md-3 pr-md-5 pr-lg-5 parcour_son">
                                     <p class="text-center">
                                         environnement studio <br/>
                                         prise de son
@@ -179,7 +179,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-5 mt-5 description overflow-auto" id="descriptionSON">
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-md-5 ml-lg-5 mt-5 description overflow-auto" id="descriptionSON">
                                 <button class="btn exit" id="exitSON"><i class="fas fa-times"></i></button>
                                 <div class="mt-5 ml-3">
                                     <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
