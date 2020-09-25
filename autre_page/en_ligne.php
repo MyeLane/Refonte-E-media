@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CFP E-MEDIA</title>
+    <title>En ligne E-MEDIA</title>
     <?php
         include_once '../index/head.php';
     ?>
