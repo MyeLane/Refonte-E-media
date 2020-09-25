@@ -18,7 +18,7 @@
     background: url("../img/cfp/2\ \(1\).png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: auto;
 }
 
 .dts .content {
@@ -67,7 +67,7 @@
 .image {
     background-image: url("../img/cfp/2\ \(2\).png");
     background-size: cover;
-    height: 120vh;
+    height: auto;
 }
 
 .image .content {
@@ -115,7 +115,7 @@
 .web {
     background-image: url("../img/cfp/2\ \(3\).png");
     background-size: cover;
-    height: 120vh;
+    height: auto;
 }
 
 .web .content {
@@ -165,7 +165,7 @@
 .son {
     background-image: url("../img/cfp/2\ \(4\).png");
     background-size: cover;
-    height: 120vh;
+    height: auto;
 }
 
 .son .content {
@@ -222,7 +222,7 @@
 
 .description {
     background: #fff;
-    height: 110vh;
+    height: 100vh;
     transform: scaleY(0);
     transition: .5s;
 }
@@ -244,216 +244,4 @@
 /*unis*/
 
 /*responsive*/
-@media (min-width: 768px) and (max-width: 991px) {
-    /*dts*/
-    .dts {
-        background-position-x: -112px !important;
-    }
-
-    .dts .content {
-        margin-top: 7rem;
-    }
-
-    .dts .content h1::after {
-        left: 14%;
-        top: 3rem;
-    }
-
-    .dts .content h1 {
-        font-size: 5rem;
-    }
-
-    .btnDTS {
-        margin-left: 2rem !important;
-    }
-
-    /*image*/
-    .image {
-        background-position-x: -112px !important;
-    }
-
-    #descriptionIMAGE {
-        margin-left: 8rem !important;
-    }
-
-    .image .content {
-        margin-top: 7rem;
-    }
-
-    .image .content h1::after {
-        left: 32%;
-        top: .3rem
-    }
-
-    .image .content h1 {
-        font-size: 5rem;
-    }
-
-    .image p {
-        font-size: 1.2rem !important;
-    }
-
-    .btnIMAGE {
-        margin-left: 3rem;
-    }
-
-    /*web*/
-    .web .content {
-        margin-top: 7rem;
-    }
-
-    .web .content h1::after {
-        left: 83%;
-        top: 1.5rem
-    }
-
-    .web .content h1 {
-        font-size: 5rem;
-        margin-left: 2rem;
-    }
-
-    .web p {
-        margin-left: -5rem;
-        font-size: 1.2rem !important;
-    }
-
-    .btnWEB {
-        margin-left: 0rem;
-        color: #c95453 !important;
-    }
-
-    /*son*/
-    .son .content {
-        margin-top: 6rem;
-    }
-
-    .son .content h1::after {
-        left: 85%;
-        top: 1.5rem
-    }
-
-    .son .content h1 {
-        font-size: 5rem;
-    }
-
-    .son p {
-        font-size: 1.2rem !important;
-    }
-
-    .btnSON {
-        margin-left: 2rem;
-        color: #c95453 !important;
-    }
-}
-
-@media (min-width: 575px) and (max-width: 767.9px) {
-    /*DTS*/
-    .dts {
-        background-position-x: -200px;
-    }
-
-    .dts .content h1 {
-        font-size: 5rem !important;
-    }
-
-    .dts .content h1::after {
-        left: 5%;
-        top: 3rem;
-    }
-
-    .dts .description {
-        top: -27rem !important;
-    }
-
-    .dts .description p {
-        font-size: 1rem;
-    }
-
-    /*image*/
-    .image {
-        background-position-x: -220px;
-    }
-
-    .image .content h1 {
-        font-size: 5rem !important;
-    }
-
-    .image .description {
-        top: -29rem;
-    }
-
-    .image .description p {
-        font-size: 1rem;
-    }
-
-    .image h1::after {
-        left: 10%;
-        top: 0.2rem;
-    }
-
-    .image p {
-        font-size: 1.3rem;
-    }
-
-    /*web*/
-    .web {
-        background-position-x: -200px !important;
-    }
-
-    .web .content {
-        margin-top: -33rem;
-    }
-
-    .web .content h1 {
-        font-size: 5rem;
-        margin-left: 29rem !important;
-    }
-
-    .web h1::after {
-        left: 94%;
-        top: 1.6rem;
-    }
-
-    .web .content p {
-        font-size: 1.3rem;
-        margin-left: 22rem !important;
-    }
-
-    .btnWEB {
-        margin-left: 29rem !important;
-    }
-
-    .web .description {
-        z-index: 1;
-    }
-
-    /*son*/
-    .son {
-       background-position-x: -200px; 
-    }
-
-    .son .content {
-        margin-top: 5rem;
-    }
-
-    .son .content h1::after {
-        left: 112%;
-        top: 2rem;
-    }
-
-    .btnSON {
-        margin-left: 1rem;
-    }
-
-    .son .content h1 {
-        font-size: 5rem;
-    }
-
-    .son .content p {
-        font-size: 1.3rem;
-    }
-
-    .son .description {
-        top: -31rem;
-    }
-}
+@media (min-width: 768px) and (max-width: 991px
