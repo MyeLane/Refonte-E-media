@@ -1,6 +1,9 @@
 body{
     overflow-x: hidden;
 }
+.close{
+    color: white;
+}
 .color-ltic{
     color: #2f5d85;
 }
