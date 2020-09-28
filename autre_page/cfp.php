@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-12 dts" id="DTS">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pt-4 ml-md-5 ml-lg-5 content">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 content_dts" id="content_dts">
                                 <h1 class="pl-5">DTS</h1>
                                 <div class="col-12 pl-4">
                                     <p class="pl-4">EN MULTIMEDIA <br> BAC +2
@@ -28,8 +28,10 @@
                                 </div>
                             </div>
                             
-                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-md-5 ml-lg-5 mt-5 description overflow-auto" id="descriptionDTS">
-                                <button class="btn exit" id="exitDTS"><i class="fas fa-times"></i></button>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 description overflow-auto" id="descriptionDTS">
+                                <div class="">    
+                                    <button class="btn exit" id="exitDTS"><i class="fas fa-times"></i></button>
+                                </div>
                                 <h3>Description</h3>
                                 <p></p>
                             </div>
@@ -38,7 +40,7 @@
 
                     <div class="col-12 image" id="IMAGE">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pt-4 ml-lg-5 content">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-4 content_image">
                                 <h1 class="pl-5">IMAGE</h1>
                                 <div class="col-12 pl-4">
                                     <p class="pl-4">Conception cinématographique <br/> prise de vue - post production
@@ -48,7 +50,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-md-5 ml-lg-5 mt-5 description overflow-auto" id="descriptionIMAGE">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 description overflow-auto" id="descriptionIMAGE">
                                 <button class="btn exit" id="exitIMAGE"><i class="fas fa-times"></i></button>
                                 <div class="mt-5 ml-5 ml-3">
                                     <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
@@ -102,7 +104,7 @@
 
                     <div class="col-12 web" id="WEB">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-md-5 ml-lg-5 mt-5 description overflow-auto" id="descriptionWEB">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 description overflow-auto" id="descriptionWEB">
                                 <button class="btn exit" id="exitWEB"><i class="fas fa-times"></i></button>
                                 <div class="mt-5 ml-3">
                                     <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
@@ -148,17 +150,17 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 pt-3 float-left content">
-                                <h1 class="ml-mg-5 pl-lg-5">WEB</h1>
-                                <div class=" pl-5 pr-5 col-12 parcour_web">
-                                    <p class="pl-5 text-center">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-4 float-left content_web">
+                                <h1 class="">WEB</h1>
+                                <div class="col-12 parcour_web">
+                                    <p class="">
                                         html5 - css3 - 
                                         javascript - <br/>
                                         jQuery - php - sql 
                                         bootstrap <br/>
                                         initiation cms et framework - design
                                     </p>
-                                    <a hre="#descriptionWEB" class="btn mt-3 btnWEB" id="openWEB">En savoir plus</a>
+                                    <a hre="#descriptionWEB" class="btn mt-3 btnWEB" id="openWEB"><span>En savoir plus</span></a>
                                 </div>
                             </div>
                         </div>
@@ -166,11 +168,11 @@
 
                     <div class="col-12 pl-5 son" id="SON">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-4 col-lg-3 pl-5 pt-3 float-left content">
+                            <div class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 content_son">
                                 <h1 class="pl-md-3 pl-lg-5">SON</h1>
                                 <div class="col-12 ml-md-3 pr-md-5 pr-lg-5 parcour_son">
-                                    <p class="text-center">
-                                        environnement studio <br/>
+                                    <p class="">
+                                        Environnement studio <br/>
                                         prise de son
                                         mixage<br/> - traitement de son <br/>
                                         mastering
@@ -179,10 +181,10 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 ml-md-5 ml-lg-5 mt-5 description overflow-auto" id="descriptionSON">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 mt-5 description overflow-auto" id="descriptionSON">
                                 <button class="btn exit" id="exitSON"><i class="fas fa-times"></i></button>
-                                <div class="mt-5 ml-3">
-                                    <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
+                                <div class="mt-5">
+                                    <h4 copenDTS.style.transform = "scaleX(0)";lass=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
                                         <p class="ml-1">La filière SON a pour objectif de former des techniciens du 
                                             métier du son. Elle s’adresse aux passionnés du son, qui veulent en faire 
                                             leur métier et acquérir les bases nécessaires pour évoluer dans ce domaine. 
@@ -198,7 +200,7 @@
                                         <ul>
                                             <li>- Environnement studio</li>
 
-                                            <li>- Prise de son</li>
+                                            openDTS.style.transform = "scaleX(0)";   <li>- Prise de son</li>
 
                                             <li>- Mixage</li>
 
@@ -211,9 +213,7 @@
                                         <p class="ml-1">La formation est ouverte à toutes personnes, sans limite 
                                             d’âge, ayant ou non le baccalauréat mais jouissant d’un niveau terminal minimum. </p>
                                     <h4> <i class="fas fa-angle-double-right"></i> Prérequis </h4>
-                                        <p class="ml-1">Connaissances de base en informatique (structure de l’ordinateur…)</p>
-                                    <h4> <i class="fas fa-angle-double-right"></i> Sanction </h4>
-                                        <p class="ml-1">Un examen officiel composé de partie théorique et pratique, préparé et 
+                                            <p class="ml-1">Un examen officiel composé de partie théorique et pratique, préparé et 
                                             dirigé par le Ministère de l’Enseignement Technique et de la Formation 
                                             Professionnelle (METFP) permet d’obtenir un Certificat de Fin de Formation, 
                                             Spécialité : IMAGE (Equivalent BACCALAUREAT / CATEGORIE III FOP)</p>
@@ -234,55 +234,75 @@
         ?>
         <script>
             /*dts*/
+            let content = document.querySelector('.content_dts');
             let exitDTS = document.getElementById('exitDTS');
             let openDTS = document.getElementById('openDTS');
             let description = document.getElementById('descriptionDTS');
 
             openDTS.addEventListener("click", function() {
-                descriptionDTS.style.transform = "scale(1)";
+                descriptionDTS.style.transform = "scaleX(1)";
+                content.style.left = "5rem";
+                openDTS.style.transform = "scaleX(0)";
             });
 
             exitDTS.addEventListener("click", function() {
                 descriptionDTS.style.transform = "scaleX(0)";
+                content.style.left = "12rem";
+                openDTS.style.transform = "scaleX(1)";
             })
 
             /*IMAGE*/
+            let content_IMAGE = document.querySelector('.content_image');
             let exitIMAGE = document.getElementById('exitIMAGE');
             let openIMAGE = document.getElementById('openIMAGE');
             let descriptionIMAGE = document.getElementById('descriptionIMAGE');
 
             openIMAGE.addEventListener("click", function() {
+                content_IMAGE.style.left = "0rem";
+                openIMAGE.style.transform = "scaleX(0)";
                 descriptionIMAGE.style.transform = "scaleY(1)";
             });
 
             exitIMAGE.addEventListener("click", function() {
                 descriptionIMAGE.style.transform = "scaleX(0)";
+                content_IMAGE.style.left = "8rem";
+                openIMAGE.style.transform = "scaleX(1)";
             })
 
             /*WEB*/
+            let content_WEB = document.querySelector('.content_web');
             let exitWEB = document.getElementById('exitWEB');
             let openWEB = document.getElementById('openWEB');
             let descriptionWEB = document.getElementById('descriptionWEB');
 
             openWEB.addEventListener("click", function() {
                 descriptionWEB.style.transform = "scaleY(1)";
+                content_WEB.style.left = "0rem";
+                openWEB.style.transform = "scaleX(0)"
             });
 
             exitWEB.addEventListener("click", function() {
                 descriptionWEB.style.transform = "scaleX(0)";
+                content_WEB.style.left = "-4rem";
+                openWEB.style.transform = "scaleX(1)";
             })
 
             /*SON*/
+            let content_SON = document.querySelector('.content_son');
             let exitSON = document.getElementById('exitSON');
             let openSON = document.getElementById('openSON');
             let descriptionSON = document.getElementById('descriptionSON');
 
             openSON.addEventListener("click", function() {
                 descriptionSON.style.transform = "scaleY(1)";
+                content_SON.style.left = "0rem";
+                openSON.style.transform = "scaleX(0)"
             });
 
             exitSON.addEventListener("click", function() {
                 descriptionSON.style.transform = "scaleX(0)";
+                content_SON.style.left = "5rem";
+                openSON.style.transform = "scaleX(1)"
             })
 
         </script>
