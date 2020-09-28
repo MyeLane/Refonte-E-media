@@ -1,6 +1,12 @@
 body{
     overflow-x: hidden;
 }
+.tic-licence-div{
+ z-index: -1;
+}
+.modal{
+    z-index: 10 !important;
+}
 .close{
     color: white;
 }
@@ -48,7 +54,7 @@ body{
 /* TIC licence */
 .tic-licence{
     background-color: #7dbfea;
-    min-height: 110vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;

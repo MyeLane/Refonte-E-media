@@ -24,6 +24,7 @@
  
     <section class="licence" id="licence">
         <!-- TIC licence -->
+        <div class="tic-licence-div" >
         <div class="tic-licence  container-fluid">
                 <img src="../img/online/Licence univ online-03.png" class="img-fluid img-licence-tic" width="100%" alt="">
                 <!-- particules -->
@@ -94,8 +95,9 @@
 
             </div>
         </div>
-
+        </div>
         <!-- CAN licence -->
+        <div class="can-licence-div">
         <div class="can-licence  container-fluid">
                 <img src="../img/online/Licence univ online-04.png" class="img-fluid img-licence-can" width="100%" alt="">
                 <!-- particules -->
@@ -169,7 +171,7 @@
             </div>
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
         </div>
-
+        </div>
         <!-- MPJ licence -->
         <div class="mpj-licence  container-fluid">
                 <img src="../img/online/Licence univ online-05.png" class="img-fluid img-licence-mpj" width="100%" alt="">
@@ -758,6 +760,7 @@
 
    
     <!--script js -->
+    <script src="../js/enligne.js"></script>
     <?php
         include_once '../index/script.php';
     ?>
