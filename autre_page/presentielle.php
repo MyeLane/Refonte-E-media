@@ -30,43 +30,7 @@
                             <li>Développement web</li>
                         </ul>
                         <button type="button" class="btn btn-primary-can bt mt-2" data-toggle="modal" data-target="#myModal1">En savoir plus<i class="ml-1 fa fa-arrow-right"></i></button>
-                        <div class="modal fade" id="myModal1">
-                            <div class="modal-dialog modal-dialog-scrollable modal-lg">
-                                <div class="modal-content">
-                                
-                                    <!-- Modal Header -->
-                                    <div class="modal-header btn-primary-can">
-                                    <h5 class="modal-title align-content-center">COMMUNICATION AUDIOVISUELLE ET NUMERIQUE (CAN) - LICENCE</h5>
-                                    <button type="button parcours" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                    
-                                    <!-- Modal body -->
-                                    <div class="modal-body container-fluid">
-                                        <h5 class="ml-2 color-can">Objectifs :</h5>
-                                        <p class="text-justify container-fluid">La mention Communication audiovisuelle et infographie, accessible à tous les bacheliers, permet à ses étudiants d'acquérir de solides connaissances théoriques dans le domaine de l'audiovisuel. Elle forme les futurs professionnels des métiers artistiques et techniques de l'audiovisuel. Destiné aux passionnés de l’audiovisuel, elle permet aux étudiants d’avoir les capacités nécessaires pour initier et accompagner la création d'œuvres audiovisuelles, tout en maitrisant parfaitement les concepts de la communication.</p>
-                                        <h5 class="ml-2 color-can">Contenu de la formation :</h5>
-                                        <p class="text-justify container-fluid">Reposant sur le système LMD, en vigueur à Madagascar, la formation comprend les matières ci-après : Infographie 2D/3D, Son , Atelier photographie, Atelier documentaire, Base de la programmation, Post production, Direction d’acteur, Theorie de l’Information et de la Communication, Psychologie de la communication, Expression artistique, Gestion de projet….</p>
-                                        <h5 class="ml-2 color-can">Parcours :</h5>
-                                        <ul>
-                                            <li>Image</li>
-                                            <li>Développement web</li>
-                                        </ul>
-                                        <h5 class="ml-2 color-can">Admissibilité :</h5>
-                                        <p class="text-justify container-fluid">La formation est ouverte à toutes personnes ayant un baccalauréat, de toutes les séries : A/C/D/Technique.</p>
-                                        <h5 class="ml-2 color-can">Sanction</h5>
-                                        <p class="text-justify container-fluid">La formation permet aux étudiants d’acquérir les diplômes de Licence en COMMUNICATION AUDIOVISUELLE ET NUMERIQUE, et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
-                                        <h5 class="ml-2 color-can">Débouchés</h5>
-                                        <p class="text-justify container-fluid">La formation permet d’occuper des postes de responsable de développement de projets, journaliste, rédacteur, responsable des coproductions dans des entreprises telles que les sociétés de production, les sociétés de distribution, les chaînes de télévision, sites Internet, Industrie cinématographique, etc.</p>
-                                    </div>
-                                    
-                                    <!-- Modal footer -->
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary-can" data-dismiss="modal">Fermer</button>
-                                    </div>
-                                    
-                            </div>
-                            </div>
-                        </div>
+            
                     </div>
                 </div>
             </div>
@@ -180,6 +144,43 @@
     </div>
 </section>
    
+<div class="modal fade" id="myModal1">
+                            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                                <div class="modal-content">
+                                
+                                    <!-- Modal Header -->
+                                    <div class="modal-header btn-primary-can">
+                                    <h5 class="modal-title align-content-center">COMMUNICATION AUDIOVISUELLE ET NUMERIQUE (CAN) - LICENCE</h5>
+                                    <button type="button parcours" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    
+                                    <!-- Modal body -->
+                                    <div class="modal-body container-fluid">
+                                        <h5 class="ml-2 color-can">Objectifs :</h5>
+                                        <p class="text-justify container-fluid">La mention Communication audiovisuelle et infographie, accessible à tous les bacheliers, permet à ses étudiants d'acquérir de solides connaissances théoriques dans le domaine de l'audiovisuel. Elle forme les futurs professionnels des métiers artistiques et techniques de l'audiovisuel. Destiné aux passionnés de l’audiovisuel, elle permet aux étudiants d’avoir les capacités nécessaires pour initier et accompagner la création d'œuvres audiovisuelles, tout en maitrisant parfaitement les concepts de la communication.</p>
+                                        <h5 class="ml-2 color-can">Contenu de la formation :</h5>
+                                        <p class="text-justify container-fluid">Reposant sur le système LMD, en vigueur à Madagascar, la formation comprend les matières ci-après : Infographie 2D/3D, Son , Atelier photographie, Atelier documentaire, Base de la programmation, Post production, Direction d’acteur, Theorie de l’Information et de la Communication, Psychologie de la communication, Expression artistique, Gestion de projet….</p>
+                                        <h5 class="ml-2 color-can">Parcours :</h5>
+                                        <ul>
+                                            <li>Image</li>
+                                            <li>Développement web</li>
+                                        </ul>
+                                        <h5 class="ml-2 color-can">Admissibilité :</h5>
+                                        <p class="text-justify container-fluid">La formation est ouverte à toutes personnes ayant un baccalauréat, de toutes les séries : A/C/D/Technique.</p>
+                                        <h5 class="ml-2 color-can">Sanction</h5>
+                                        <p class="text-justify container-fluid">La formation permet aux étudiants d’acquérir les diplômes de Licence en COMMUNICATION AUDIOVISUELLE ET NUMERIQUE, et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
+                                        <h5 class="ml-2 color-can">Débouchés</h5>
+                                        <p class="text-justify container-fluid">La formation permet d’occuper des postes de responsable de développement de projets, journaliste, rédacteur, responsable des coproductions dans des entreprises telles que les sociétés de production, les sociétés de distribution, les chaînes de télévision, sites Internet, Industrie cinématographique, etc.</p>
+                                    </div>
+                                    
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary-can" data-dismiss="modal">Fermer</button>
+                                    </div>
+                                    
+                            </div>
+                            </div>
+                        </div>
     <!--script js -->
     <?php
         include_once '../index/script.php';
