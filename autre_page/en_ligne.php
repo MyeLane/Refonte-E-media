@@ -173,6 +173,7 @@
         </div>
         </div>
         <!-- MPJ licence -->
+        <div class="mpj-licence-div">
         <div class="mpj-licence  container-fluid">
                 <img src="../img/online/Licence univ online-05.png" class="img-fluid img-licence-mpj" width="100%" alt="">
                 <!-- particules -->
@@ -247,8 +248,9 @@
 
             </div>
         </div>
-
+        </div>
         <!-- Management licence -->
+        <div class="mba-licence-div">
         <div class="mba-licence  container-fluid">
                 <img src="../img/online/Licence univ online-06.png" class="img-fluid img-licence-mba" width="100%" alt="">
                 <!-- particules -->
@@ -319,8 +321,9 @@
             </div>
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
         </div>
-
+        </div>
         <!-- DRT licence -->
+        <div class="drt-licence-div">
         <div class="drt-licence  container-fluid">
                 <img src="../img/online/Licence univ online-07.png" class="img-fluid img-licence-drt" width="100%" alt="">
                 <!-- particules -->
@@ -390,7 +393,7 @@
 
             </div>
         </div>
-
+        </div>
     </section>
 
 

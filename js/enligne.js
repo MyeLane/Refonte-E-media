@@ -4,4 +4,7 @@ function parallax(element, distance, speed){
 }
 window.addEventListener("scroll", function(){
     parallax('.tic-licence-div', window.scrollY, 1);
+    parallax('.can-licence-div', window.scrollY, 1);
+    parallax('.mpj-licence-div', window.scrollY, 1);
+    parallax('.mba-licence-div', window.scrollY, 1);
 });

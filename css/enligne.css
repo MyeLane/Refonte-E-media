@@ -2,8 +2,21 @@ body{
     overflow-x: hidden;
 }
 .tic-licence-div{
- z-index: -1;
+ z-index: 1;
 }
+.can-licence-div{
+    z-index: 2;
+   }
+.mpj-licence-div{
+    z-index: 3;
+   }
+.mba-licence-div{
+    z-index: 4;
+   }
+.drt-licence-div{
+    z-index: 5;
+   }
+
 .modal{
     z-index: 10 !important;
 }
@@ -54,7 +67,7 @@ body{
 /* TIC licence */
 .tic-licence{
     background-color: #7dbfea;
-    min-height: 100vh;
+    min-height: 110vh;
     margin: 0;
     padding: 0;
     position: relative;
@@ -167,7 +180,7 @@ body{
 /* CAN licence */
 .can-licence{
     background-color: #1a96b7;
-    min-height: 95vh;
+    min-height: 110vh;
     margin: 0;
     padding: 0;
     position: relative;
