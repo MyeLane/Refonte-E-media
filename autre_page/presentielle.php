@@ -144,14 +144,14 @@
     </div>
 </section>
    
-<div class="modal fade" id="myModal1">
+<div class="modal test fade" id="myModal1">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
         <div class="modal-content">
                                 
             <!-- Modal Header -->
             <div class="modal-header btn-primary-can">
                 <h5 class="modal-title align-content-center">COMMUNICATION AUDIOVISUELLE ET NUMERIQUE (CAN) - LICENCE</h5>
-                <button type="button parcours" class="close" data-dismiss="modal">&times;</button>
+                <button type="button parcours" class="close clise" data-dismiss="modal">&times;</button>
             </div>
                                     
             <!-- Modal body -->
@@ -175,7 +175,7 @@
                                     
             <!-- Modal footer -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary-can" data-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-primary-can clise" data-dismiss="modal">Fermer</button>
             </div>
                                     
         </div>
