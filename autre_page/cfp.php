@@ -17,14 +17,14 @@
         <section>
             <div class="container-fluid mt-3">
                 <div class="row">
-                    <div class="col-12 dts" id="DTS">
+                    <div class="col-12 dts" id="scroll">
                         <div class="row">
                             <div class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 content_dts" id="content_dts">
                                 <h1 class="pl-5">DTS</h1>
                                 <div class="col-12 pl-4">
                                     <p class="pl-4">EN MULTIMEDIA <br> BAC +2
                                     </p>
-                                    <a hre="#descriptionDTS" class="btn mt-3 btnDTS" id="openDTS">En savoir plus</a>
+                                    <a href="#descriptionDTS" class="btn mt-3 btnDTS" id="openDTS">En savoir plus</a>
                                 </div>
                             </div>
                             
@@ -38,7 +38,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 image" id="IMAGE">
+                    <div class="col-12 image" id="scroll">
                         <div class="row">
                             <div class="col-8 col-sm-6 col-md-4 col-lg-4 content_image">
                                 <h1 class="pl-5">IMAGE</h1>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 web" id="WEB">
+                    <div class="col-12 web" id="scroll">
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 description overflow-auto" id="descriptionWEB">
                                 <button class="btn exit" id="exitWEB"><i class="fas fa-times"></i></button>
@@ -166,7 +166,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 pl-5 son" id="SON">
+                    <div class="col-12 pl-5 son" id="scroll">
                         <div class="row">
                             <div class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 content_son">
                                 <h1 class="pl-md-3 pl-lg-5">SON</h1>
@@ -191,7 +191,7 @@
                                             Elle permet aux étudiants de maîtriser les matériels ainsi que d’acquérir 
                                             les techniques nécessaires dans la prise et le traitement de son. Des bases 
                                             théoriques solides complétés par des pratiques régulières permettent aux 
-                                            étudiants d’être directement opérationnel sur le plan professionnel à 
+                                            étudiants d’être di BAC +2 rectement opérationnel sur le plan professionnel à 
                                             l’issu de la formation. Les étudiants seront alors aptes à effectuer 
                                             une séance d’enregistrement, de faire des compositions, d’arrangement 
                                             et mixage sur une station audio.  </p>
@@ -307,6 +307,16 @@
 
         </script>
 
+        <script>
+            function parallax(element, distance, speed){
+                const item = document.querySelector(element);
+                item.style.transform = `translateY(${distance * speed}px)`;
+            }
+            window.addEventListener("scroll", function(){
+                parallax('.dts', window.scrollY, 1);
+               
+            });
+        </script>
 
     </body>
 </html>
