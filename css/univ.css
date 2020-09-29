@@ -12,7 +12,7 @@
 }
 .modal{
     position: fixed !important;
-    z-index: 9 !important;
+    z-index: 50 !important;
 }
   /* can */
 .can {
