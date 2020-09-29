@@ -7,6 +7,7 @@
         include_once '../index/head.php';
     ?>
     <link rel="stylesheet" href="../css/univ.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
 </head>
 <body>
     <!-- navbar -->
@@ -14,15 +15,15 @@
         include_once '../index/nav.php';
     ?>
     <!-- Contenut site -->
-<section>
+<section id="page">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12  can">
+            <div class="col-12 section can">
                 <div class="row col-12">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-6"></div>
                     <div class="col-12 can-row col-sm-12 col-md-6 col-lg-6">
-                        <h1 class="can-titre col-12 col-sm-6 col-md-6 col-lg-6 aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">CAN</h1>
-                        <p class="ab-can aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">Communication Audiovisuelle et Numérique</P>
+                        <h1 class="can-titre col-12 col-sm-6 col-md-6 col-lg-6">CAN</h1>
+                        <p class="ab-can">Communication Audiovisuelle et Numérique</P>
                         <h3 class="mt-2 can-parcour parcours">Parcours</h3>
                         <ul class="bt can-bt">
                             <li>Image</li>
@@ -69,11 +70,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 mpj">
+            <div class="col-12 section mpj">
                 <div class="row col-12">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-                        <h1 class="mpj-titre col-12 col-sm-6 col-md-6 col-lg-6 aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">MPJ</h1>
-                        <p class="ab-mpj aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">Marketing Publicité et Journalisme</P>
+                        <h1 class="mpj-titre col-12 col-sm-6 col-md-6 col-lg-6">MPJ</h1>
+                        <p class="ab-mpj">Marketing Publicité et Journalisme</P>
                         <h3 class="mt-2 parcours">Parcours</h3>
                         <ul class="bt parcours">
                             <li>Marketing Publicité</li>
@@ -121,12 +122,12 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
                 </div>
             </div>
-            <div class="col-12 tic">
+            <div class="col-12 section tic">
                 <div class="row col-12">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                        <h1 class="tic-titre col-12 col-sm-6 col-md-6 col-lg-6 aos-init aos-animate code code--small code--down" data-aos="zoom-in" data-aos-duration="2000">TIC</h1>
-                        <p class="ab-tic aos-init aos-animate code code--small code--down" data-aos="fade-in" data-aos-duration="2000">Informatique et Télécommunication</P>
+                        <h1 class="tic-titre col-12 col-sm-6 col-md-6 col-lg-6">TIC</h1>
+                        <p class="ab-tic">Informatique et Télécommunication</P>
                         <h3 class="mt-2 can-parcour parcours">Parcours</h3>
                         <ul class="bt can-bt">
                             <li>Réseau et Système</li>
@@ -183,6 +184,14 @@
     <?php
         include_once '../index/script.php';
     ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script>
+        new fullpage('#page', {
+    autoScrolling: true,
+    scrollHorizontally: true,
+    navigation: true
+});
+    </script>
     <script>/*animation on scroll*/
         AOS.init({
             easing: 'ease-out-back',

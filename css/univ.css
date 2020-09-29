@@ -7,17 +7,23 @@
     color: #666767;
     text-decoration: none;
 }
+#page{
+    margin-top: 5vh;
+}
+.fp-enabled .modal{
+    z-index: 10 !important;
+}
   /* can */
 .can {
     background-image: url("../img/univ vide-01.jpg");
-    min-height: 110vh; 
+    min-height: 100vh; 
     background-size: cover;
 }
 .can-titre{
     background-color: #204497;
     width: fit-content;
-    margin-left: 10%;
-    margin-top: 33%;
+    margin-left: 5%;
+    margin-top: 10vh;
     font-family: "titre";
     text-align: center;
     font-size: 6rem;
@@ -46,14 +52,14 @@
 /* mpj */
 .mpj {
     background-image: url("../img/univ vide-02.jpg");
-    min-height: 110vh; 
+    min-height: 100vh; 
     background-size: cover;
 }
 .mpj-titre{
     background-color: #199acb;
     width: fit-content;
     margin-left: 10%;
-    margin-top: 33%;
+    margin-top: 10vh;
     font-family: "titre";
     text-align: center;
     letter-spacing: 0.5rem;
@@ -76,7 +82,7 @@
 /* tic */
 .tic {
     background-image: url("../img/univ vide-03.jpg");
-    min-height: 110vh; 
+    min-height: 100vh; 
     background-size: cover;
 }
 .tic-titre{

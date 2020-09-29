@@ -7,6 +7,7 @@
         include_once '../index/head.php';
     ?>
     <link rel="stylesheet" href="../css/enligne.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
 </head>
 <body>
     <!-- navbar -->
@@ -21,10 +22,10 @@
             </ul>
         </div>
     </nav>
- 
+    <section id="page">
     <section class="licence" id="licence">
         <!-- TIC licence -->
-        <div class="tic-licence-div" >
+        <div class="section tic-licence-div" >
         <div class="tic-licence  container-fluid">
                 <img src="../img/online/Licence univ online-03.png" class="img-fluid img-licence-tic" width="100%" alt="">
                 <!-- particules -->
@@ -97,7 +98,7 @@
         </div>
         </div>
         <!-- CAN licence -->
-        <div class="can-licence-div">
+        <div class="section can-licence-div">
         <div class="can-licence  container-fluid">
                 <img src="../img/online/Licence univ online-04.png" class="img-fluid img-licence-can" width="100%" alt="">
                 <!-- particules -->
@@ -173,7 +174,7 @@
         </div>
         </div>
         <!-- MPJ licence -->
-        <div class="mpj-licence-div">
+        <div class="section mpj-licence-div">
         <div class="mpj-licence  container-fluid">
                 <img src="../img/online/Licence univ online-05.png" class="img-fluid img-licence-mpj" width="100%" alt="">
                 <!-- particules -->
@@ -250,7 +251,7 @@
         </div>
         </div>
         <!-- Management licence -->
-        <div class="mba-licence-div">
+        <div class="section mba-licence-div">
         <div class="mba-licence  container-fluid">
                 <img src="../img/online/Licence univ online-06.png" class="img-fluid img-licence-mba" width="100%" alt="">
                 <!-- particules -->
@@ -323,7 +324,7 @@
         </div>
         </div>
         <!-- DRT licence -->
-        <div class="drt-licence-div">
+        <div class="section drt-licence-div">
         <div class="drt-licence  container-fluid">
                 <img src="../img/online/Licence univ online-07.png" class="img-fluid img-licence-drt" width="100%" alt="">
                 <!-- particules -->
@@ -394,12 +395,9 @@
             </div>
         </div>
         </div>
-    </section>
 
-
-
-    <section class="master" id="master">
         <!-- TIC master -->
+        <div class="section tic-master-div" id="master">
         <div class="tic-master  container-fluid">
                 <img src="../img/Master univ online-08.png" class="img-fluid img-master-tic" width="100%" alt="">
                 <!-- particules -->
@@ -474,8 +472,9 @@
 
             </div>
         </div>
-
+        </div>
         <!-- CAN master -->
+        <div class="section can-master-div">
         <div class="can-master  container-fluid">
                 <img src="../img/online/Master univ online-09.png" class="img-fluid img-master-can" width="100%" alt="">
                 <!-- particules -->
@@ -534,8 +533,9 @@
             </div>
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
         </div>
-
+        </div>
         <!-- MPJ master -->
+        <div class="section mpj-master-div">
         <div class="mpj-master  container-fluid">
                 <img src="../img/online/Master univ online-10.png" class="img-fluid img-master-mpj" width="100%" alt="">
                 <!-- particules -->
@@ -607,8 +607,9 @@
 
             </div>
         </div>
-
+        </div>
         <!-- Management master -->
+        <div class="section mba-master-div">
         <div class="mba-master  container-fluid">
                 <img src="../img/online/Master univ online-11.png" class="img-fluid img-master-mba" width="100%" alt="">
                 <!-- particules -->
@@ -678,8 +679,9 @@
             </div>
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
         </div>
-
+        </div>
         <!-- DRT master -->
+        <div class="section drt-master-div">
         <div class="drt-master  container-fluid">
                 <img src="../img/online/Master univ online-12.png" class="img-fluid img-master-drt" width="100%" alt="">
                 <!-- particules -->
@@ -753,9 +755,9 @@
 
             </div>
         </div>
-
+        </div>
     </section>
-
+    </section>
         
 
 
@@ -764,6 +766,14 @@
    
     <!--script js -->
     <script src="../js/enligne.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script>
+        new fullpage('#page', {
+    autoScrolling: true,
+    scrollHorizontally: true,
+    navigation: true
+});
+    </script>
     <?php
         include_once '../index/script.php';
     ?>

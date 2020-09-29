@@ -1,25 +1,10 @@
 body{
     overflow-x: hidden;
 }
-.tic-licence-div{
- z-index: 1;
+#page{
+    margin-top: 10vh;
 }
-.can-licence-div{
-    z-index: 2;
-   }
-.mpj-licence-div{
-    z-index: 3;
-   }
-.mba-licence-div{
-    z-index: 4;
-   }
-.drt-licence-div{
-    z-index: 5;
-   }
 
-.modal{
-    z-index: 10 !important;
-}
 .close{
     color: white;
 }
@@ -67,15 +52,14 @@ body{
 /* TIC licence */
 .tic-licence{
     background-color: #7dbfea;
-    min-height: 110vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
 }
 .img-licence-tic{
-    height: 86vh;
-    margin-top: 5.5rem;
+    height: 100vh;
 }
 .btn-primary-ltic{
     background-color: #2f5d85;
@@ -168,8 +152,9 @@ body{
 }
 .text-licence-tic{
     overflow-x: hidden;
-    min-height: 80vh;
-    margin-top: -75vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 18vh;
     margin-left: 5%;
 }
 .titre{
@@ -180,19 +165,18 @@ body{
 /* CAN licence */
 .can-licence{
     background-color: #1a96b7;
-    min-height: 110vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-top: -6.2rem;
 }
 .btn-primary-lcan{
     background-color: #62c7c7;
     color: white;
 }
 .img-licence-can{
-    height: 90vh;
+    height: 100vh;
 }
 .trianglesB{
     background-color: #37b0c9;
@@ -255,26 +239,26 @@ body{
 }
 .text-licence-can{
     overflow-x: hidden;
-    min-height: 80vh;
-    margin-top: -75vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
     margin-left: 5%;
 }
 /* MPJ licence */
 .mpj-licence{
     background-color: #7f8fa6;
-    min-height: 95vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-top: -4.2rem;
 }
 .btn-primary-lmpj{
     background-color: #065389;
     color: white;
 }
 .img-licence-mpj{
-    height: 90vh;
+    height: 100vh;
 }
 .trianglesC{
     background-color: #8d9bb1;
@@ -337,26 +321,26 @@ body{
 }
 .text-licence-mpj{
     overflow-x: hidden;
-    min-height: 85vh;
-    margin-top: -75vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
     margin-left: 5%;
 }
 /* MBA licence */
 .mba-licence{
     background-color: #32c0c3;
-    min-height: 95vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-top: -6rem;
 }
 .btn-primary-lmba{
     background-color: #1892c0;
     color: white;
 }
 .img-licence-mba{
-    height: 90vh;
+    height: 100vh;
 }
 .trianglesD{
     background-color: #5bc6cb;
@@ -420,8 +404,9 @@ body{
 }
 .text-licence-mba{
     overflow-x: hidden;
-    min-height: 85vh;
-    margin-top: -75vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
     margin-left: 5%;
 }
 /* DRT licence */
@@ -432,14 +417,13 @@ body{
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-top: -5rem;
 }
 .btn-primary-ldrt{
     background-color: #075792;
     color: white;
 }
 .img-licence-drt{
-    height: 90vh;
+    height: 100vh;
 }
 .trianglesE{
     background-color: #cddfec;
@@ -502,8 +486,9 @@ body{
 }
 .text-licence-drt{
     overflow-x: hidden;
-    min-height: 80vh;
-    margin-top: -75vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
     margin-left: 5%;
 }
 
@@ -511,15 +496,14 @@ body{
 /* TIC master */
 .tic-master{
     background-color: #fecd08;
-    min-height: 90vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-top: -6.2rem;
 }
 .img-master-tic{
-    height: 90vh;
+    height: 100vh;
 }
 .trianglesF{
     background-color: #fdd93f;
@@ -582,9 +566,10 @@ body{
 }
 .text-master-tic{
     overflow-x: hidden;
-    min-height: 90vh;
-    margin-top: -75vh;
-    margin-left: 1%;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 2%;
 }
 .btn-primary-mtic{
     background-color: #fdf4c1;
@@ -592,18 +577,17 @@ body{
 /* CAN master */
 .can-master{
     background-color: #d0d227;
-    min-height: 92vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-top: -6.2rem;
 }
 .btn-primary-mcan{
     background-color: #f9f49b;
 }
 .img-master-can{
-    height: 80vh;
+    height: 100vh;
 }
 .trianglesG{
     background-color: #e0e262;
@@ -666,25 +650,25 @@ body{
 }
 .text-master-can{
     overflow-x: hidden;
-    min-height: 85vh;
-    margin-top: -75vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
     margin-left: 2%;
 }
 /* MPJ master */
 .mpj-master{
     background-color: #f8981c;
-    min-height: 95vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-top: -4.2rem;
 }
 .btn-primary-mmpj{
     background-color: #fecc66;
 }
 .img-master-mpj{
-    height: 90vh;
+    height: 100vh;
 }
 .trianglesH{
     background-color: #fcb241;
@@ -747,22 +731,22 @@ body{
 }
 .text-master-mpj{
     overflow-x: hidden;
-    min-height: 85vh;
-    margin-top: -75vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
     margin-left: 5%;
 }
 /* MBA master */
 .mba-master{
     background-color: #f79868;
-    min-height: 80vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-top: -6.3rem;
 }
-.img-licence-mba{
-    height: 90vh;
+.img-master-mba{
+    height: 100vh;
 }
 .btn-primary-mmba{
     background-color: #fdcd9a;
@@ -828,26 +812,25 @@ body{
 }
 .text-master-mba{
     overflow-x: hidden;
-    min-height: 80vh;
-    margin-top: -90vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
     margin-left: 5%;
 }
 /* DRT master */
 .drt-master{
     background-color: #cdcc66;
-    min-height: 95vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     overflow-y: hidden;
-    margin-top: -4.2rem;
-    margin-bottom: -5rem;
 }
 .btn-primary-mdrt{
     background-color: #f8f49c;
 }
 .img-master-drt{
-    height: 90vh;
+    height: 100vh;
 }
 .trianglesJ{
     background-color: #d3d377;
@@ -910,8 +893,9 @@ body{
 }
 .text-master-drt{
     overflow-x: hidden;
-    min-height: 85vh;
-    margin-top: -75vh;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
     margin-left: 0%;
 }
 @media (min-width: 100px) and (max-width: 767px){
