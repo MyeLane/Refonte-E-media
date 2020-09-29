@@ -13,22 +13,23 @@
         <?php
             include_once '../index/nav.php';
         ?>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
 
-        <section>
-            <div class="container-fluid mt-3">
+        <section id="scroll">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 dts" id="scroll">
+                    <div class="section col-12 dts" id="dts">
                         <div class="row">
                             <div class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 content_dts" id="content_dts">
                                 <h1 class="pl-5">DTS</h1>
                                 <div class="col-12 pl-4">
                                     <p class="pl-4">EN MULTIMEDIA <br> BAC +2
                                     </p>
-                                    <a href="#descriptionDTS" class="btn mt-3 btnDTS" id="openDTS">En savoir plus</a>
+                                    <a href="#descriptionDTS" class="btn btnDTS" id="openDTS">En savoir plus</a>
                                 </div>
                             </div>
                             
-                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 description overflow-auto" id="descriptionDTS">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 description overflow-auto" id="descriptionDTS">
                                 <div class="">    
                                     <button class="btn exit" id="exitDTS"><i class="fas fa-times"></i></button>
                                 </div>
@@ -38,7 +39,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 image" id="scroll">
+                    <div class="section col-12 image" id="image">
                         <div class="row">
                             <div class="col-8 col-sm-6 col-md-4 col-lg-4 content_image">
                                 <h1 class="pl-5">IMAGE</h1>
@@ -102,7 +103,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 web" id="scroll">
+                    <div class="section col-12 web" id="web">
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 description overflow-auto" id="descriptionWEB">
                                 <button class="btn exit" id="exitWEB"><i class="fas fa-times"></i></button>
@@ -166,7 +167,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 pl-5 son" id="scroll">
+                    <div class="section col-12 pl-5 son" id="son">
                         <div class="row">
                             <div class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 content_son">
                                 <h1 class="pl-md-3 pl-lg-5">SON</h1>
@@ -232,6 +233,15 @@
         <?php
             include_once '../index/script.php';
         ?>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+        <script>
+            new fullpage('#scroll', {
+                autoScrolling: true,
+                scrollHorizontally: true,
+                navigation: true
+            });
+        </script>
+        
         <script>
             /*dts*/
             let content = document.querySelector('.content_dts');
@@ -305,17 +315,6 @@
                 openSON.style.transform = "scaleX(1)"
             })
 
-        </script>
-
-        <script>
-            function parallax(element, distance, speed){
-                const item = document.querySelector(element);
-                item.style.transform = `translateY(${distance * speed}px)`;
-            }
-            window.addEventListener("scroll", function(){
-                parallax('.dts', window.scrollY, 1);
-               
-            });
         </script>
 
     </body>
