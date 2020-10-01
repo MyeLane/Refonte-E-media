@@ -10,9 +10,8 @@
 #page{
     margin-top: 5vh;
 }
-.modal{
+.fp-enabled .modal{
     position: fixed !important;
-    z-index: 1000 !important;
 }
   /* can */
 .can {
@@ -90,7 +89,7 @@
     background-color: #075798;
     width: fit-content;
     margin-left: 10%;
-    margin-top: 33%;
+    margin-top: 10vh;
     font-family: "titre";
     text-align: center;
     font-size: 6rem;

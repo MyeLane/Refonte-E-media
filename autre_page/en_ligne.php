@@ -46,14 +46,281 @@
                     <li>Télécommunication</li>
                     <li>Génie Logiciel</li>
                 </ul>
-
-
                 <!-- Button to Open the Modal -->
                 <button type="button" class="btn btn-primary-ltic" data-toggle="modal" data-target="#myModal1">
                     En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
                 </button>
 
-                <!-- The Modal -->
+            </div>
+        </div>
+        </div>
+        <!-- CAN licence -->
+        <div class="section can-licence-div">
+        <div class="can-licence  container-fluid">
+                <img src="../img/online/Licence univ online-04.png" class="img-fluid img-licence-can" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesB" id="trianglesB1"></div>
+                <div class="trianglesB" id="trianglesB2"></div>
+                <div class="trianglesB" id="trianglesB3"></div>
+                <div class="trianglesB" id="trianglesB4"></div>
+                <div class="trianglesB" id="trianglesB5"></div>
+        </div>
+        <div class="text-licence-can row container-fluid">
+            <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">CAN</h1>
+                <h3 class="sous-titre pb-2">Communication Audiovisuelle et Numérique</h3>
+                <h5 class="ml-2 mt-4">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Image</li>
+                    <li>Développement web</li>
+                </ul>
+
+<!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-lcan" data-toggle="modal" data-target="#myModal2">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+        </div>
+        </div>
+        <!-- MPJ licence -->
+        <div class="section mpj-licence-div">
+        <div class="mpj-licence  container-fluid">
+                <img src="../img/online/Licence univ online-05.png" class="img-fluid img-licence-mpj" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesC" id="trianglesC1"></div>
+                <div class="trianglesC" id="trianglesC2"></div>
+                <div class="trianglesC" id="trianglesC3"></div>
+                <div class="trianglesC" id="trianglesC4"></div>
+                <div class="trianglesC" id="trianglesC5"></div>
+        </div>
+        <div class="text-licence-mpj row container-fluid">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">MPJ</h1>
+                <h3 class="sous-titre pb-2">Marketing Publicité et Journalisme</h3>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Marketing Publicité</li>
+                    <li>Journalisme</li>
+                </ul>
+<!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-lmpj" data-toggle="modal" data-target="#myModal3">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+
+            </div>
+        </div>
+        </div>
+        <!-- Management licence -->
+        <div class="section mba-licence-div">
+        <div class="mba-licence  container-fluid">
+                <img src="../img/online/Licence univ online-06.png" class="img-fluid img-licence-mba" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesD" id="trianglesD1"></div>
+                <div class="trianglesD" id="trianglesD2"></div>
+                <div class="trianglesD" id="trianglesD3"></div>
+                <div class="trianglesD" id="trianglesD4"></div>
+                <div class="trianglesD" id="trianglesD5"></div>
+        </div>
+        <div class="text-licence-mba row container-fluid">
+            <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">MANAGEMENT</h1>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Finance et Comptabilité</li>
+                    <li>Administration des affaires</li>
+                    <li>Commerce international</li>
+                </ul>
+
+
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-lmba" data-toggle="modal" data-target="#myModal">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+        </div>
+        </div>
+        <!-- DRT licence -->
+        <div class="section drt-licence-div">
+        <div class="drt-licence  container-fluid">
+                <img src="../img/online/Licence univ online-07.png" class="img-fluid img-licence-drt" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesE" id="trianglesE1"></div>
+                <div class="trianglesE" id="trianglesE2"></div>
+                <div class="trianglesE" id="trianglesE3"></div>
+                <div class="trianglesE" id="trianglesE4"></div>
+                <div class="trianglesE" id="trianglesE5"></div>
+        </div>
+        <div class="text-licence-drt row container-fluid">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-4">DROIT</h1>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Droit public</li>
+                    <li>Droit Privé et des affaires</li>
+                    <li>Droit international et Diplomatie</li>
+                </ul>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-ldrt" data-toggle="modal" data-target="#myModal4">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+
+        <!-- TIC master -->
+        <div class="section tic-master-div" id="master">
+        <div class="tic-master  container-fluid">
+                <img src="../img/Master univ online-08.png" class="img-fluid img-master-tic" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesF" id="trianglesF1"></div>
+                <div class="trianglesF" id="trianglesF2"></div>
+                <div class="trianglesF" id="trianglesF3"></div>
+                <div class="trianglesF" id="trianglesF4"></div>
+                <div class="trianglesF" id="trianglesF5"></div>
+        </div>
+        <div class="text-master-tic row container-fluid">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">TIC - Master</h1>
+                <h3 class="sous-titre pb-2">Informatique et Télécommunication</h3>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Management des Systèmes d'Informations</li>
+                    <li>Electronique Embarqué</li>
+                    <li>Cybersécurité et Système</li>
+                </ul>
+            <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-mtic" data-toggle="modal" data-target="#myModal5">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+
+            </div>
+        </div>
+        </div>
+        <!-- CAN master -->
+        <div class="section can-master-div">
+        <div class="can-master  container-fluid">
+                <img src="../img/online/Master univ online-09.png" class="img-fluid img-master-can" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesG" id="trianglesG1"></div>
+                <div class="trianglesG" id="trianglesG2"></div>
+                <div class="trianglesG" id="trianglesG3"></div>
+                <div class="trianglesG" id="trianglesG4"></div>
+                <div class="trianglesG" id="trianglesG5"></div>
+        </div>
+        <div class="text-master-can row container-fluid">
+            <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">AC - Master</h1>
+                <h3 class="sous-titre pb-4">Communication Audiovisuelle et Numérique</h3>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Management des Systèmes d'Informations</li>
+                    <li>Electronique Embarqué</li>
+                    <li>Cybersécurité et Système</li>
+                </ul>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-mcan" data-toggle="modal" data-target="#myModal6">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+        </div>
+        </div>
+        <!-- MPJ master -->
+        <div class="section mpj-master-div">
+        <div class="mpj-master  container-fluid">
+                <img src="../img/online/Master univ online-10.png" class="img-fluid img-master-mpj" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesH" id="trianglesH1"></div>
+                <div class="trianglesH" id="trianglesH2"></div>
+                <div class="trianglesH" id="trianglesH3"></div>
+                <div class="trianglesH" id="trianglesH4"></div>
+                <div class="trianglesH" id="trianglesH5"></div>
+        </div>
+        <div class="text-master-mpj row container-fluid">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">MPJ-Master</h1>
+                <h3 class="sous-titre pb-2">Marketing Publicité et Journalisme</h3>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Marketing Publicité</li>
+                    <li>Journalisme</li>
+                </ul>
+<!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-mmpj" data-toggle="modal" data-target="#myModal7">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+        <!-- Management master -->
+        <div class="section mba-master-div">
+        <div class="mba-master  container-fluid">
+                <img src="../img/online/Master univ online-11.png" class="img-fluid img-master-mba" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesI" id="trianglesI1"></div>
+                <div class="trianglesI" id="trianglesI2"></div>
+                <div class="trianglesI" id="trianglesI3"></div>
+                <div class="trianglesI" id="trianglesI4"></div>
+                <div class="trianglesI" id="trianglesI5"></div>
+        </div>
+        <div class="text-master-mba row container-fluid">
+            <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">MBA-Master</h1>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Finance et Comptabilité</li>
+                    <li>Administration des affaires</li>
+                    <li>Commerce international</li>
+                </ul>
+<!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-mmba" data-toggle="modal" data-target="#myModal8">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+        </div>
+        </div>
+        <!-- DRT master -->
+        <div class="section drt-master-div">
+        <div class="drt-master  container-fluid">
+                <img src="../img/online/Master univ online-12.png" class="img-fluid img-master-drt" width="100%" alt="">
+                <!-- particules -->
+                <div class="trianglesJ" id="trianglesJ1"></div>
+                <div class="trianglesJ" id="trianglesJ2"></div>
+                <div class="trianglesJ" id="trianglesJ3"></div>
+                <div class="trianglesJ" id="trianglesJ4"></div>
+                <div class="trianglesJ" id="trianglesJ5"></div>
+        </div>
+        <div class="text-master-drt row container-fluid">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">Droit-Master </h1>
+                <h5 class="ml-2 mt-2">Parcours</h5>
+                <ul class="ml-2 text">
+                    <li>Droit public</li>
+                    <li>Droit Privé et des affaires</li>
+                    <li>Droit international et Diplomatie </li>
+                </ul>
+<!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary-mdrt" data-toggle="modal" data-target="#myModal9">
+                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
+                </button>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    </section>
+        
+            <!-- The Modal 1 -->
                 <div class="modal fade" id="myModal1">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
@@ -93,39 +360,7 @@
                     </div>
                 </div>
 
-
-            </div>
-        </div>
-        </div>
-        <!-- CAN licence -->
-        <div class="section can-licence-div">
-        <div class="can-licence  container-fluid">
-                <img src="../img/online/Licence univ online-04.png" class="img-fluid img-licence-can" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesB" id="trianglesB1"></div>
-                <div class="trianglesB" id="trianglesB2"></div>
-                <div class="trianglesB" id="trianglesB3"></div>
-                <div class="trianglesB" id="trianglesB4"></div>
-                <div class="trianglesB" id="trianglesB5"></div>
-        </div>
-        <div class="text-licence-can row container-fluid">
-            <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">CAN</h1>
-                <h3 class="sous-titre pb-2">Communication Audiovisuelle et Numérique</h3>
-                <h5 class="ml-2 mt-4">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Image</li>
-                    <li>Développement web</li>
-                </ul>
-
-
-
-<!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-lcan" data-toggle="modal" data-target="#myModal2">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
-                <!-- The Modal -->
+                <!-- The Modal 2-->
                 <div class="modal fade" id="myModal2">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
@@ -164,46 +399,7 @@
                     </div>
                     </div>
                 </div>
-
-
-
-
-
-            </div>
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-        </div>
-        </div>
-        <!-- MPJ licence -->
-        <div class="section mpj-licence-div">
-        <div class="mpj-licence  container-fluid">
-                <img src="../img/online/Licence univ online-05.png" class="img-fluid img-licence-mpj" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesC" id="trianglesC1"></div>
-                <div class="trianglesC" id="trianglesC2"></div>
-                <div class="trianglesC" id="trianglesC3"></div>
-                <div class="trianglesC" id="trianglesC4"></div>
-                <div class="trianglesC" id="trianglesC5"></div>
-        </div>
-        <div class="text-licence-mpj row container-fluid">
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">MPJ</h1>
-                <h3 class="sous-titre pb-2">Marketing Publicité et Journalisme</h3>
-                <h5 class="ml-2 mt-2">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Marketing Publicité</li>
-                    <li>Journalisme</li>
-                </ul>
-
-
-
-
-<!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-lmpj" data-toggle="modal" data-target="#myModal3">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
-                <!-- The Modal -->
+                <!-- The Modal 3-->
                 <div class="modal fade" id="myModal3">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
@@ -241,42 +437,6 @@
                     </div>
                     </div>
                 </div>
-
-
-
-
-
-
-            </div>
-        </div>
-        </div>
-        <!-- Management licence -->
-        <div class="section mba-licence-div">
-        <div class="mba-licence  container-fluid">
-                <img src="../img/online/Licence univ online-06.png" class="img-fluid img-licence-mba" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesD" id="trianglesD1"></div>
-                <div class="trianglesD" id="trianglesD2"></div>
-                <div class="trianglesD" id="trianglesD3"></div>
-                <div class="trianglesD" id="trianglesD4"></div>
-                <div class="trianglesD" id="trianglesD5"></div>
-        </div>
-        <div class="text-licence-mba row container-fluid">
-            <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">MANAGEMENT</h1>
-                <h5 class="ml-2 mt-2">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Finance et Comptabilité</li>
-                    <li>Administration des affaires</li>
-                    <li>Commerce international</li>
-                </ul>
-
-
-                <!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-lmba" data-toggle="modal" data-target="#myModal">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
                 <!-- The Modal -->
                 <div class="modal fade" id="myModal">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
@@ -316,43 +476,7 @@
                     </div>
                     </div>
                 </div>
-
-
-
-            </div>
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-        </div>
-        </div>
-        <!-- DRT licence -->
-        <div class="section drt-licence-div">
-        <div class="drt-licence  container-fluid">
-                <img src="../img/online/Licence univ online-07.png" class="img-fluid img-licence-drt" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesE" id="trianglesE1"></div>
-                <div class="trianglesE" id="trianglesE2"></div>
-                <div class="trianglesE" id="trianglesE3"></div>
-                <div class="trianglesE" id="trianglesE4"></div>
-                <div class="trianglesE" id="trianglesE5"></div>
-        </div>
-        <div class="text-licence-drt row container-fluid">
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-4">DROIT</h1>
-                <h5 class="ml-2 mt-2">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Droit public</li>
-                    <li>Droit Privé et des affaires</li>
-                    <li>Droit international et Diplomatie</li>
-                </ul>
-
-
-
-                <!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-ldrt" data-toggle="modal" data-target="#myModal4">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
-                <!-- The Modal -->
+                <!-- The Modal 4-->
                 <div class="modal fade" id="myModal4">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
@@ -389,44 +513,7 @@
                     </div>
                     </div>
                 </div>
-
-
-
-            </div>
-        </div>
-        </div>
-
-        <!-- TIC master -->
-        <div class="section tic-master-div" id="master">
-        <div class="tic-master  container-fluid">
-                <img src="../img/Master univ online-08.png" class="img-fluid img-master-tic" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesF" id="trianglesF1"></div>
-                <div class="trianglesF" id="trianglesF2"></div>
-                <div class="trianglesF" id="trianglesF3"></div>
-                <div class="trianglesF" id="trianglesF4"></div>
-                <div class="trianglesF" id="trianglesF5"></div>
-        </div>
-        <div class="text-master-tic row container-fluid">
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">TIC - Master</h1>
-                <h3 class="sous-titre pb-2">Informatique et Télécommunication</h3>
-                <h5 class="ml-2 mt-2">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Management des Systèmes d'Informations</li>
-                    <li>Electronique Embarqué</li>
-                    <li>Cybersécurité et Système</li>
-                </ul>
-
-
-
-            <!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-mtic" data-toggle="modal" data-target="#myModal5">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
-                <!-- The Modal -->
+                <!-- The Modal 5-->
                 <div class="modal fade" id="myModal5">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
@@ -466,42 +553,7 @@
                     </div>
                     </div>
                 </div>
-
-
-
-
-            </div>
-        </div>
-        </div>
-        <!-- CAN master -->
-        <div class="section can-master-div">
-        <div class="can-master  container-fluid">
-                <img src="../img/online/Master univ online-09.png" class="img-fluid img-master-can" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesG" id="trianglesG1"></div>
-                <div class="trianglesG" id="trianglesG2"></div>
-                <div class="trianglesG" id="trianglesG3"></div>
-                <div class="trianglesG" id="trianglesG4"></div>
-                <div class="trianglesG" id="trianglesG5"></div>
-        </div>
-        <div class="text-master-can row container-fluid">
-            <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">AC - Master</h1>
-                <h3 class="sous-titre pb-4">Communication Audiovisuelle et Numérique</h3>
-                <h5 class="ml-2 mt-2">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Management des Systèmes d'Informations</li>
-                    <li>Electronique Embarqué</li>
-                    <li>Cybersécurité et Système</li>
-                </ul>
-
-
-                <!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-mcan" data-toggle="modal" data-target="#myModal6">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
-                <!-- The Modal -->
+                <!-- The Modal 6-->
                 <div class="modal fade" id="myModal6">
                     <div class="modal-dialog modal-md">
                     <div class="modal-content">
@@ -525,44 +577,7 @@
                     </div>
                     </div>
                 </div>
-
-                
-
-
-
-            </div>
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-        </div>
-        </div>
-        <!-- MPJ master -->
-        <div class="section mpj-master-div">
-        <div class="mpj-master  container-fluid">
-                <img src="../img/online/Master univ online-10.png" class="img-fluid img-master-mpj" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesH" id="trianglesH1"></div>
-                <div class="trianglesH" id="trianglesH2"></div>
-                <div class="trianglesH" id="trianglesH3"></div>
-                <div class="trianglesH" id="trianglesH4"></div>
-                <div class="trianglesH" id="trianglesH5"></div>
-        </div>
-        <div class="text-master-mpj row container-fluid">
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">MPJ-Master</h1>
-                <h3 class="sous-titre pb-2">Marketing Publicité et Journalisme</h3>
-                <h5 class="ml-2 mt-2">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Marketing Publicité</li>
-                    <li>Journalisme</li>
-                </ul>
-
-
-<!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-mmpj" data-toggle="modal" data-target="#myModal7">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
-                <!-- The Modal -->
+                <!-- The Modal 7-->
                 <div class="modal fade" id="myModal7">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
@@ -601,41 +616,7 @@
                     </div>
                     </div>
                 </div>
-
-
-
-
-            </div>
-        </div>
-        </div>
-        <!-- Management master -->
-        <div class="section mba-master-div">
-        <div class="mba-master  container-fluid">
-                <img src="../img/online/Master univ online-11.png" class="img-fluid img-master-mba" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesI" id="trianglesI1"></div>
-                <div class="trianglesI" id="trianglesI2"></div>
-                <div class="trianglesI" id="trianglesI3"></div>
-                <div class="trianglesI" id="trianglesI4"></div>
-                <div class="trianglesI" id="trianglesI5"></div>
-        </div>
-        <div class="text-master-mba row container-fluid">
-            <div class="col-12 col-sm-12 ml-3 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">MBA-Master</h1>
-                <h5 class="ml-2 mt-2">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Finance et Comptabilité</li>
-                    <li>Administration des affaires</li>
-                    <li>Commerce international</li>
-                </ul>
-
-
-<!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-mmba" data-toggle="modal" data-target="#myModal8">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
-                <!-- The Modal -->
+                <!-- The Modal 8-->
                 <div class="modal fade" id="myModal8">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
@@ -672,44 +653,7 @@
                     </div>
                     </div>
                 </div>
-
-
-
-
-            </div>
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-        </div>
-        </div>
-        <!-- DRT master -->
-        <div class="section drt-master-div">
-        <div class="drt-master  container-fluid">
-                <img src="../img/online/Master univ online-12.png" class="img-fluid img-master-drt" width="100%" alt="">
-                <!-- particules -->
-                <div class="trianglesJ" id="trianglesJ1"></div>
-                <div class="trianglesJ" id="trianglesJ2"></div>
-                <div class="trianglesJ" id="trianglesJ3"></div>
-                <div class="trianglesJ" id="trianglesJ4"></div>
-                <div class="trianglesJ" id="trianglesJ5"></div>
-        </div>
-        <div class="text-master-drt row container-fluid">
-            <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
-            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12 pb-2">Droit-Master </h1>
-                <h5 class="ml-2 mt-2">Parcours</h5>
-                <ul class="ml-2 text">
-                    <li>Droit public</li>
-                    <li>Droit Privé et des affaires</li>
-                    <li>Droit international et Diplomatie </li>
-                </ul>
-
-
-
-<!-- Button to Open the Modal -->
-                <button type="button" class="btn btn-primary-mdrt" data-toggle="modal" data-target="#myModal9">
-                En savoir plus<i class="ml-1 fa fa-arrow-right"></i>
-                </button>
-
-                <!-- The Modal -->
+                <!-- The Modal 9-->
                 <div class="modal fade" id="myModal9">
                     <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
@@ -749,21 +693,6 @@
                     </div>
                     </div>
                 </div>
-
-
-
-
-            </div>
-        </div>
-        </div>
-    </section>
-    </section>
-        
-
-
-
-
-   
     <!--script js -->
     <script src="../js/enligne.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
