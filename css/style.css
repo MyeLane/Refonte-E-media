@@ -56,3 +56,12 @@ li.active .button {
 .nav-connection{
     color: #189cd0 !important;
 }
+
+/*actualites*/
+.actualites {
+    background: #d5cfcf2b !important;
+}
+
+.actualites i {
+    font-size: 4rem;
+}

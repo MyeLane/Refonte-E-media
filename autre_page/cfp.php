@@ -25,11 +25,11 @@
                                 <div class="col-12 pl-4">
                                     <p class="pl-4">EN MULTIMEDIA <br> BAC +2
                                     </p>
-                                    <a href="#descriptionDTS" class="btn btnDTS" id="openDTS">En savoir plus</a>
+                                    <a href="#" class="btn btnDTS" id="openDTS">En savoir plus</a>
                                 </div>
                             </div>
                             
-                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 description overflow-auto" id="descriptionDTS">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 description descriptionDTS overflow-auto" id="descriptionDTS">
                                 <div class="">    
                                     <button class="btn exit" id="exitDTS"><i class="fas fa-times"></i></button>
                                 </div>
@@ -47,11 +47,11 @@
                                     <p class="pl-4">Conception cinématographique <br/> prise de vue - post production
                                         <br/>PAO - DAO - CAO -dessin...
                                     </p>
-                                    <a hre="#descriptionIMAGE" class="btn mt-3 btnIMAGE" id="openIMAGE">En savoir plus</a>
+                                    <a hre="#" class="btn mt-3 btnIMAGE" id="openIMAGE">En savoir plus</a>
                                 </div>
                             </div>
 
-                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 description overflow-auto" id="descriptionIMAGE">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 description overflow-auto" id="descriptionIMAGE">
                                 <button class="btn exit" id="exitIMAGE"><i class="fas fa-times"></i></button>
                                 <div class="mt-5 ml-5 ml-3">
                                     <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
@@ -105,7 +105,7 @@
 
                     <div class="section col-12 web" id="web">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 description overflow-auto" id="descriptionWEB">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 description overflow-auto" id="descriptionWEB">
                                 <button class="btn exit" id="exitWEB"><i class="fas fa-times"></i></button>
                                 <div class="mt-5 ml-3">
                                     <h4 class=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
@@ -161,7 +161,7 @@
                                         bootstrap <br/>
                                         initiation cms et framework - design
                                     </p>
-                                    <a hre="#descriptionWEB" class="btn mt-3 btnWEB" id="openWEB"><span>En savoir plus</span></a>
+                                    <a hre="#" class="btn mt-3 btnWEB" id="openWEB"><span>En savoir plus</span></a>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +182,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 mt-5 description overflow-auto" id="descriptionSON">
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 description overflow-auto" id="descriptionSON">
                                 <button class="btn exit" id="exitSON"><i class="fas fa-times"></i></button>
                                 <div class="mt-5">
                                     <h4 copenDTS.style.transform = "scaleX(0)";lass=""> <i class="fas fa-angle-double-right"></i> Présentation</h4>
@@ -234,14 +234,6 @@
             include_once '../index/script.php';
         ?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
-        <script>
-            new fullpage('#scroll', {
-                autoScrolling: true,
-                scrollHorizontally: true,
-                navigation: true
-            });
-        </script>
-        
         <script>
             /*dts*/
             let content = document.querySelector('.content_dts');
@@ -315,6 +307,14 @@
                 openSON.style.transform = "scaleX(1)"
             })
 
+        </script>
+
+        <script>
+            new fullpage('#scroll', {
+                autoScrolling: true,
+                scrollHorizontally: true,
+                navigation: true
+            });
         </script>
 
     </body>
