@@ -934,14 +934,22 @@ body{
     .titre{
         color: white;
         font-weight: bold;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 0vh;
+    }
+    .tic-licence{
+        background-color: #7dbfea;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        overflow: hidden;
     }
     .text-licence-tic{
         overflow-x: hidden;
         min-height: 100vh;
-        margin-top: -100vh;
-        padding-top: 5vh;
+        margin-top: -120vh;
+        padding-top: 0vh;
         margin-left: 5%;
     }
 
