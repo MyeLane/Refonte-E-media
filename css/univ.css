@@ -1,46 +1,89 @@
+@font-face {
+    font-family: "titre";
+    src: url("../css/font_family/AaronBold.ttf");
+}
+/* nav */
+.nav a{
+    color: #666767;
+    text-decoration: none;
+}
+#page{
+    margin-top: 5vh;
+}
+.modal{
+    position: fixed !important;
+    z-index: 1000 !important;
+}
+  /* can */
 .can {
     background-image: url("../img/univ vide-01.jpg");
-    min-height: 110vh; 
+    min-height: 100vh; 
     background-size: cover;
 }
 .can-titre{
     background-color: #204497;
     width: fit-content;
-    margin-left: 10%;
-    margin-top: 33%;
-    font-size: 7rem;
-    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 10vh;
+    font-family: "titre";
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
     color: #ffffff;
     border-radius: 1rem;
+}
+.color-can{
+    color: #204497;
+}
+.btn-primary-can{
+    background-color: #204497;
+    color: white;
+}
+.parcours{
+    margin-left: 15%;
+}
+.bt{
+    margin-left: 12%;
 }
 .ab-can{
     color: #666767;
     margin-left: 10%;
     font-size: 1.5rem;
 }
+/* mpj */
 .mpj {
     background-image: url("../img/univ vide-02.jpg");
-    min-height: 110vh; 
+    min-height: 100vh; 
     background-size: cover;
 }
 .mpj-titre{
     background-color: #199acb;
     width: fit-content;
     margin-left: 10%;
-    margin-top: 33%;
-    font-size: 7rem;
-    font-weight: bold;
+    margin-top: 10vh;
+    font-family: "titre";
+    text-align: center;
+    letter-spacing: 0.5rem;
+    font-size: 6rem;
     color: #ffffff;
     border-radius: 1rem;
+}
+.color-mpj{
+    color: #199acb;
+}
+.btn-primary-mpj{
+    background-color: #199acb;
+    color: white;
 }
 .ab-mpj{
     color: #666767;
     margin-left: 10%;
     font-size: 1.5rem;
 }
+/* tic */
 .tic {
     background-image: url("../img/univ vide-03.jpg");
-    min-height: 110vh; 
+    min-height: 100vh; 
     background-size: cover;
 }
 .tic-titre{
@@ -48,28 +91,246 @@
     width: fit-content;
     margin-left: 10%;
     margin-top: 33%;
-    font-size: 7rem;
-    font-weight: bold;
+    font-family: "titre";
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
     color: #ffffff;
     border-radius: 1rem;
+}
+.color-tic{
+    color: #075798;
+}
+.btn-primary-tic{
+    background-color: #075798;
+    color: white;
 }
 .ab-tic{
     color: #666767;
     margin-left: 10%;
     font-size: 1.5rem;
 }
-@media (min-width: 100px) and (max-width: 991px) {
-
+@media (min-width: 1030px) and (max-width: 1094px){
+    .can{
+        background-position-x: -5rem;
+    }
+    .can-titre{
+        font-size: 4.7rem;
+        margin-left: 20%;
+        margin-top: 38%;
+        padding-left: -6%;
+    }
+    .ab-can{
+        margin-left: 18%;
+        font-size: 1rem;
+    }
+    .parcours{
+        margin-left: 18%;
+        margin-top: 0% !important;
+    }
+    .bt{
+        margin-left: 18%;
+    }
+    .btn-primary-can{
+        margin-left: 18% !important;
+    }
+    .tic{
+        background-position-x: -5rem;
+    }
+    .tic-titre{
+        font-size: 4.7rem;
+        margin-left: 18%;
+        margin-top: 38%;
+        padding-left: -6%;
+    }
+    .ab-tic{
+        margin-left: 18%;
+        font-size: 1rem;
+    }
+    .btn-primary-tic{
+        margin-left: 18% !important;
+    }
+    .mpj-titre{
+        font-size: 4.7rem;
+        margin-left: 18%;
+        margin-top: 38%;
+        padding-left: -6%;
+    }
+    .mpj{
+        background-position-x: 5rem;
+    }
+    .ab-mpj{
+        margin-left: 18%;
+        font-size: 1rem;
+    }
+    .btn-primary-mpj{
+        margin-left: 18% !important;
+    }
 }
-@media (min-width: 768px) and (max-width: 991.9px){
-
+@media (min-width: 1030px) and (max-width: 2030px){
+    .can{
+        background-position-x: -10rem;
+    }
+    .tic{
+        background-position-x: -10rem;
+    }
 }
-@media (min-width: 576px) and (max-width: 767.9px) {
-
+@media (min-width: 943px) and (max-width: 1030px){
+    .can-titre{
+        font-size: 5rem;
+        margin-left: 30%;
+        margin-top: 38%;
+    }
+    .can{
+        background-position-x: -9rem;
+        min-height: 80vh;
+    }
+    .tic{
+        background-position-x: -9rem;
+        min-height: 80vh;
+    }
+    .mpj{
+        min-height: 80vh;
+    }
+    .bt{
+        margin-left: 30%;
+    }
+    .ab-can{
+        margin-left: 30%;
+        font-size: 0.9rem;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
+    .mpj-titre{
+        font-size: 5rem;
+        margin-left: 30%;
+        margin-top: 38%;
+    }
+    .ab-mpj{
+        margin-left: 30%;
+        font-size: 0.9rem;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
+    .tic-titre{
+        font-size: 5rem;
+        margin-left: 30%;
+        margin-top: 38%;
+    }
+    .ab-tic{
+        margin-left: 30%;
+        font-size: 0.9rem;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
 }
-@media (min-width: 486px) and (max-width: 575.9px){
-
+@media (min-width: 768px) and (max-width: 943px) {
+    .can-titre{
+        font-size: 4rem;
+        margin-left: -17%;
+        margin-top: 50%;
+    }
+    .can-bt{
+        margin-left: -17%;
+        color: white;
+        font-size: 1.3rem;
+    }
+    .can-parcour{
+        margin-left: -17% !important;
+        color: white;
+        font-size: 2rem;
+    }
+    .btn-primary-can{
+        margin-left: -17% !important;
+    }
+    .ab-can{
+        margin-left: -45% !important;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .parcours{
+        margin-left: -37%;
+        margin-top: 0% !important;
+    }
+    .mpj-titre{
+        font-size: 3.8rem;
+        margin-left: 30%;
+        margin-top: 38%;
+    }
+    .ab-mpj{
+        margin-left: 30%;
+        font-size: 1.3rem;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
+    .tic-titre{
+        font-size: 4rem;
+        margin-left: -17%;
+        margin-top: 50%;
+    }
+    .ab-tic{
+        margin-left: -45% !important;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .btn-primary-tic{
+        margin-left: -17% !important;
+    }
+    .parcours{
+        margin-left: 30%;
+        margin-top: 0% !important;
+    }
 }
-@media (min-width: 200px) and (max-width: 485.9px){
+@media (min-width: 450px) and (max-width: 767px){
+    .can{
+        background-position-x: -30rem;
+        min-height: 60vh;
+    }
+    .can-titre{
+        margin-top: 8% !important;
+    }
+    .tic-titre{
+        margin-top: 5% !important;
+    }
+    .mpj-titre{
+        margin-top: 5% !important;
+    }
+    .mpj{
+        min-height: 60vh;
+    }
+    .tic{
+        background-position-x: -30rem;
+        min-height: 60vh;
+    }
+}
 
+@media (min-width: 150px) and (max-width: 450px){
+    .can{
+        background-position-x: -38rem;
+        min-height: 60vh;
+    }
+    .can-titre{
+        font-size: 3.8rem;
+    }
+    .tic{
+        background-position-x: -38rem;
+        min-height: 60vh;
+    }
+    .mpj{
+        min-height: 60vh;
+    }
+    .tic-titre{
+        font-size: 3.8rem;
+    }
+    .mpj-titre{
+        font-size: 3.8rem;
+    }
 }

@@ -1,0 +1,1028 @@
+body{
+    overflow-x: hidden;
+}
+#page{
+    margin-top: 10vh;
+}
+
+.close{
+    color: white;
+}
+.color-ltic{
+    color: #2f5d85;
+}
+.color-lcan{
+    color: #62c7c7;
+}
+.color-lmpj{
+    color: #065389;
+}
+.color-lmba{
+    color: #32c0c3;
+}
+.color-ldrt{
+    color: #1892c0;
+}
+.color-mcan{
+    color: #075792;
+}
+.color-mtic{
+    color: #fecd08;
+}
+.color-mcan{
+    color: #d0d227;
+}
+.color-mmpj{
+    color: #f8981c;
+}
+.color-mmba{
+    color: #f79868;
+}
+.color-mdrt{
+    color: #cdcc66;
+}
+.nav a{
+    color: #666767;
+    text-decoration: none;
+}
+.niv{
+    height: 2.5rem;
+    margin-top: 3.2rem;
+}
+/* TIC licence */
+.tic-licence{
+    background-color: #7dbfea;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.img-licence-tic{
+    height: 100vh;
+}
+.btn-primary-ltic{
+    background-color: #2f5d85;
+    color: white;
+}
+
+.trianglesA{
+    background-color: #89c8ee;
+    position: absolute;
+}
+#triangles1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 6rem;
+    left: 50%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#triangles2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 4rem;
+    left: 85%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#triangles3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 68%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#triangles4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 40%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#triangles5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 30rem;
+    left: 90%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle1{
+    0% { margin-bottom: 0px; transform: rotate(80deg); }
+    50% { margin-bottom: 40px; transform: rotate(-80deg);}
+    100% { margin-bottom: 0px; transform: rotate(80deg);}
+}
+@keyframes triangle2{
+    0% { margin-bottom: 0px; transform: rotate(-70deg); }
+    50% { margin-bottom: 40px; transform: rotate(70deg);}
+    100% { margin-bottom: 0px; transform: rotate(60deg);}
+}
+@keyframes triangle3{
+    0% { margin-bottom: 0px; transform: rotate(60deg); }
+    50% { margin-bottom: 40px; transform: rotate(-60deg);}
+    100% { margin-bottom: 0px; transform: rotate(60deg);}
+}
+@keyframes triangle4{
+    0% { margin-bottom: 0px; transform: rotate(-110deg); }
+    50% { margin-bottom: 40px; transform: rotate(110deg);}
+    100% { margin-bottom: 0px; transform: rotate(-110deg);}
+}
+@keyframes triangle5{
+    0% { margin-bottom: 0px; transform: rotate(30deg); }
+    50% { margin-bottom: 40px; transform: rotate(-30deg);}
+    100% { margin-bottom: 0px; transform: rotate(30deg);}
+}
+.text-licence-tic{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 18vh;
+    margin-left: 5%;
+}
+.titre{
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+}
+/* CAN licence */
+.can-licence{
+    background-color: #1a96b7;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.btn-primary-lcan{
+    background-color: #62c7c7;
+    color: white;
+}
+.img-licence-can{
+    height: 100vh;
+}
+.trianglesB{
+    background-color: #37b0c9;
+    position: absolute;
+}
+#trianglesB1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 2rem;
+    left: 2%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesB2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 0rem;
+    left: 35%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesB3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 20%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesB4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 0%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesB5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 28rem;
+    left: 55%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-licence-can{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 5%;
+}
+/* MPJ licence */
+.mpj-licence{
+    background-color: #7f8fa6;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.btn-primary-lmpj{
+    background-color: #065389;
+    color: white;
+}
+.img-licence-mpj{
+    height: 100vh;
+}
+.trianglesC{
+    background-color: #8d9bb1;
+    position: absolute;
+}
+#trianglesC1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 1rem;
+    left: 50%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesC2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 2rem;
+    left: 85%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesC3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 68%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesC4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 40%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesC5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 30rem;
+    left: 90%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-licence-mpj{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 5%;
+}
+/* MBA licence */
+.mba-licence{
+    background-color: #32c0c3;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.btn-primary-lmba{
+    background-color: #1892c0;
+    color: white;
+}
+.img-licence-mba{
+    height: 100vh;
+}
+.trianglesD{
+    background-color: #5bc6cb;
+    position: absolute;
+}
+#trianglesD1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 2rem;
+    left: 2%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesD2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 0rem;
+    left: 35%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesD3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 20%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#trianglesD4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 0%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesD5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 28rem;
+    left: 55%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-licence-mba{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 5%;
+}
+/* DRT licence */
+.drt-licence{
+    background-color: #c3d9e7;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.btn-primary-ldrt{
+    background-color: #075792;
+    color: white;
+}
+.img-licence-drt{
+    height: 100vh;
+}
+.trianglesE{
+    background-color: #cddfec;
+    position: absolute;
+}
+#trianglesE1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 1rem;
+    left: 50%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesE2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 2rem;
+    left: 85%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesE3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 68%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesE4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 40%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesE5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 30rem;
+    left: 90%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-licence-drt{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 5%;
+}
+
+
+/* TIC master */
+.tic-master{
+    background-color: #fecd08;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.img-master-tic{
+    height: 100vh;
+}
+.trianglesF{
+    background-color: #fdd93f;
+    position: absolute;
+}
+#trianglesF1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 1rem;
+    left: 50%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesF2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 2rem;
+    left: 85%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesF3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 68%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesF4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 40%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesF5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 30rem;
+    left: 90%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-master-tic{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 2%;
+}
+.btn-primary-mtic{
+    background-color: #fdf4c1;
+}
+/* CAN master */
+.can-master{
+    background-color: #d0d227;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.btn-primary-mcan{
+    background-color: #f9f49b;
+}
+.img-master-can{
+    height: 100vh;
+}
+.trianglesG{
+    background-color: #e0e262;
+    position: absolute;
+}
+#trianglesG1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 2rem;
+    left: 2%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesG2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 0rem;
+    left: 35%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesG3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 20%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesG4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 0%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesG5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 28rem;
+    left: 55%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-master-can{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 2%;
+}
+/* MPJ master */
+.mpj-master{
+    background-color: #f8981c;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.btn-primary-mmpj{
+    background-color: #fecc66;
+}
+.img-master-mpj{
+    height: 100vh;
+}
+.trianglesH{
+    background-color: #fcb241;
+    position: absolute;
+}
+#trianglesH1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 1rem;
+    left: 50%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesH2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 2rem;
+    left: 85%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesH3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 68%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesH4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 40%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesH5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 30rem;
+    left: 90%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-master-mpj{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 5%;
+}
+/* MBA master */
+.mba-master{
+    background-color: #f79868;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.img-master-mba{
+    height: 100vh;
+}
+.btn-primary-mmba{
+    background-color: #fdcd9a;
+}
+.trianglesI{
+    background-color: #f8a378;
+    position: absolute;
+}
+#trianglesI1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 2rem;
+    left: 2%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesI2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 0rem;
+    left: 35%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesI3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 20%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesI4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 0%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesI5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 28rem;
+    left: 55%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-master-mba{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 5%;
+}
+/* DRT master */
+.drt-master{
+    background-color: #cdcc66;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-y: hidden;
+}
+.btn-primary-mdrt{
+    background-color: #f8f49c;
+}
+.img-master-drt{
+    height: 100vh;
+}
+.trianglesJ{
+    background-color: #d3d377;
+    position: absolute;
+}
+#trianglesJ1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 200px;
+    width: 200px;
+    top: 1rem;
+    left: 50%;
+    transform: rotate(65deg);
+    animation-name: triangle1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesJ2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 150px;
+    width: 150px;
+    top: 2rem;
+    left: 75%;
+    transform: rotate(55deg);
+    animation-name: triangle2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesJ3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 220px;
+    width: 220px;
+    top: 17rem;
+    left: 68%;
+    transform: rotate(30deg);
+    animation-name: triangle3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesJ4{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 110px;
+    width: 110px;
+    top: 31rem;
+    left: 40%;
+    transform: rotate(65deg);
+    animation-name: triangle4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#trianglesJ5{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 100px;
+    width: 100px;
+    top: 40rem;
+    left: 70%;
+    transform: rotate(65deg);
+    animation-name: triangle5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.text-master-drt{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin-top: -100vh;
+    padding-top: 22vh;
+    margin-left: 0%;
+}
+@media (min-width: 100px) and (max-width: 767px){
+    .img-licence-tic{
+        display: none;
+    }
+    .tic-licence{
+        margin-top: 15%;
+    }
+    .text-licence-tic{
+        overflow-x: hidden;
+        min-height: 85vh;
+        margin-top: -115vh;
+        margin-left: 5%;
+        margin-bottom: 7%;
+    }
+    .img-licence-can{
+        display: none;
+    }
+    .text-licence-can{
+        min-height: 60vh;
+        margin-top: -65vh;
+        margin-bottom: 10%;
+    }
+    .can-licence{
+        min-height: 70vh;
+    }
+    .img-licence-mpj{
+        display: none;
+    }
+    .text-licence-mpj{
+        min-height: 60vh;
+        margin-top: -90vh;
+        margin-bottom: 25%;
+    }
+    .img-licence-mba{
+        display: none;
+    }
+    .text-licence-mba{
+        min-height: 60vh;
+        margin-top: -60vh;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    .mba-licence{
+        min-height: 70vh;
+    }
+    .img-licence-drt{
+        display: none;
+    }
+    .text-licence-drt{
+        min-height: 60vh;
+        margin-top: -72vh;
+        margin-bottom: 18%;
+        margin-left: 0%;
+    }
+    .drt-licence{
+        min-height: 70vh;
+    }
+    .tic-master{
+        min-height: 90vh;
+    }
+    .img-master-tic{
+        display: none;
+    }
+    .text-master-tic{
+        min-height: 60vh;
+        margin-top: -75vh;
+        margin-bottom: 20%;
+        margin-left: 0%;
+    }
+    .tic-master{
+        min-height: 70vh;
+    }
+    .can-master{
+        min-height: 85vh;
+    }
+    .img-master-can{
+        display: none;
+    }
+    .text-master-can{
+        min-height: 47vh;
+        margin-top: -68vh;
+        margin-bottom: 20%;
+        margin-left: 0%;
+    }
+    .mpj-master{
+        min-height: 90vh;
+    }
+    .img-master-mpj{
+        display: none;
+    }
+    .text-master-mpj{
+        min-height: 47vh;
+        margin-top: -78vh;
+        margin-bottom: 20%;
+        margin-left: 0%;
+    }
+    .mba-master{
+        min-height: 90vh;
+    }
+    .img-master-mba{
+        display: none;
+    }
+    .text-master-mba{
+        min-height: 47vh;
+        margin-top: -78vh;
+        margin-bottom: 20%;
+        margin-left: 0%;
+    }
+    .drt-master{
+        min-height: 65vh;
+        overflow-x: hidden;
+    }
+    .img-master-drt{
+        display: none;
+    }
+    .text-master-drt{
+        min-height: 47vh;
+        margin-top: -58vh;
+        margin-bottom: 20%;
+        margin-left: 0%;
+    }
+    .titre{
+        color: white;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+
+}

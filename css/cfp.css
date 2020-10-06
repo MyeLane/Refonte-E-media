@@ -8,116 +8,653 @@
     src: url("../css/font_family/Montserrat-ExtraLight.otf");
 } 
 
+@font-face {
+    font-family: "BOLD";
+    src: url("../css/font_family/Montserrat-Black.otf");
+}
+
+.container-fluid {
+    margin-top: 3rem;
+}
 /*section*/
-/*====image====*/
-.image {
-    background-image: url("../img/cfp/1\ \(1\).png");
+/*====DTS====*/
+.dts {
+    background: url("../img/cfp/2\ \(1\).png");
     background-size: cover;
-    height: 120vh;
+    background-repeat: no-repeat;
+    height: 100vh !important;   
 }
 
-.image .content {
-    margin-top: 15rem;
+.dts .content_dts {
+    margin-top: 8rem;
+    left: 12rem;
+    transition: .5s;
 }
 
-.image h1 {
+.dts .content_dts h1 {
     font-size: 6rem;
     font-family: "bold";
     font-weight: bold;
-    color: #025d9a;
+    color: #fff;
 }
 
-.image p {
+.dts .content_dts p {
+    font-family: "BOLD";
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(69, 231, 243, 0.6);
+}
+
+.dts .content_dts h1::after {
+    font-size: 2.4rem;
+    content: '>';
+    position: absolute;
+    left: 10%;
+    top: 2.3rem;
+    transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(1);
+    transition: 150ms;
+    transform-origin: bottom center;
+}
+
+.btnDTS {
+    position: relative;
+    float: right;
+    background: #fff;
+    color: grey !important;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+
+
+/*====DTS====*/
+
+/*====image====*/
+.image {
+    background-image: url("../img/cfp/2\ \(2\).png");
+    background-size: cover;
+    height: 100vh!important;
+    background-repeat: no-repeat; 
+}
+
+.image .content_image {
+    margin-top: 6rem;
+    left: 8rem;
+    transition: .5s;
+}
+
+.image .content_image h1 {
+    font-size: 6rem;
+    font-family: "bold";
+    font-weight: bold;
+    color: #c95453;
+}
+
+.image .content_image p {
+    text-align: justify;
     font-size: 1.5rem;
     font-family: "mince";
-    color: rgba(0, 0, 0, 0.6);
+    color: #fff;
 }
 
 .image h1::after {
     font-size: 2.4rem;
     content: '>';
     position: absolute;
-    left: 12%;
-    top: 0.55rem;
+    left: 18%;
+    top: -1.5rem;
     transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(1);
     transition: 150ms;
     transform-origin: bottom center;
+}
+
+.btnIMAGE {
+    float: right;
+    color: #fff !important;
+    background: #c95453;
+    border: 1px solid #c95453;
+    transition: .5s;
 }
 /*===image====*/
 
 /*====web====*/
 .web {
-    background-image: url("../img/cfp/1\ \(3\).png");
+    background-image: url("../img/cfp/2\ \(3\).png");
     background-size: cover;
-    height: 120vh;
+    background-repeat: no-repeat;
+    height: 100vh !important; 
 }
 
-.web .content {
-    margin-top: 15rem;
+.web .content_web {
+    margin-top: 6rem;
+    left: -6rem;
     float: right !important;
+    transition: .5s;
 }
 
-.web h1 {
+.web .content_web h1 {
     font-size: 6rem;
     font-family: "bold";
     font-weight: bold;
-    color: #025d9a;
+    color: #c95453;
 }
 
-.web p {
-    margin-left: -6rem;
+.web .content_web p {
     font-size: 1.5rem;
     font-family: "mince";
-    color: rgba(0, 0, 0, 0.6);
+    color: #fff;
 }
 
 .web h1::after {
     font-size: 2.4rem;
     content: '>';
     position: absolute;
-    left: 73%;
-    top: 2rem;
+    left: 65%;
+    top: 1rem;
     transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(1);
     transition: 150ms;
     transform-origin: bottom center;
 }
-/*====web====*/
+
+.btnWEB {
+    float: right;
+    background: #c95453;
+    color: #fff !important;
+    border: 1px solid #c95453;
+    transition: .5s;
+}
 
 /*====web====*/
+
+/*====son====*/
 .son {
-    background-image: url("../img/cfp/1\ \(2\).png");
+    background-image: url("../img/cfp/2\ \(4\).png");
     background-size: cover;
-    height: 120vh;
+    background-repeat: no-repeat;
+    height: 100vh !important;
 }
 
-.son .content {
-    margin-top: 15rem;
+.son .content_son {
+    margin-top: 6rem;
+    left: 5rem;
+    transition: .5s;
 }
 
-.son h1 {
+.son .content_son h1 {
     font-size: 6rem;
     font-family: "bold";
     font-weight: bold;
-    color: #025d9a;
+    color: #c95453;
 }
 
-.son p {
-    margin-right: 14rem;
+.son .content_son p {
     font-size: 1.5rem;
     font-family: "mince";
-    color: rgba(0, 0, 0, 0.6);
+    color: #fff;
 }
 
-.son h1::after {
+.son .content_son h1::after {
     font-size: 2.4rem;
     content: '>';
     position: absolute;
-    left: 52%;
-    top: 2rem;
+    left: 75%;
+    top: 1rem;
     transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(1);
     transition: 150ms;
     transform-origin: bottom center;
 }
-/*====web====*/
+
+.btnSON {
+    float: right;
+    color: #fff !important;
+    background: #c95453;
+    border: 1px solid #c95453;
+    transition: .5s;
+}
+/*====son====*/
+
+/*unis*/
+.exit {
+    padding: 0 2rem 0 2rem;
+    margin-top: 0rem;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid red;
+    background: red;
+    float: right;
+    transition: .5s;
+}
+
+.description {
+    position: relative;
+    background: rgba(250, 250, 250, 0.8);
+    height: 80vh;
+    transform: scaleX(0);
+    border-radius: 10px 0 0 10px;
+    transition: .8s;
+}
+
+.description h4 {
+    color: #189cd0;
+}
+
+.description p {
+    text-align: justify;
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+}
+
+.description ul {
+    list-style-type: none;
+    font-size: 15px !important;
+    color: #189cd0;
+}
+/*unis*/
 
 /*responsive*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*dts*/
+    .dts {
+        background-position-y: -30px !important;
+    }
+
+    .dts .content_dts {
+        left: 7rem;
+        margin-top: 3rem;
+    }
+
+    .dts .content_dts h1 {
+        font-size: 4rem;
+    }
+
+    .dts .content_dts h1::after {
+        top: 1.4rem;
+    }
+
+    .dts .content_dts p {
+        font-size: 1.2rem;
+    }
+
+    /*image*/
+    .image {
+        background-position-y: -20px;
+    }
+
+    .image .content_image {
+        margin-top: 3rem;
+        left: 8rem;
+    }
+
+    .image .content_image h1 {
+        font-size: 4rem;
+    } 
+
+    .image .content_image p {
+        font-size: 1.3rem;
+    }
+
+    .image .content_image h1::after {
+        left: 23%;
+    }
+
+    /*web*/
+    .web .content_web {
+        margin-top: 4rem;
+    }
+
+    .web .content_web h1 {
+        font-size: 4rem;
+    }
+
+    .web .content_web p {
+        font-size: 1.3rem;
+    }
+
+    .web .content_web h1::after {
+        left: 65%;
+        top: 0.2rem;
+    }
+
+    /*son*/
+    .son .content_son {
+        margin-top: 4rem;
+    }
+
+    .son .content_son h1 {
+        font-size: 4rem;
+    }    
+
+    .son .content_son p {
+        font-size: 1.3rem;
+    }
+
+    .son .content_son h1::after {
+        left: 65%;
+        top: 0.2rem;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767.9px) {
+    /*dts*/
+    .dts {
+        height: 100vh;
+    }
+
+    .dts .content_dts {
+       
+    }
+
+    .dts .content_dts h1 {
+        font-size: 5rem;
+    }
+
+    .dts .content_dts h1::after {
+        margin-top: -0.6rem;
+    }
+
+    .openDTS {
+        text-align: center !important; 
+    }
+
+    #descriptionDTS {
+        margin-top: -20rem !important;
+    }
+
+    /*image*/
+    .image {
+        background-position-y: 0px;
+        background-position-x: 0rem;
+        height: 100vh;
+    }
+
+    .image .content_image {
+        margin-top: 5rem;
+        left: 3rem !important;
+    }
+
+    .image .content_image h1 {
+        font-size: 5rem;
+    } 
+
+    .image .content_image p {
+        font-size: 1.3rem;
+    }
+
+    .image .content_image h1::after {
+        left: 20%;
+    }
+
+    #descriptionIMAGE {
+        margin-top: -25rem;
+        height: 90vh;
+    }
+    /*web*/
+    .web {
+        background-position-x: -10rem;
+    }
+
+    .web .content_web {
+        margin-top: -28rem;
+        left: 24rem !important;
+    }
+
+    .web .content_web h1 {
+        font-size: 5rem;
+    }
+
+    .web .content_web p {
+        font-size: 1.3rem;
+    }
+
+    .web .content_web h1::after {
+        left: 70%;
+    }
+
+    /*son*/
+    .son {
+        background-position-x: 0rem;
+        height: 100vh;
+    }
+
+    .son .content_son {
+        margin-top: 6rem;
+        left: 1rem !important;
+    }
+
+    .son .content_son h1 {
+        font-size: 5rem;
+    }    
+
+    .son .content_son h1::after {
+        left: 65%;
+    }
+
+
+    .son .content_son p {
+        font-size: 1.3rem;
+    }
+
+    #descriptionSON {
+        margin-top: -22rem !important;
+        height: 90vh;
+    }
+    
+}
+
+@media (min-width: 330px) and (max-width: 575.9px) {
+    /*dts*/
+    .dts {
+        background-position-y: 0px;
+        background-position-x: 0rem;
+        height: 100vh;
+    }
+
+    .dts .content_dts {
+        left: 3rem !important;
+    }
+
+    .dts .content_dts h1 {
+        font-size: 3rem;
+    }
+
+    .dts .content_dts h1::after {
+        margin-top: -2rem;
+    }
+
+    #descriptionDTS {
+        top: -25rem;
+        height: 90vh;
+    }
+
+    /*image*/
+    .image { 
+        background-position-y: 0px;
+        background-position-x: 0rem;
+        height: 100vh;
+    }
+
+    .image .content_image {
+        margin-top: 5rem;
+        left: 3rem !important;
+    }
+
+    .image .content_image h1 {
+        font-size: 3rem;
+    } 
+
+    .image .content_image p {
+        font-size: 1.3rem;
+    }
+
+    .image .content_image h1::after {
+        left: 19%;
+        top: -1.8rem;
+    }
+
+    #descriptionIMAGE {
+        top: -25rem;
+        height: 90vh;
+    }
+    /*web*/
+    .web {
+        background-position-x: -25rem;
+    }
+
+    .web .content_web {
+        margin-top: -28rem;
+        left: 6rem !important;
+    }
+
+    .web .content_web h1 {
+        font-size: 3rem;
+    }
+
+    .web .content_web p {
+        font-size: 1.3rem;
+    }
+    
+
+    /*son*/
+    .son {
+        background-position-x: 0rem;
+        height: 100vh;
+    }
+
+    .son .content_son {
+        margin-top: 6rem;
+        left: 1rem !important;
+    }
+
+    .son .content_son h1 {
+        font-size: 3rem;
+    }    
+
+    .son .content_son h1::after {
+        left: 45%;
+        top: 0rem;
+    }
+
+
+    .son .content_son p {
+        font-size: 1.3rem;
+    }
+
+    #descriptionSON {
+        margin-top: -22rem !important;
+        height: 90vh;
+    }
+    
+}
+
+@media (min-width: 280px) and (max-width: 329.9px) {
+    /*dts*/
+    .dts {
+        background-position-y: 0px;
+        background-position-x: 0rem;
+        height: 100vh;
+    }
+
+    .dts .content_dts {
+        left: 3rem !important;
+    }
+
+    .dts .content_dts h1 {
+        font-size: 3rem;
+    }
+
+    .dts .content_dts h1::after {
+        margin-top: -2rem;
+    }
+
+    .openDTS {
+        float: left !important; 
+    }
+
+    #descriptionDTS {
+        top: -25rem;
+        height: 90vh;
+    }
+
+    /*image*/
+    .image {
+        background-position-y: 0px;
+        background-position-x: 0rem;
+        height: 100vh;
+    }
+
+    .image .content_image {
+        margin-top: 5rem;
+        left: 3rem !important;
+    }
+
+    .image .content_image h1 {
+        font-size: 3rem;
+    } 
+
+    .image .content_image p {
+        font-size: 1.3rem;
+    }
+
+    .image .content_image h1::after {
+        left: 19%;
+        top: -1.8rem;
+    }
+
+    #descriptionIMAGE {
+        top: -25rem;
+        height: 90vh;
+    }
+    /*web*/
+    .web {
+        background-position-x: -28rem;
+    }
+
+    .web .content_web {
+        margin-top: -28rem;
+        left: 6rem !important;
+    }
+
+    .web .content_web h1 {
+        font-size: 3rem;
+    }
+
+    .web .content_web p {
+        font-size: 1.3rem;
+    }
+
+    .web .content_web h1::after {
+        left: 45%;
+        top: 0rem;
+    }
+
+    /*son*/
+    .son {
+        background-position-x: 0rem;
+        height: 100vh;
+    }
+
+    .son .content_son {
+        margin-top: 6rem;
+        left: 1rem !important;
+    }
+
+    .son .content_son h1 {
+        font-size: 3rem;
+    }    
+
+    .son .content_son h1::after {
+        left: 45%;
+        top: 0rem;
+    }
+
+
+    .son .content_son p {
+        font-size: 1.3rem;
+    }
+
+    #descriptionSON {
+        margin-top: -22rem !important;
+        height: 90vh;
+    }
+    
+}
+
