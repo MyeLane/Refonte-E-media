@@ -22,6 +22,9 @@ function dateToFrench($date, $format)
     <link rel="stylesheet" href="css/fontawesome-free-5.8.2-web/css/all.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body> 
     <!--navbar-->
@@ -49,110 +52,125 @@ function dateToFrench($date, $format)
     <section>
         <div class="container-fluid">
             <!--actualites international-->
-            <div class="col-12 mt-5 pb-4 actualites aos-init aos-animate code code--small code--down" data-aos="zoom-in-down" data-aos-duration="2000">
-                <h6 class="pt-3"><i class="fas fa-newspaper mr-4"></i>ACTUALITE INTERNATIONAL</h6>
-                <div class="mt-3">
-                    <ul class="nav nav-pills col-8 nav-justified mb-3" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link active news " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Technologie</a>
-                            <span class="bottom-solid"></span>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link news" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Santé</a>
-                            <span class="bottom-solid"></span>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link news" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Economie</a>
-                            <span class="bottom-solid"></span>
-                        </li>
-                    </ul>
-                    
-                    <div class="tab-content tab-actualite" id="pills-tabContent">
-                        <div class="d-flex tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row actualites">
+                <div class="row col-12 ml-2 p-3">
+                    <div class="newspaper"><i class="fas fa-newspaper mr-3"></i></div>
+                    <div class="title_actu mt-3">ACTUALITES INTERNATIONALS</div>
+                </div>
+
+                <div id="owl-actualites" class="owl-carousel owl-theme">
                             <?php
                                 date_default_timezone_set('UTC');
                                 $date = date('d-m-y');
-                                $url = 'http://newsapi.org/v2/everything?q=technologie&from=".$date."&language=fr&sortBy=publishedAt&pageSize=4&apiKey=a8ef73a0f34641f18ac14d7ff914fad6 ';
+                                $url = 'https://newsapi.org/v2/everything?q=general&from=".$date."&language=fr&sortBy=publishedAt&apiKey=6add0ddad5f74a0ab2594cecf66ff5ff ';
                                 $response = file_get_contents($url);
                                 $NewsData = json_decode($response); 
                         
                                 foreach($NewsData->articles as $News)
                                 {          
                             ?>
-                                <div class="col-3 mt-3 google-body">
-                                    <div class="col-12 image">
-                                        <img src="<?php echo $News->urlToImage ?>" class="img-fluid" alt="aucune img">
-                                    </div>
-
-                                    <div class="col-10 information">
-                                        <h6><?php echo $News->title; ?></h6>
-                                        <div class="top-solid mb-1"></div>
+                                <div class="item">         
+                                    <img src="<?php echo $News->urlToImage ?>" class="img-fluid" alt="aucune img">
+                                        <h6 class="p-2 mt-2"><?php echo $News->title; ?></h6>
                                         <small class="p-1" align="center"><?php echo dateToFrench($News->publishedAt,"l j F Y à H:i") ?></small>
-                                        <a href="<?php echo $News->url ?>" class="btn m-2" target="_blank">Voir plus</a>
-                                    </div>
+                                    <a href="<?php echo $News->url ?>" class="btn m-2" target="_blank">Details >></a>
                                 </div>
                             <?php 
                                 }
                             ?>
-                
-                        </div>
-                        <div class="d-flex tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <?php
-                            date_default_timezone_set('UTC');
-                            $date = date('d-m-y');
-                            $url = 'http://newsapi.org/v2/everything?q=santé&from=".$date."&language=fr&sortBy=publishedAt&pageSize=4&apiKey=a8ef73a0f34641f18ac14d7ff914fad6 ';
-                            $response = file_get_contents($url);
-                            $NewsData = json_decode($response); 
-                        
-                            foreach($NewsData->articles as $News)
-                                {          
-                            ?>
-                                <div class="col-3 mt-3 google-body">
-                                    <div class="col-12 image">
-                                        <img src="<?php echo $News->urlToImage ?>" class="img-fluid" alt="aucune img">
-                                    </div>
+                </div>
+            </div>  
+            <!--actualites international-->
 
-                                    <div class="col-10 information">
-                                        <h6><?php echo $News->title; ?></h6>
-                                        <div class="top-solid mb-1"></div>
-                                        <small class="p-1"><?php echo dateToFrench($News->publishedAt,"l j F Y à H:i") ?></small>
-                                        <a href="<?php echo $News->url ?>" class="btn m-2" target="_blank">Voir plus</a>
-                                    </div>
-                                </div>
-                            <?php 
-                                }
-                            ?>
+            <!--notre vision-->
+                <div class="row notre_vision">
+                    <div class="col-3 pl-5 object aos-init aos-animate code code--small code--up" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="img/accueil/Vector_Smart_Object.png" class="img-fluid" alt="object">
+                    </div>
+                    
+                    <div class="col-9">
+                        <div class="row col-12 part1">
+                            <div class="col-3 object1">
+                                <img src="img/accueil/tirE.png" class="img-fluid" alt="object2">
+                            </div> 
+                            <div class="col-1 object2">
+                                <img src="img/accueil/rond.png" class="img-fluid" alt="emedia">
+                            </div> 
+                            <div class="col-2 object3">
+                                <img src="img/accueil/1.jpg" class="img-fluid" alt="emedia">
+                            </div> 
+                            <div class="col-6 part1_texte">
+                                <h5>Ouverture de l’établissement sur le plan international</h5>
+                                <p>Le but de l’ouverture à l’international est d’aligner les formations dispensées au sein 
+                                    de l’établissement avec ceux des grands établissements reconnus mondialement</p>
+                            </div> 
                         </div>
-                        <div class="d-flex tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                            <?php
-                            date_default_timezone_set('UTC');
-                            $date = date('d-m-y');
-                            $url = 'http://newsapi.org/v2/everything?q=economie&from=".$date."&language=fr&sortBy=publishedAt&pageSize=4&apiKey=a8ef73a0f34641f18ac14d7ff914fad6 ';
-                            $response = file_get_contents($url);
-                            $NewsData = json_decode($response); 
-                        
-                            foreach($NewsData->articles as $News)
-                                {          
-                            ?>
-                                <div class="col-3 mt-3 google-body">
-                                    <div class="col-12 image">
-                                        <img src="<?php echo $News->urlToImage ?>" class="img-fluid" alt="aucune img">
-                                    </div>
 
-                                    <div class="col-10 information">
-                                        <h6><?php echo $News->title; ?></h6>
-                                        <div class="top-solid mb-1"></div>
-                                        <small class="p-1"><?php echo dateToFrench($News->publishedAt,"l j F Y à H:i") ?></small>
-                                        <a href="<?php echo $News->url ?>" class="btn m-2" target="_blank">Voir plus</a>
-                                    </div>
-                                </div>
-                            <?php 
-                                }
-                            ?>
+                        <div class="row col-12 part2">
+                            <div class="col-3 object1">
+                                <img src="img/accueil/tirE.png" class="img-fluid" alt="object2">
+                            </div> 
+                            <div class="col-1 object2">
+                                <img src="img/accueil/rond.png" class="img-fluid" alt="emedia">
+                            </div> 
+                            <div class="col-2 object3">
+                                <img src="img/accueil/2.jpg" class="img-fluid" alt="emedia">
+                            </div> 
+                            <div class="col-6 part2_texte">
+                                <h5>La construction d’un nouveau bâtiment</h5>
+                                <p>La construction d’un bâtiment a pour finalité d’offrir environnement propice 
+                                    à l’épanouissement des étudiants. Doté de toutes les commodités nécessaires pour un apprentissage enrichissant et digne.</p>
+                            </div>
+                        </div>
+
+                        <div class="row col-12 part3">
+                            <div class="col-3 object1">
+                                <img src="img/accueil/tirE.png" class="img-fluid" alt="object2">
+                            </div> 
+                            <div class="col-1 object2">
+                                <img src="img/accueil/rond.png" class="img-fluid" alt="emedia">
+                            </div> 
+                            <div class="col-2 object3">
+                                <img src="img/accueil/3.jpg" class="img-fluid" alt="emedia">
+                            </div> 
+                            <div class="col-6 part3_texte">
+                                <h5>Mise à la disposition des étudiants des équipements à la pointe de la technologie</h5>
+                                <p>L’établissement met un point d’honneur à se doter des matériels et équipements nécessaires pour 
+                                    parfaire la formation qu’elle dispense.</p>
+                            </div>
+                        </div>
+
+                        <div class="row col-12 part4">
+                            <div class="col-3 object1">
+                                <img src="img/accueil/tirE.png" class="img-fluid" alt="object2">
+                            </div> 
+                            <div class="col-1 object2">
+                                <img src="img/accueil/rond.png" class="img-fluid" alt="emedia">
+                            </div> 
+                            <div class="col-2 object3">
+                                <img src="img/accueil/iso.jpg" class="img-fluid" alt="emedia">
+                            </div> 
+                            <div class="col-6 part4_texte">
+                                <h5>Mise à la disposition des étudiants des équipements à la pointe de la technologie</h5>
+                                <p>L’établissement met un point d’honneur à se doter des matériels et équipements nécessaires pour 
+                                    parfaire la formation qu’elle dispense.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                    
+            <!--notre vision-->
+
+            <!--nos formations-->
+            <div class="row nos_formations mt-5">
+                <h1 class="col-12 ml-5">NOS <span>FORMATIONS</span></h1>
+                <div class="row col-2  mt-4 part_1">
+                    <div class="col-3">
+
+                    </div>
+                    <div class="col-9 bloc_1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nostrum hic voluptatem impedit numquam quasi reprehenderit nemo ea, amet, repellendus, explicabo quidem qui ab? Ea amet nam similique animi molestiae.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -162,6 +180,47 @@ function dateToFrench($date, $format)
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+     
+            $("#owl-actualites").owlCarousel({
+                autoplay: true,
+                dots: true,
+                loop: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    320: {
+                        items: 1
+                    },
+                    376: {
+                        items: 2
+                    },
+                    576: {
+                        items: 3
+                    },
+                    768: {
+                        items: 4
+                    },
+                    900: {
+                        items: 4
+                    }
+                }
+            });
+    
+        });
+    </script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000,
+        });
+    </script>
 </body>
 </html>

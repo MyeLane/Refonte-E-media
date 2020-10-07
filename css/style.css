@@ -1,18 +1,23 @@
+body {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none !important;
 }
 
+
 /*navbar*/
+
 .navbar {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     background-color: #ffffff !important;
     height: 3.2rem;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     color: #189cd0 !important;
 }
-
 
 .navbar-list {
     position: relative;
@@ -53,15 +58,264 @@ li.active .button {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.nav-connection{
+.nav-connection {
     color: #189cd0 !important;
 }
 
+
 /*actualites*/
+
 .actualites {
-    background: #d5cfcf2b !important;
+    margin-top: 2rem !important;
+    background: #a8afaf;
 }
 
-.actualites i {
-    font-size: 4rem;
+.actualites .title_actu {
+    font-size: 1.2rem;
+    margin-bottom: 2rem !important;
+}
+
+.actualites .newspaper {
+    font-size: 4rem !important;
+}
+
+.liste_actualites li {
+    list-style-type: none !important;
+}
+
+#owl-actualites .item {
+    background: transparent;
+    padding: 30px 0px;
+    margin: 10px;
+    min-height: 55vh !important;
+    color: #fff !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.item img {
+    height: 20vh !important;
+}
+
+.item h6 {
+    text-align: justify;
+}
+
+.item small {
+    color: #fff;
+}
+  
+.item a {
+    right: 20px;
+    position: absolute;
+    bottom: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+
+.item a:hover {
+    color: #fff;
+}
+
+.item:hover a {
+    transform: translateX(10px);
+}
+
+/*notre vision*/
+.notre_vision {
+    height: auto;
+}
+
+.object {
+    padding: 150px 0;
+}
+
+/*=part1=*/
+.part1 .object1 {
+    padding: 100px 0;  
+}
+
+.part1 .object1 img {
+    margin-left: -91px;
+}
+
+.part1 .object2 {
+    padding: 105px 0;
+}
+
+.part1 .object2 img {
+    scale: 2;
+    margin-left: -160px;
+}
+
+.part1 .object3 {
+    padding: 65px 0;
+}
+
+.part1 .object3 img {
+    margin-left: -140px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 10px 24px 14px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.part1_texte {
+    padding: 47px 0;
+    margin-left: -180px;
+}
+
+.part1_texte h5 {
+    font-weight: bold;
+}
+
+.part1_texte p {
+    text-align: justify;
+}
+
+/*=part2=*/
+.part2 .object1 {
+    margin: -115px 0 -82px -62px;
+}
+
+.part2 .object1 img {
+    transform: rotate(34deg);
+}
+
+.part2 .object2 {
+    margin: -72px 0 -0 -66px;
+}
+
+.part2 .object2 img {
+    scale: 3;
+}
+
+.part2 .object3 {
+    margin: -112px 0 0 0;
+}
+
+.part2 .object3 img {
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 10px 24px 14px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+} 
+
+.part2_texte {
+    margin: -124px -40px;
+}
+
+.part2_texte h5 {
+    font-weight: bold;
+}
+
+.part2_texte p {
+    text-align: justify;
+}
+
+/*=part3=*/
+.part3 .object1 {
+    margin: 0 0 0 -80px;
+}
+
+.part3 .object1 img {
+    transform: rotate(65deg);
+}
+
+.part3 .object2 {
+    margin: 88px 0 0 -70px;
+}
+
+.part3 .object2 img {
+    scale: 3;
+}
+
+.part3 .object3 {
+    margin: 59px 0 0 0;
+}
+
+.part3 .object3 img {
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 10px 24px 14px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.part3_texte {
+    margin: 47px 0 0 -41px;
+}
+
+.part3_texte h5 {
+    font-weight: bold;
+}
+
+.part3_texte p {
+    text-align: justify;
+}
+
+/*=part4=*/
+.part4 .object1 {
+    margin: -111px 0 0 -150px;
+}
+
+.part4 .object1 img {
+    transform: rotate(90deg);
+}
+
+.part4 .object2 {
+    margin: 11px 0 0 -97px;
+}
+
+.part4 .object2 img {
+    scale: 3;
+}
+
+.part4 .object3 img {
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 10px 24px 14px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.part4 .object3 {
+    margin: 33px 0 0 -20px;
+}
+
+.part4_texte {
+    margin: 25px 0 0 -40px;
+}
+
+.part4_texte h5 {
+    font-weight: bold;
+}
+
+.part4_texte p {
+    text-align: justify;
+}
+
+/*nos formations*/
+.nos_formations h1 span {
+    font-weight: bold;
+}
+
+.bloc_1 {
+    background: #189cd0;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    height: 10rem;
 }
