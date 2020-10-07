@@ -5,8 +5,45 @@ body {
 a {
     text-decoration: none !important;
 }
-
-
+/*evenement*/
+.rotation{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    margin-top: 15vh;
+    font-size: 3rem;
+}
+.text-pres{
+    margin-top: 30vh;
+    font-size: 2rem;
+    margin-left: -10rem;
+    text-align: center;
+}
+.gallery{
+    height: 75vh;
+    width: 65%;
+    display: flex;
+    margin: 2% auto 0;
+    box-sizing: border-box;
+}
+.img-box{
+    margin: 0 0.3%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: .5s;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.img-box:hover{
+    flex-basis: 50%;
+}
+.btn{
+    margin-top: -75vh;
+}
 /*navbar*/
 
 .navbar {

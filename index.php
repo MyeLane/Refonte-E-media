@@ -81,11 +81,41 @@ function dateToFrench($date, $format)
                 </div>
             </div>  
             <!--actualites international-->
+<!--evenement-->
+<section class="evenement mt-5">
+        <div class="row">
+            <div class="col-1"><H1 class="rotation"> l'<strong>e-media</strong> <br> Evènements de</H1></div>
+            <div class="col-7">
+                <div class="gallery">
+                    <div class="img-box">
+                        <img src="img/GettyImages-1209679043.jpg" alt="corona">
+                        <button class="btn btn-sm btn-danger">en savoir plus</button>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/logomp.jpg" alt="inter">
+                        <button class="btn btn-sm btn-danger">en savoir plus</button>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/apropos1.jpg" alt="sortie">
+                        <button class="btn btn-sm btn-danger">en savoir plus</button>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/alefa sita-01.jpg" alt="ligne">
+                        <button class="btn btn-sm justify-content-center btn-danger">en savoir plus</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"><p class="text-pres">Une école dynamique, en recherche constante d'innovation</p></div>
+        </div>
+    </section>
+<!--fin évènement-->
+
+
 
             <!--notre vision-->
                 <div class="row notre_vision">
                     <div class="col-3 pl-5 object aos-init aos-animate code code--small code--up" data-aos="fade-up" data-aos-duration="2000">
-                        <img src="img/accueil/Vector_Smart_Object.png" class="img-fluid" alt="object">
+                        <img src="img/accueil/Vector_Smart_Object.png" class="img-fluid aos-init aos-animate code code--small code--down"  data-aos="fade-up" data-aos-duration="2000" alt="object">
                     </div>
                     
                     <div class="col-9">
