@@ -148,7 +148,7 @@ function dateToFrench($date, $format)
                                 <img src="img/accueil/rond.png" class="img-fluid" alt="emedia">
                             </div> 
                             <div class="col-2 object3">
-                                <img src="img/accueil/3.jpg" class="img-fluid" alt="emedia">
+                                <img src="img/accueil/iso.jpg" class="img-fluid" alt="emedia">
                             </div> 
                             <div class="col-6 part4_texte">
                                 <h5>Mise à la disposition des étudiants des équipements à la pointe de la technologie</h5>
@@ -159,6 +159,19 @@ function dateToFrench($date, $format)
                     </div>
                 </div>
             <!--notre vision-->
+
+            <!--nos formations-->
+            <div class="row nos_formations mt-5">
+                <h1 class="col-12 ml-5">NOS <span>FORMATIONS</span></h1>
+                <div class="row col-2  mt-4 part_1">
+                    <div class="col-3">
+
+                    </div>
+                    <div class="col-9 bloc_1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nostrum hic voluptatem impedit numquam quasi reprehenderit nemo ea, amet, repellendus, explicabo quidem qui ab? Ea amet nam similique animi molestiae.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

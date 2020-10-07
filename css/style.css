@@ -308,3 +308,14 @@ li.active .button {
 .part4_texte p {
     text-align: justify;
 }
+
+/*nos formations*/
+.nos_formations h1 span {
+    font-weight: bold;
+}
+
+.bloc_1 {
+    background: #189cd0;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    height: 10rem;
+}
