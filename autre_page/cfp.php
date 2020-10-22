@@ -7,13 +7,13 @@
         include_once '../index/head.php';
     ?>
     <link rel="stylesheet" href="../css/cfp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
 </head>
     <body>
         <!-- navbar -->
         <?php
             include_once '../index/nav.php';
         ?>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
 
         <section id="scroll">
             <div class="container-fluid">
