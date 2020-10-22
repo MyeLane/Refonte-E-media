@@ -11,7 +11,7 @@
                 <li class="nav-item ml-4"><a class="nav-link button" id="ligne"  href="en_ligne.php">Univérsité online <span class="bottom-solid"></span></a></li>
                 <li class="nav-item ml-4"><a class="nav-link button" id="bac"  href="bac.php">Bac online <span class="bottom-solid"></span></a></li>
                 <li class="nav-item ml-4"><a class="nav-link button" id="groupe"  href="groupe.php">Groupe <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="contact"  href="#">Contact <span class="bottom-solid"></span></a></li>
+                <li class="nav-item ml-4"><a class="nav-link button" id="contact"  href="contact.php">Contact <span class="bottom-solid"></span></a></li>
             </ul>
             <ul class="nav navbar-nav pull-sm-right">
                 <li class="nav-item nav-seconnecter pr-2" data-tooltip="Se connecter"><a class="nav-link button nav-connection" href="#lien"><i class="mr-2 nav-connection ml-2 fa fa-user"></i> Se connecter</a></li>
