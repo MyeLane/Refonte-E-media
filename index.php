@@ -16,38 +16,15 @@ function dateToFrench($date, $format)
 <head>
     <meta charset="UTF-8">
     <title>E-media</title>
-    <link rel="icon" type="icon" href="img/logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome-free-5.8.2-web/css/all.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <?php
+        include_once 'index/head.php';
+    ?>
 </head>
 <body> 
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon fa fa-bars"></span>
-        </button>
-        <img class="nav navbar-nav pull-sm-left img-fluid" src="img/logo E-media.png" width="10%" alt="">
-        <div class="collapse navbar-collapse menu" id="navbarTogglerDemo03">
-            <ul class="nav navbar-nav navbar-list mx-auto">
-                <li class="nav-item"><a class="nav-link button active" id="index"  href="#">Accueil <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="cfp" href="autre_page/cfp.php">CFP <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="pres" href="autre_page/presentielle.php">Univérsité <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="ligne" href="autre_page/en_ligne.php">Univérsité online <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="bac" href="autre_page/bac.php">Bac online <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="groupe" href="autre_page/groupe.php">Groupe <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="contact" href="autre_page/contact.php">Contact <span class="bottom-solid"></span></a></li>
-            </ul>
-            <ul class="nav navbar-nav pull-sm-right">
-                <li class="nav-item nav-seconnecter pr-2" data-tooltip="Se connecter"><a class="nav-link button nav-connection" href="#lien"><i class="mr-2 nav-connection ml-2 fa fa-user"></i> Se connecter</a></li>
-            </ul>
-        </div>
-    </nav>
+    <?php
+            include_once 'index/nav.php';
+        ?>
 
     <section>
         <div class="container-fluid">
@@ -498,12 +475,9 @@ function dateToFrench($date, $format)
     </section>
 
     <!--script js -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <?php
+            include_once 'index/script.php';
+        ?>
 
 </body>
 </html>

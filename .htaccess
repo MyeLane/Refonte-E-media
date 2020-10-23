@@ -1,0 +1,34 @@
+<FilesMatch ".(htaccess|ini|phps|fla|psd|log|sh)$">
+
+Order Allow,Deny
+
+Deny from all
+
+</FilesMatch>
+
+AddType application/octet-stream .jpg
+
+Options All -Indexes
+
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteCond %{REQUEST_URI} !/$ 
+RewriteRule ^(.*)$ $1\.php
+
+
+RewriteRule ^accueil$ index.php [L] 
+RewriteRule ^cfp$ autre_page/cfp [L] 
+RewriteRule ^en_ligne$ autre_page/en_ligne [L] 
+RewriteRule ^presentielle$ autre_page/presentielle [L] 
+RewriteRule ^bac$ autre_page/bac [L] 
+RewriteRule ^groupe$ autre_page/groupe [L] 
+RewriteRule ^contact$ autre_page/contact [L] 
+
+
+#ErrorDocument 404 https://e-media-madagascar.com/universite/Error
+#ErrorDocument 403 https://e-media-madagascar.com/universite/Error403
+#ErrorDocument 500 https://e-media-madagascar.com/universite/Error5
+
+

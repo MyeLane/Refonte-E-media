@@ -6,7 +6,7 @@
     <?php
         include_once '../index/head.php';
     ?>
-    <link rel="stylesheet" href="../css/enligne.css">
+    <link rel="stylesheet" href="css/enligne.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
 </head>
 <body>
@@ -27,7 +27,7 @@
         <!-- TIC licence -->
         <div class="section tic-licence-div" >
         <div class="tic-licence  container-fluid">
-                <img src="../img/online/Licence univ online-03.png" class="img-fluid img-licence-tic" width="100%" alt="">
+                <img src="img/online/Licence univ online-03.png" class="img-fluid img-licence-tic" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesA" id="triangles1"></div>
                 <div class="trianglesA" id="triangles2"></div>
@@ -57,7 +57,7 @@
         <!-- CAN licence -->
         <div class="section can-licence-div">
         <div class="can-licence  container-fluid">
-                <img src="../img/online/Licence univ online-04.png" class="img-fluid img-licence-can" width="100%" alt="">
+                <img src="img/online/Licence univ online-04.png" class="img-fluid img-licence-can" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesB" id="trianglesB1"></div>
                 <div class="trianglesB" id="trianglesB2"></div>
@@ -87,7 +87,7 @@
         <!-- MPJ licence -->
         <div class="section mpj-licence-div">
         <div class="mpj-licence  container-fluid">
-                <img src="../img/online/Licence univ online-05.png" class="img-fluid img-licence-mpj" width="100%" alt="">
+                <img src="img/online/Licence univ online-05.png" class="img-fluid img-licence-mpj" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesC" id="trianglesC1"></div>
                 <div class="trianglesC" id="trianglesC2"></div>
@@ -116,7 +116,7 @@
         <!-- Management licence -->
         <div class="section mba-licence-div">
         <div class="mba-licence  container-fluid">
-                <img src="../img/online/Licence univ online-06.png" class="img-fluid img-licence-mba" width="100%" alt="">
+                <img src="img/online/Licence univ online-06.png" class="img-fluid img-licence-mba" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesD" id="trianglesD1"></div>
                 <div class="trianglesD" id="trianglesD2"></div>
@@ -147,7 +147,7 @@
         <!-- DRT licence -->
         <div class="section drt-licence-div">
         <div class="drt-licence  container-fluid">
-                <img src="../img/online/Licence univ online-07.png" class="img-fluid img-licence-drt" width="100%" alt="">
+                <img src="img/online/Licence univ online-07.png" class="img-fluid img-licence-drt" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesE" id="trianglesE1"></div>
                 <div class="trianglesE" id="trianglesE2"></div>
@@ -176,7 +176,7 @@
         <!-- TIC master -->
         <div class="section tic-master-div" id="master">
         <div class="tic-master  container-fluid">
-                <img src="../img/Master univ online-08.png" class="img-fluid img-master-tic" width="100%" alt="">
+                <img src="img/Master univ online-08.png" class="img-fluid img-master-tic" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesF" id="trianglesF1"></div>
                 <div class="trianglesF" id="trianglesF2"></div>
@@ -206,7 +206,7 @@
         <!-- CAN master -->
         <div class="section can-master-div">
         <div class="can-master  container-fluid">
-                <img src="../img/online/Master univ online-09.png" class="img-fluid img-master-can" width="100%" alt="">
+                <img src="img/online/Master univ online-09.png" class="img-fluid img-master-can" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesG" id="trianglesG1"></div>
                 <div class="trianglesG" id="trianglesG2"></div>
@@ -235,7 +235,7 @@
         <!-- MPJ master -->
         <div class="section mpj-master-div">
         <div class="mpj-master  container-fluid">
-                <img src="../img/online/Master univ online-10.png" class="img-fluid img-master-mpj" width="100%" alt="">
+                <img src="img/online/Master univ online-10.png" class="img-fluid img-master-mpj" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesH" id="trianglesH1"></div>
                 <div class="trianglesH" id="trianglesH2"></div>
@@ -263,7 +263,7 @@
         <!-- Management master -->
         <div class="section mba-master-div">
         <div class="mba-master  container-fluid">
-                <img src="../img/online/Master univ online-11.png" class="img-fluid img-master-mba" width="100%" alt="">
+                <img src="img/online/Master univ online-11.png" class="img-fluid img-master-mba" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesI" id="trianglesI1"></div>
                 <div class="trianglesI" id="trianglesI2"></div>
@@ -291,7 +291,7 @@
         <!-- DRT master -->
         <div class="section drt-master-div">
         <div class="drt-master  container-fluid">
-                <img src="../img/online/Master univ online-12.png" class="img-fluid img-master-drt" width="100%" alt="">
+                <img src="img/online/Master univ online-12.png" class="img-fluid img-master-drt" width="100%" alt="">
                 <!-- particules -->
                 <div class="trianglesJ" id="trianglesJ1"></div>
                 <div class="trianglesJ" id="trianglesJ2"></div>
