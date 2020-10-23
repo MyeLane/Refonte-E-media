@@ -6,7 +6,7 @@
     <?php
         include_once '../index/head.php';
     ?>
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
     <body>
         <!-- navbar -->
@@ -26,7 +26,7 @@
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="bloc_email">
 							<div class="col d-flex justify-content-end">
-								<img src="../img/contact/a295bb333f2bf22a43731d4997e30361.png" width="40px" alt="">
+								<img src="img/contact/a295bb333f2bf22a43731d4997e30361.png" width="40px" alt="">
 							</div>
 							<h4 class="text-center">SCOLARITE</h4>
 							<h5 class="text-center">+261341451875</h5>
@@ -35,7 +35,7 @@
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="bloc_email">
 							<div class="col d-flex justify-content-end">
-								<img src="../img/contact/a295bb333f2bf22a43731d4997e30361.png" width="40px" alt="">
+								<img src="img/contact/a295bb333f2bf22a43731d4997e30361.png" width="40px" alt="">
 							</div>
 							<h4 class="text-center">EN LIGNE</h4>
 							<h5 class="text-center">+261341177737</h5>
@@ -44,7 +44,7 @@
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="bloc_email">
 							<div class="col d-flex justify-content-end">
-								<img src="../img/contact/a295bb333f2bf22a43731d4997e30361.png" width="40px" alt="">
+								<img src="img/contact/a295bb333f2bf22a43731d4997e30361.png" width="40px" alt="">
 							</div>
 							<h4 class="text-center">CFP</h4>
 							<h5 class="text-center">+261330225086</h5>
@@ -57,7 +57,7 @@
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="bloc_email">
 							<div class="col d-flex justify-content-end">
-								<img src="../img/contact/pngwing.com(1).png" width="40px" alt="">
+								<img src="img/contact/pngwing.com(1).png" width="40px" alt="">
 							</div>
 							<h4 class="text-center">SCOLARITE</h4>
 							<h5 class="text-center email_scolariter">scolarite.universite.emedia@gmail.com</h5>
@@ -66,7 +66,7 @@
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="bloc_email">
 							<div class="col d-flex justify-content-end">
-								<img src="../img/contact/pngwing.com(1).png" width="40px" alt="">
+								<img src="img/contact/pngwing.com(1).png" width="40px" alt="">
 							</div>
 							<h4 class="text-center">LICENCE EN LIGNE
 							</h4>
@@ -76,7 +76,7 @@
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="bloc_email">
 							<div class="col d-flex justify-content-end">
-								<img src="../img/contact/pngwing.com(1).png" width="40px" alt="">
+								<img src="img/contact/pngwing.com(1).png" width="40px" alt="">
 							</div>
 							<h4 class="text-center">MASTER EN LIGNE
 							</h4>
@@ -86,7 +86,7 @@
 					<div class="col-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="bloc_email">
 							<div class="col d-flex justify-content-end">
-								<img src="../img/contact/pngwing.com(1).png" width="40px" alt="">
+								<img src="img/contact/pngwing.com(1).png" width="40px" alt="">
 							</div>
 							<h4 class="text-center">CFP</h4>
 							<h5 class="text-center">emedia.cfp@gmail.com</h5>
