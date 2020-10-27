@@ -402,7 +402,7 @@ function dateToFrench($date, $format)
                         <div class="content_bloc2">
                             <div class="text-center pb-2"><i class="fas fa-user-graduate"></i></div>
                             <h4 class="text-center pb-2">UNIVERSITE <br/> PRESENTIELLE</h4>
-                            <div class="text-center"><a class="p-2" href="autre_page/presentielle.php">en savoir plus</a></div>
+                            <div class="text-center"><a class="p-2" href="presentielle">en savoir plus</a></div>
                         </div>
                     </div>
                     
@@ -430,7 +430,7 @@ function dateToFrench($date, $format)
                         <div class="content_bloc4">
                             <div class="text-center pb-2"><i class="fas fa-atlas"></i></div>
                             <h4 class="text-center pb-2">UNIVERSITE <br/> EN LIGNE</h4>
-                            <div class="text-center"><a class="p-2" href="autre_page/en_ligne.php">en savoir plus</a></div>
+                            <div class="text-center"><a class="p-2" href="en_ligne">en savoir plus</a></div>
                         </div>
                     </div>
 
@@ -454,7 +454,7 @@ function dateToFrench($date, $format)
                         <div class="content_bloc7">
                             <div class="text-center pb-2"><i class="fas fa-graduation-cap"></i></div>
                             <h4 class="text-center pb-2">FORMATION <br/> PROFESSIONNELLE</h4>
-                            <div class="text-center"><a class="p-2" href="autre_page/cfp.php">en savoir plus</a></div>
+                            <div class="text-center"><a class="p-2" href="cfp">en savoir plus</a></div>
                         </div>
                     </div>
                 </div>
