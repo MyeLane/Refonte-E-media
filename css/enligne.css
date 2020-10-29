@@ -952,5 +952,24 @@ body{
         padding-top: 0vh;
         margin-left: 5%;
     }
+    .text-licence-mba{
+        padding-top: 35vh;
+    }
+    .text-licence-mpj{
+        padding-top: 0vh;
+    }
+    .text-licence-drt{
+        padding-top: 0vh;
+    }
+    .text-master-tic{
+        padding-top: 0vh;
+    }
+    .text-master-mpj{
+        padding-top: 0vh;
+    }
+    .text-master-drt{
+        padding-top: 0vh;
+    }
 
 }
+
