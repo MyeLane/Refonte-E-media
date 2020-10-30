@@ -79,11 +79,7 @@ function dateToFrench($date, $format)
 								</span><br><span class="ml-4">. Aux efforts de ses initiateurs et à sa visions,celle d'aller Haut et Loin ;</span><br><span class="ml-4">. A la reconnaissance des diffèrentes instances administratives et academiques dont elle relève ;</span>
 							</p>
 						</div>
-						<div class="btn_plus">
-							<button class="btn first_btn">
-								Se Connecter
-							</button>
-						</div>
+
 					</div>
 					<div class="col-12 col-sm-12 col-md-4 col-lg-4">
 						<div class="image_emedia">
