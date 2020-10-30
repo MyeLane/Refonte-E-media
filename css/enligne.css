@@ -2,9 +2,9 @@ body{
     overflow-x: hidden;
 }
 #page{
-    margin-top: 10vh;
+    top:7%;
 }
-.fp-enabled .modal{
+.fp-enabled.modal{
     position: fixed !important;
 }
 .close{
@@ -952,5 +952,31 @@ body{
         padding-top: 0vh;
         margin-left: 5%;
     }
+    .text-licence-mba{
+        padding-top: 35vh;
+        margin-left: 0;
+    }
+    .text-licence-mpj{
+        padding-top: 0vh;
+    }
+    .text-licence-drt{
+        padding-top: 0vh;
+    }
+    .text-master-tic{
+        padding-top: 0vh;
+    }
+    .tic-master-resp{
+        margin-top: -8rem;
+    }
+    .tic-response-licence{
+        margin-top: 7rem;
+    }
+    .text-master-mpj{
+        padding-top: 0vh;
+    }
+    .text-master-drt{
+        padding-top: 0vh;
+    }
 
 }
+
