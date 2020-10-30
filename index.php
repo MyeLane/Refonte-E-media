@@ -430,7 +430,7 @@ function dateToFrench($date, $format)
                         <div class="content_bloc4">
                             <div class="text-center pb-2"><i class="fas fa-atlas"></i></div>
                             <h4 class="text-center pb-2">UNIVERSITE <br/> EN LIGNE</h4>
-                            <div class="text-center"><a class="p-2" href="en_ligne">en savoir plus</a></div>
+                            <div class="text-center"><a class="p-2" href="en_ligne_licence">en savoir plus</a></div>
                         </div>
                     </div>
 

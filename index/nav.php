@@ -19,7 +19,7 @@
                 <li class="nav-item ml-4"><a class="nav-link button" id="contact" href="contact">Contact <span class="bottom-solid"></span></a></li>
             </ul>
             <ul class="nav navbar-nav pull-sm-right">
-                <li class="nav-item nav-seconnecter pr-2" data-tooltip="Se connecter"><a class="nav-link button nav-connection" href="#lien"><i class="mr-2 nav-connection ml-2 fa fa-user"></i> Se connecter</a></li>
+                <li class="nav-item nav-seconnecter pr-2" data-tooltip="Se connecter"><a class="nav-link button nav-connection" href="universite"><i class="mr-2 nav-connection ml-2 fa fa-user"></i> Se connecter</a></li>
             </ul>
         </div>
     </nav>
