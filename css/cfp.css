@@ -23,7 +23,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh !important;  
-    background-position-y: -120px; 
+    background-position-y: -100px; 
 }
 
 .dts .content_dts {
@@ -75,7 +75,7 @@
     background-size: cover;
     height: 100vh!important;
     background-repeat: no-repeat; 
-    background-position-y: -120px; 
+    background-position-y: -100px; 
 }
 
 .image .content_image {
@@ -124,7 +124,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh !important; 
-    background-position-y: -120px; 
+    background-position-y: -100px; 
 }
 
 .web .content_web {
@@ -259,7 +259,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
     /*dts*/
     .dts {
-        background-position-y: -30px !important;
+        background-position-y: 0px !important;
     }
 
     .dts .content_dts {
@@ -281,7 +281,7 @@
 
     /*image*/
     .image {
-        background-position-y: -20px;
+        background-position-y: 0px;
     }
 
     .image .content_image {
@@ -303,7 +303,7 @@
 
     /*web*/
     .web {
-        background-position-y: -50px;
+        background-position-y: 0px;
     }
 
     .web .content_web {
@@ -325,7 +325,7 @@
 
     /*son*/
     .son {
-        background-position-y: -50px;
+        background-position-y: 0px;
     }
 
     .son .content_son {
@@ -350,6 +350,8 @@
     /*dts*/
     .dts {
         background-position-y: 0px !important;
+        background-position-x: -240px;
+        backdrop-filter: grayscale(0.5) opacity(0.8);
     }
 
     .dts .content_dts {
@@ -376,7 +378,7 @@
     /*image*/
     .image {
         background-position-y: 0px;
-        background-position-x: 0rem;
+        background-position-x: -220px;
         height: 100vh;
     }
 
@@ -427,7 +429,7 @@
     /*son*/
     .son {
         background-position-y: 0px;
-        background-position-x: 0rem;
+        background-position-x: -210px;
         height: 100vh;
     }
 
@@ -521,7 +523,7 @@
     /*web*/
     .web {
         background-position-y: 0px;
-        background-position-x: -20rem;
+        background-position-x: -28rem;
     }
 
     .web .content_web {

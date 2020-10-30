@@ -817,6 +817,17 @@ li.active .button {
 }
 
 @media (min-width: 576px) and (max-width: 767.9px) {
+    .menu {
+        background: #fff;
+        text-align: center;
+        box-shadow: 1px 10px 24px 14px rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+    }
+
+    .logo_media {
+        width: 14% !important;
+    }
+
     /*accueil*/
     #Accueil {
         margin-top: 5rem;
@@ -932,6 +943,17 @@ li.active .button {
 }
 
 @media (min-width: 300px) and (max-width: 575.9px) {
+    .menu {
+        background: #fff;
+        text-align: center;
+        box-shadow: 1px 10px 24px 14px rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+    }
+
+    .logo_media {
+        width: 18% !important;
+    }
+
     /*accueil*/
     #Accueil {
         margin-top: 5rem;
@@ -1050,7 +1072,7 @@ li.active .button {
     }
 
     .bloc_7 {
-        margin: -122px 0 0 15px;
+        margin: 20px 0 0 15px;
     }
 
     .bloc_8_mobile p {
@@ -1064,5 +1086,11 @@ li.active .button {
     .bloc_9_mobile {
         margin-top: -4rem;
         margin-left: -66px !important;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 360px) {
+    .logo_media {
+        width: 30% !important;
     }
 }
