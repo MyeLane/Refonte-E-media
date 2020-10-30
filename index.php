@@ -116,7 +116,7 @@ function dateToFrench($date, $format)
                             <?php
                                 date_default_timezone_set('UTC');
                                 $date = date('d-m-y');
-                                $url = 'https://newsapi.org/v2/everything?q=general&from=".$date."&language=fr&sortBy=publishedAt&apiKey=6add0ddad5f74a0ab2594cecf66ff5ff ';
+                                $url = 'https://newsapi.org/v2/everything?q=general&from=".$date."&language=fr&sortBy=publishedAt&apiKey=c8bba108fede4490b461cced38f5adf2';
                                 $response = file_get_contents($url);
                                 $NewsData = json_decode($response); 
                         
@@ -139,7 +139,7 @@ function dateToFrench($date, $format)
                             <?php
                                 date_default_timezone_set('UTC');
                                 $date = date('d-m-y');
-                                $url = 'https://newsapi.org/v2/everything?q=technology&from=".$date."&language=fr&sortBy=publishedAt&apiKey=6add0ddad5f74a0ab2594cecf66ff5ff ';
+                                $url = 'https://newsapi.org/v2/everything?q=technology&from=".$date."&language=fr&sortBy=publishedAt&apiKey=c8bba108fede4490b461cced38f5adf2 ';
                                 $response = file_get_contents($url);
                                 $NewsData = json_decode($response); 
                         
@@ -162,7 +162,7 @@ function dateToFrench($date, $format)
                             <?php
                                 date_default_timezone_set('UTC');
                                 $date = date('d-m-y');
-                                $url = 'https://newsapi.org/v2/everything?q=business&from=".$date."&language=fr&sortBy=publishedAt&apiKey=6add0ddad5f74a0ab2594cecf66ff5ff ';
+                                $url = 'https://newsapi.org/v2/everything?q=business&from=".$date."&language=fr&sortBy=publishedAt&apiKey=c8bba108fede4490b461cced38f5adf2 ';
                                 $response = file_get_contents($url);
                                 $NewsData = json_decode($response); 
                         
@@ -185,7 +185,7 @@ function dateToFrench($date, $format)
                             <?php
                                 date_default_timezone_set('UTC');
                                 $date = date('d-m-y');
-                                $url = 'https://newsapi.org/v2/everything?q=science&from=".$date."&language=fr&sortBy=publishedAt&apiKey=6add0ddad5f74a0ab2594cecf66ff5ff ';
+                                $url = 'https://newsapi.org/v2/everything?q=science&from=".$date."&language=fr&sortBy=publishedAt&apiKey=c8bba108fede4490b461cced38f5adf2 ';
                                 $response = file_get_contents($url);
                                 $NewsData = json_decode($response); 
                         
@@ -208,7 +208,7 @@ function dateToFrench($date, $format)
                             <?php
                                 date_default_timezone_set('UTC');
                                 $date = date('d-m-y');
-                                $url = 'https://newsapi.org/v2/everything?q=health&from=".$date."&language=fr&sortBy=publishedAt&apiKey=6add0ddad5f74a0ab2594cecf66ff5ff ';
+                                $url = 'https://newsapi.org/v2/everything?q=health&from=".$date."&language=fr&sortBy=publishedAt&apiKey=c8bba108fede4490b461cced38f5adf2 ';
                                 $response = file_get_contents($url);
                                 $NewsData = json_decode($response); 
                         
@@ -231,7 +231,7 @@ function dateToFrench($date, $format)
                             <?php
                                 date_default_timezone_set('UTC');
                                 $date = date('d-m-y');
-                                $url = 'https://newsapi.org/v2/everything?q=sports&from=".$date."&language=fr&sortBy=publishedAt&apiKey=6add0ddad5f74a0ab2594cecf66ff5ff ';
+                                $url = 'https://newsapi.org/v2/everything?q=sports&from=".$date."&language=fr&sortBy=publishedAt&apiKey=c8bba108fede4490b461cced38f5adf2 ';
                                 $response = file_get_contents($url);
                                 $NewsData = json_decode($response); 
                         

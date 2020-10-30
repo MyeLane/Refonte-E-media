@@ -267,6 +267,7 @@ li.active .button {
 
 .item img {
     height: 20vh !important;
+    object-fit: cover !important;
 }
 
 .item h6 {
