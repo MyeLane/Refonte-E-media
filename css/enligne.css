@@ -954,6 +954,7 @@ body{
     }
     .text-licence-mba{
         padding-top: 35vh;
+        margin-left: 0;
     }
     .text-licence-mpj{
         padding-top: 0vh;
@@ -963,6 +964,12 @@ body{
     }
     .text-master-tic{
         padding-top: 0vh;
+    }
+    .tic-master-resp{
+        margin-top: -8rem;
+    }
+    .tic-response-licence{
+        margin-top: 7rem;
     }
     .text-master-mpj{
         padding-top: 0vh;

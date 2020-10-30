@@ -30,7 +30,7 @@
         <div class="text-licence-tic row container-fluid">
             <div class="col-12 col-sm-12 col-md-7 col-lg-7"></div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-                <h1 class="titre col-12 col-sm-12 col-md-12 col-lg-12">TIC</h1>
+                <h1 class="titre col-12 col-sm-12  tic-response-licence col-md-12 col-lg-12">TIC</h1>
                 <h3 class="sous-titre pb-2">Informatique et Télécommunication</h3>
                 <h5 class="ml-2 mt-4">Parcours</h5>
                 <ul class="ml-2 text">
