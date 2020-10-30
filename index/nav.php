@@ -2,7 +2,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon fa fa-bars"></span>
         </button>
-        <img class="nav navbar-nav pull-sm-left img-fluid" src="img/logo E-media.png" width="10%" alt="">
+        <img class="nav navbar-nav pull-sm-left img-fluid logo_media" src="img/logo E-media.png" width="10%" alt="">
         <div class="collapse navbar-collapse menu" id="navbarTogglerDemo03">
             <ul class="nav navbar-nav navbar-list mx-auto">
                 <li class="nav-item"><a class="nav-link button active" id="index"  href="accueil">Accueil <span class="bottom-solid"></span></a></li>
