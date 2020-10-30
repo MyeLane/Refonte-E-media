@@ -2,9 +2,9 @@ body{
     overflow-x: hidden;
 }
 #page{
-    margin-top: 10vh;
+    top:7%;
 }
-.fp-enabled .modal{
+.fp-enabled.modal{
     position: fixed !important;
 }
 .close{

@@ -20,7 +20,8 @@ RewriteRule ^(.*)$ $1\.php
 
 RewriteRule ^accueil$ index.php [L] 
 RewriteRule ^cfp$ autre_page/cfp [L] 
-RewriteRule ^en_ligne$ autre_page/en_ligne [L] 
+RewriteRule ^en_ligne_licence$ autre_page/en_ligne_licence [L] 
+RewriteRule ^en_ligne_master$ autre_page/en_ligne_master [L] 
 RewriteRule ^presentielle$ autre_page/presentielle [L] 
 RewriteRule ^bac$ autre_page/bac [L] 
 RewriteRule ^groupe$ autre_page/groupe [L] 
