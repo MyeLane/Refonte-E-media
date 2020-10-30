@@ -263,21 +263,21 @@ function dateToFrench($date, $format)
                     </div>
                     <div class="col-12 col-sm-10 col-md-7 col-lg-7 col-xl-7">
                         <div class="gallery">
-                            <div class="img-box">
+                            <div class="img-box img-evenemnet">
                                 <img src="img/GettyImages-1209679043.jpg" alt="corona">
-                                <button class="btn btn-sm btn-danger">en savoir plus</button>
+                                <button class="btn btn-sm btn-danger btn-evenement">en savoir plus</button>
                             </div>
-                            <div class="img-box">
+                            <div class="img-box img-evenemnet">
                                 <img src="img/logomp.jpg" alt="inter">
-                                <button class="btn btn-sm btn-danger">en savoir plus</button>
+                                <button class="btn btn-sm btn-danger btn-evenement">en savoir plus</button>
                             </div>
-                            <div class="img-box">
+                            <div class="img-box img-evenemnet">
                                 <img src="img/apropos1.jpg" alt="sortie">
-                                <button class="btn btn-sm btn-danger">en savoir plus</button>
+                                <button class="btn btn-sm btn-danger btn-evenement">en savoir plus</button>
                             </div>
-                            <div class="img-box">
+                            <div class="img-box img-evenemnet">
                                 <img src="img/alefa sita-01.jpg" alt="ligne">
-                                <button class="btn btn-sm justify-content-center btn-danger">en savoir plus</button>
+                                <button class="btn btn-sm justify-content-center btn-danger btn-evenement">en savoir plus</button>
                             </div>
                         </div>
                     </div>

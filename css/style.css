@@ -334,8 +334,15 @@ li.active .button {
 .img-box:hover{
     flex-basis: 50%;
 }
+
+.img-box:hover .btn-danger {
+    opacity: 1;
+}
+
 .btn-danger{
     margin-top: -75vh;
+    opacity: 0;
+    transition: .5s;
 }
 
 /*recrutements*/
