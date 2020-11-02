@@ -35,7 +35,9 @@
                             <div class="">
                                 <button class="btn exit" id="exitDTS"><i class="fas fa-times"></i></button>
                             </div>
-                            <h3>Description</h3>
+                            <div class="d-flex justify-content-center align-items-center mt-5">
+                                <h6>Possibilité de décrocher l'unique diplôme de technicien Supérieur à Madagascar</h6>
+                            </div>
                             <p></p>
                         </div>
                     </div>
