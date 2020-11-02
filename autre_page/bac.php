@@ -16,7 +16,7 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="mt-5">
                     <div class="mt-5 bientot">
-                        <h1>Tres Bientot</h1>
+                        <h1>Très bientôt</h1>
                     </div>
                 </div>
             </div>
