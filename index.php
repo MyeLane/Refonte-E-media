@@ -49,7 +49,7 @@ function dateToFrench($date, $format)
 										<strong>LA FORMATION PRESENTIELLE</strong>
 									</div>
 									<div class="online">
-										<strong>LA FORMATION EN LIGNE ou e-learning</strong>
+										<strong>LA FORMATION EN LIGNE OU E-LEARNING</strong>
 									</div>
 
 								</div>
@@ -73,10 +73,10 @@ function dateToFrench($date, $format)
 						</div>
 						<div class="paragraphe mt-4">
 							<p>Crée en
-								<strong>2011</strong>
-								E-MEDIA est actuallement un établissement de réference et un acteur incourtournable dans le domaine de la formation à Madagascar et notamment en Afrique francophone.il s'oriente dans plusieurs domaines et spécialisations tels que le droit,le management,la finance,le marketing,la publicité,l'informatique,les TICS,l'audiovisuel,la cinematographie,l'éléctronique,etc.<br/>S'il est maintenant parvenu à ce stade, c'est grâce :<br><span class="ml-4">
-									. A la constance de sa politique pédagogique visant à recherche l'exellence ;
-								</span><br><span class="ml-4">. Aux efforts de ses initiateurs et à sa visions,celle d'aller Haut et Loin ;</span><br><span class="ml-4">. A la reconnaissance des diffèrentes instances administratives et academiques dont elle relève ;</span>
+								<strong>2011, </strong>
+								E-MEDIA est actuellement un établissement de réference et un acteur incourtournable dans le domaine de la formation à Madagascar et notamment en Afrique francophone. Il s'oriente dans plusieurs domaines et spécialisations tels que le droit, le management, la finance, le marketing, la publicité, l'informatique, les TICS, l'audiovisuel, la cinematographie, l'éléctronique, etc.<br/>Si l' Ecole E-MEDIA est à ce stade, c'est grâce :<br><span class="ml-4">
+									. A la constance de sa politique pédagogique visant à rechercher l'exellence ;
+								</span><br><span class="ml-4">. Aux efforts de ses initiateurs et à sa vision, c'est d'aller Haut et Loin ;</span><br><span class="ml-4">. A la reconnaissance des diffèrentes instances administratives et academiques dont elle relève </span>
 							</p>
 						</div>
 
@@ -277,7 +277,7 @@ function dateToFrench($date, $format)
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><p class="text-pres">Une école dynamique, en recherche constante d'innovation</p>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><p class="text-pres">Une école dynamique, en quète d'une constante innovation</p>
                     </div>
                 </div>
             </section>
@@ -369,9 +369,8 @@ function dateToFrench($date, $format)
                                 <img src="img/accueil/iso.jpg" class="img-fluid" alt="emedia">
                             </div> 
                             <div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-6 part4_texte">
-                                <h5>Mise à la disposition des étudiants des équipements à la pointe de la technologie</h5>
-                                <p>L’établissement met un point d’honneur à se doter des matériels et équipements nécessaires pour 
-                                    parfaire la formation qu’elle dispense.</p>
+                                <h5>L’acquisition de la norme ISO 9001-2015</h5>
+                                <p>La norme ISO 9001-2015, en rapport avec le management qualité a pour but d’assurer la satisfaction des clients , notamment les étudiants, et ainsi de devenir la première institution sur la Grande Ile à jouir de la norme ISO.</p>
                             </div>
                         </div>
                     </div>

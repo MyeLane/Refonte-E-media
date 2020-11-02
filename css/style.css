@@ -390,7 +390,7 @@ li.active .button {
 }
 
 .part1 .object2 img {
-    scale: 2;
+    transform: scale(2);
     margin-left: -160px;
 }
 
@@ -436,7 +436,7 @@ li.active .button {
 }
 
 .part2 .object2 img {
-    scale: 3;
+    transform: scale(3);
 }
 
 .part2 .object3 {
@@ -479,7 +479,7 @@ li.active .button {
 }
 
 .part3 .object2 img {
-    scale: 3;
+    transform: scale(3);
 }
 
 .part3 .object3 {
@@ -522,7 +522,7 @@ li.active .button {
 }
 
 .part4 .object2 img {
-    scale: 3;
+    transform: scale(3);
 }
 
 .part4 .object3 img {
