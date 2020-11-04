@@ -174,7 +174,7 @@
                         <li>Génie Logiciel</li>
                     </ul>
                     <h5 class="ml-2 color-tic">Admissibilité :</h5>
-                    <p class="text-justify container-fluid">MANAGEMENT DES SYSTEMES D’INFORMATIONS :-Licence en Informatique, Génie Logiciel, Réseaux systèmes, Systèmes embarqués. <br> ELECTRONIQUE EMBARQUEE :-Licence en Informatique, Génie Logiciel, Réseaux systèmes, Systèmes embarqués.</p>
+                    <p class="text-justify container-fluid">La formation est ouverte à toutes personnes ayant un baccalauréat des séries scientifiques (C/D).</p>
                     <h5 class="ml-2 color-tic">Sanction :</h5>
                     <p class="text-justify container-fluid">La formation permet aux étudiants d’acquérir les diplômes de Licence en NOUVELLE TECHNOLOHIE DE L’INFORMATIQUE ET DE LA TELECOMMUNICATION et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
                     <h5 class="ml-2 color-tic">Débouchés :</h5>
