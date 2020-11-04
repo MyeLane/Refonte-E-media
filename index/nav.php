@@ -7,14 +7,14 @@
             <ul class="nav navbar-nav navbar-list mx-auto">
                 <li class="nav-item"><a class="nav-link button active" id="index"  href="accueil">Accueil <span class="bottom-solid"></span></a></li>
                 <li class="nav-item ml-4"><a class="nav-link button" id="cfp" href="cfp">CFP <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="pres" href="presentielle">Univérsité <span class="bottom-solid"></span></a></li>
-                <li class="nav-item ml-4 dropdown"><a class="nav-link button dropdown-toggle" data-toggle="dropdown" id="ligne" href="#">Univérsité online <span class="bottom-solid"></span></a>
+                <li class="nav-item ml-4"><a class="nav-link button" id="pres" href="presentielle">Université <span class="bottom-solid"></span></a></li>
+                <li class="nav-item ml-4 dropdown"><a class="nav-link button dropdown-toggle" data-toggle="dropdown" id="ligne" href="#">Université en ligne <span class="bottom-solid"></span></a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="en_ligne_licence">LICENCE Bacc +3</a>
                         <a class="dropdown-item" href="en_ligne_master">MASTER Bacc +5</a>
                     </div>
                 </li>
-                <li class="nav-item ml-4"><a class="nav-link button" id="bac" href="bac">Bac online <span class="bottom-solid"></span></a></li>
+                <li class="nav-item ml-4"><a class="nav-link button" id="bac" href="bac">Bac en ligne <span class="bottom-solid"></span></a></li>
                 <li class="nav-item ml-4"><a class="nav-link button" id="groupe" href="groupe">Groupe <span class="bottom-solid"></span></a></li>
                 <li class="nav-item ml-4"><a class="nav-link button" id="contact" href="contact">Contact <span class="bottom-solid"></span></a></li>
             </ul>

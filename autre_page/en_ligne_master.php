@@ -187,7 +187,7 @@
                             <h5 class="color-mtic">Admissibilité : </h5>
                             <p class="text-justify">MANAGEMENT DES SYSTEMES D’INFORMATIONS :-Licence en Informatique, Génie Logiciel, Réseaux systèmes, Systèmes embarqués. <br> ELECTRONIQUE EMBARQUEE :-Licence en Informatique, Génie Logiciel, Réseaux systèmes, Systèmes embarqués. </p>
                             <h5 class="color-mtic">Sanction: </h5>
-                            <p class="text-justify">La formation permet aux étudiants d’acquérir les diplômes de Licence en NOUVELLE TECHNOLOHIE DE L’INFORMATIQUE ET DE LA TELECOMMUNICATION et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
+                            <p class="text-justify">La formation permet aux étudiants d’acquérir les diplômes de Master en NOUVELLE TECHNOLOHIE DE L’INFORMATIQUE ET DE LA TELECOMMUNICATION et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
                             <h5 class="color-mtic">Débouchés:</h5>
                             <p class="text-justify">Les étudiants seront aptes à exercer dans toutes les organisations utilisant les nouvelles technologies de l'information et de la communication (TIC) en tant qu’administrateur Systèmes et Réseaux, Responsable d’Exploitation, …</p>
                         </div>
@@ -250,7 +250,7 @@
                             <h5 class="color-mmpj">Admissibilité :</h5>
                             <p class="text-justify container-fluid">MARKETING PUBLICITE: - Licence en marketing avec études approfondies de publicité. <br> JOURNALISME : -Licence en journalisme </p>
                             <h5 class="color-mmpj">Sanction :</h5>
-                            <p class="text-justify container-fluid">La formation permet aux étudiants d’acquérir les diplômes de Licence en MARKETING PUBLICITÉ ET JOURNALISME, et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
+                            <p class="text-justify container-fluid">La formation permet aux étudiants d’acquérir les diplômes de Master en MARKETING PUBLICITÉ ET JOURNALISME, et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
                             <h5 class="color-mmpj">Débouchés :</h5>
                             <p class="text-justify container-fluid">Les étudiants issus de la formation pourront exercer dans toutes organisations en tant que chef de publicité, responsable marketing, consultant, chef de projet, concepteur-rédacteur, directeur artistique, et journaliste.</p>
                         </div>
@@ -327,7 +327,7 @@
                             <h5 class="color-mdrt">Admissibilité</h5>
                             <p>Licence en droit</p>
                             <h5 class="color-mdrt">Sanction</h5>
-                            <p class="text-justify">La formation permet aux étudiants d’acquérir les diplômes de Licence en DROIT et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
+                            <p class="text-justify">La formation permet aux étudiants d’acquérir les diplômes de Master en DROIT et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
                             <h5 class="color-mdrt">Débouchés</h5>
                             <p class="text-justify">Les étudiants seront aptes à exercer dans toutes les organisations Les étudiants sortant de l’université en ligne peuvent aspirer à devenir : juriste d’entreprise, notaire, avocat, magistrat, greffier, huissier, officier de police judiciaire, assistant juridique de cabinet d’avocat, etc.</p>
                         </div>
