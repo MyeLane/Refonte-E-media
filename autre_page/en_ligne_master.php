@@ -62,9 +62,8 @@
                 <h3 class="sous-titre pb-4">Communication Audiovisuelle et Numérique</h3>
                 <h5 class="ml-2 mt-2">Parcours</h5>
                 <ul class="ml-2 text">
-                    <li>Management des Systèmes d'Informations</li>
-                    <li>Electronique Embarqué</li>
-                    <li>Cybersécurité et Système</li>
+                    <li>Cinématographie</li>
+                    <li>Ingenierie du Son</li>
                 </ul>
                 <!-- Button to Open the Modal -->
                 <button type="button" class="btn btn-primary-mcan" data-toggle="modal" data-target="#myModal6">
@@ -203,18 +202,32 @@
                 </div>
                 <!-- The Modal 6-->
                 <div class="modal fade" id="myModal6">
-                    <div class="modal-dialog modal-md">
+                    <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
                     
                         <!-- Modal Header -->
                         <div class="modal-header btn-primary-mcan">
-                        <h5 class="modal-title">Modal Heading</h5>
+                        <h5 class="modal-title">Audiovisuel et Cinématographie</h5>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
                         
                         <!-- Modal body -->
                         <div class="modal-body">
-                        Modal body...
+                            <h5 class="color-mtic">Objectifs</h5>
+                            <p class="text-justify">La mention Communication audiovisuelle et infographie, accessible à tous les bacheliers, permet à ses étudiants d'acquérir de solides connaissances théoriques dans le domaine de l'audiovisuel. Elle forme les futurs professionnels des métiers artistiques et techniques de l'audiovisuel. Destiné aux passionnés de l’audiovisuel, elle permet aux étudiants d’avoir les capacités nécessaires pour initier et accompagner la création d'œuvres audiovisuelles, tout en maitrisant parfaitement les concepts de la communication.</p>
+                            <h5 class="color-mtic">Contenu de la formation</h5>
+                            <p class="text-justify">Reposant sur le système LMD, en vigueur à Madagascar, la formation comprend les matières ci-après : Infographie 2D/3D, Son , Atelier photographie, Atelier documentaire, Base de la programmation, Post production, Direction d’acteur, Theorie de l’Information et de la Communication, Psychologie de la communication, Expression artistique, Gestion de projet….</p>
+                            <h5 class="color-mtic">Parcours : </h5>
+                            <ul>
+                                <li>Cinématographie</li>
+                                <li>Ingenierie du Son</li>
+                            </ul>
+                            <h5 class="color-mtic">Admissibilité : </h5>
+                            <p class="text-justify">CINEMATOGRAPHIE : -Licence en Communication Audiovisuelle et Numérique. <br> INGENIERIE DU SON : -Licence en Communication Audiovisuelle -Licence en son .</p>
+                            <h5 class="color-mtic">Sanction: </h5>
+                            <p class="text-justify">La formation permet aux étudiants d’acquérir les diplômes de Licence en COMMUNICATION AUDIOVISUELLE ET NUMERIQUE, et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
+                            <h5 class="color-mtic">Débouchés:</h5>
+                            <p class="text-justify">La formation permet d’occuper des postes de responsable de développement de projets, responsable des coproductions …. dans des entreprises telles que les sociétés de production, les sociétés de distribution, les chaînes de télévision, sites Internet, Industrie cinématographique….</p>
                         </div>
                         
                         <!-- Modal footer -->
