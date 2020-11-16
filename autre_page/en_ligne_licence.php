@@ -191,7 +191,7 @@
                             <li>Génie Logiciel</li>
                         </ul>
                         <h5 class="ml-2 color-ltic">Admissibilité :</h5>
-                        <p class="text-justify container-fluid">La formation est ouverte à toutes personnes ayant un baccalauréat, de toutes les séries : A/C/D/Technique.</p>
+                            <p class="text-justify container-fluid">La formation est ouverte à toutes personnes ayant un baccalauréat des séries scientifiques (C/D/Technique).</p>
                         <h5 class="ml-2 color-ltic">Sanction</h5>
                         <p class="text-justify container-fluid">La formation permet aux étudiants d’acquérir les diplômes de Licence en TECHNOLOGIE DE L’INFORMATIQUE ET DE LA TELECOMMUNICATION et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
                         <h5 class="ml-2 color-ltic">Débouchés</h5>
@@ -230,7 +230,7 @@
                                 <li>Développement web</li>
                             </ul>
                             <h5 class="ml-2 color-lcan">Admissibilité :</h5>
-                            <p class="text-justify container-fluid">La formation est ouverte à toutes personnes ayant un baccalauréat des séries scientifiques (C/D).</p>
+                        <p class="text-justify container-fluid">La formation est ouverte à toutes personnes ayant un baccalauréat, de toutes les séries : A/C/D/Technique.</p>
                             <h5 class="ml-2 color-lcan">Sanction</h5>
                             <p class="text-justify container-fluid">La formation permet aux étudiants d’acquérir les diplômes de Licence en COMMUNICATION AUDIOVISUELLE ET NUMERIQUE, et ce suivant le système LMD actuellement appliqué à Madagascar.</p>
                             <h5 class="ml-2 color-lcan">Débouchés</h5>
